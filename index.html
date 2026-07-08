@@ -133,8 +133,13 @@
   <button id="refreshBtn" title="Refresh prices now">↻</button>
 </header>
 
-<div class="hero" id="hero">
-  <div class="label">Cheapest single-ticket price</div>
+<section>
+  <h2 style="margin-top:4px">📉 Price history <small>lowest listing per source</small></h2>
+  <div class="chart-wrap"><canvas id="chart" height="230"></canvas></div>
+</section>
+
+<div class="hero" id="hero" style="margin-top:14px">
+  <div class="label">Cheapest single ticket · all-in</div>
   <div class="price" id="heroPrice">—</div>
   <div class="src" id="heroSrc">loading…</div>
   <div class="delta flat" id="heroDelta">—</div>
@@ -167,11 +172,6 @@
   <div id="lrows"></div>
   <button class="more" id="moreBtn" style="display:none">Show all</button>
   <div class="note">Per-listing data from Gametime (prices shown all-in, per ticket). TickPick &amp; Vivid Seats block listing-level access — their lowest prices appear in the chart above.</div>
-</section>
-
-<section>
-  <h2>📉 Price history <small>lowest listing per source</small></h2>
-  <div class="chart-wrap"><canvas id="chart" height="230"></canvas></div>
 </section>
 
 <div class="stat-row">
@@ -232,11 +232,30 @@ async function load() {
   document.getElementById('countdown').textContent =
     ms > 0 ? `⏱ ${Math.floor(ms/86400000)}d ${Math.floor(ms%86400000/3600000)}h ${Math.floor(ms%3600000/60000)}m to kickoff` : 'Match started';
 
+  // per-platform fee estimates: exact from Gametime listings (prefee vs all-in
+  // on its cheapest listing); TickPick & Vivid Seats already quote all-in.
+  const gtCheapest = LST ? [...LST.listings].sort((a, b) => a.prefee - b.prefee)[0] : null;
+  const feeInfo = (key, cur) => {
+    if (!cur) return key === 'seatgeek' ? 'bot-protected · no data' : '+ fees';
+    if (key === 'gametime' && gtCheapest)
+      return `+ ${fmt(gtCheapest.allIn - gtCheapest.prefee)} fees → ${fmt(gtCheapest.allIn)} all-in`;
+    if (key === 'seatgeek') return '+ fees (excl.)';
+    return 'fees included';
+  };
+  const allInOf = (key, cur) => {
+    if (!cur) return null;
+    if (key === 'gametime' && gtCheapest) return gtCheapest.allIn;
+    return cur.v; // tickpick & vividseats quote all-in
+  };
+
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
   let best = null;
   const entries = Object.entries(data.sources).map(([key, src]) => ({ key, src, cur: lastPrice(snaps, key) }));
-  for (const e of entries) if (e.cur && (!best || e.cur.v < best.cur.v)) best = e;
+  for (const e of entries) {
+    e.allIn = allInOf(e.key, e.cur);
+    if (e.allIn != null && (!best || e.allIn < best.allIn)) best = e;
+  }
   for (const { key, src, cur } of entries) {
     const a = document.createElement('a');
     a.href = src.url; a.target = '_blank'; a.rel = 'noopener';
@@ -247,16 +266,17 @@ async function load() {
     const dTxt = d == null ? '·' : d === 0 ? 'no change' : (d < 0 ? '▼ ' : '▲ ') + fmt(Math.abs(d));
     a.innerHTML = `<div class="name">${src.label}${best && best.key === key ? ' 🏆' : ''}</div>
       <div class="p">${cur ? fmt(cur.v) : (key === 'seatgeek' ? 'blocked' : 'n/a')}</div>
-      <div class="fees">${cur ? (src.feesIncluded ? 'fees included' : '+ fees') : (key === 'seatgeek' ? 'bot-protected · no data' : '+ fees')}</div>
+      <div class="fees">${feeInfo(key, cur)}</div>
       <div class="d ${cls}">${dTxt}</div>`;
     grid.appendChild(a);
   }
 
   if (best) {
-    document.getElementById('heroPrice').textContent = fmt(best.cur.v);
-    document.getElementById('heroSrc').textContent = best.src.label + (best.src.feesIncluded ? ' · fees included' : ' · + fees');
+    document.getElementById('heroPrice').textContent = fmt(best.allIn);
+    document.getElementById('heroSrc').textContent = best.src.label +
+      (best.key === 'gametime' && gtCheapest ? ` · ${fmt(gtCheapest.prefee)} + ${fmt(gtCheapest.allIn - gtCheapest.prefee)} fees` : ' · fees included');
     const link = document.getElementById('buyLink');
-    link.href = best.src.url;
+    link.href = (best.key === 'gametime' && gtCheapest) ? gtCheapest.url : best.src.url;
     link.textContent = 'Buy on ' + best.src.label;
     const prevBest = snaps.length > 1 ? (() => {
       const pv = Object.values(snaps[snaps.length-2].prices).filter(Number.isFinite);
@@ -307,6 +327,7 @@ async function loadListings() {
     LST = await res.json();
   } catch { return; }
   renderCombos(); renderMap(); renderList();
+  load(); // re-render cards/hero now that exact Gametime fees are known
 }
 
 function comboCard(tag, tagCls, where, cost, url) {
@@ -388,7 +409,7 @@ function renderList() {
   document.getElementById('lrows').innerHTML = shown.map(l => `
     <a class="lrow" href="${l.url}" target="_blank" rel="noopener">
       <div class="sec"><div class="s1">Sec ${l.section} · Row ${l.row}</div>
-      <div class="s2">${l.sectionGroup}</div></div>
+      <div class="s2">${l.sectionGroup} · incl ${fmt(l.allIn - l.prefee)} fees</div></div>
       <div class="qty">qty ${l.lots.join('/')}</div>
       <div class="pr">${fmt(l.allIn)}</div>
     </a>`).join('') || '<div class="note">No listings match this filter.</div>';
