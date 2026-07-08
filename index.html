@@ -163,8 +163,8 @@ async function load() {
     const cls = d == null ? 'flat' : d < 0 ? 'down' : d > 0 ? 'up' : 'flat';
     const dTxt = d == null ? '·' : d === 0 ? 'no change' : (d < 0 ? '▼ ' : '▲ ') + fmt(Math.abs(d));
     a.innerHTML = `<div class="name">${src.label}${best && best.key === key ? ' 🏆' : ''}</div>
-      <div class="p">${cur ? fmt(cur.v) : 'n/a'}</div>
-      <div class="fees">${src.feesIncluded ? 'fees included' : '+ fees'}</div>
+      <div class="p">${cur ? fmt(cur.v) : (key === 'seatgeek' ? 'blocked' : 'n/a')}</div>
+      <div class="fees">${cur ? (src.feesIncluded ? 'fees included' : '+ fees') : (key === 'seatgeek' ? 'bot-protected · no data' : '+ fees')}</div>
       <div class="d ${cls}">${dTxt}</div>`;
     grid.appendChild(a);
   }
