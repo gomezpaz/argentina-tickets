@@ -107,6 +107,18 @@ async function main() {
     }
   }
 
+  // Gametime page fetch is occasionally flaky; fall back to the latest
+  // listings snapshot (min pre-fee price) if it is under 2 hours old.
+  if (!('gametime' in prices)) {
+    try {
+      const lst = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'listings.json'), 'utf8'));
+      if (Date.now() - new Date(lst.fetchedAt) < 2 * 3600 * 1000 && lst.listings.length) {
+        prices.gametime = Math.min(...lst.listings.map((l) => l.prefee));
+        errors.gametime = (errors.gametime || '') + ' (used listings fallback)';
+      }
+    } catch {}
+  }
+
   const data = loadData();
   const prev = data.snapshots[data.snapshots.length - 1];
   const snapshot = { ts: new Date().toISOString(), prices };
