@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0f1a">
+<title>ARG Ticket Watch</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0b0f1a; --card: #141a2b; --card2: #1a2138;
+    --text: #eef1f8; --muted: #8b93ab; --accent: #6cb4ee;
+    --sky: #75aadb; --green: #2ecc71; --red: #e74c3c; --gold: #f5c542;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: max(12px, env(safe-area-inset-top)) 14px calc(24px + env(safe-area-inset-bottom));
+    max-width: 560px; margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  header { text-align: center; padding: 10px 0 16px; }
+  .flag { font-size: 15px; letter-spacing: 2px; }
+  h1 { font-size: 21px; font-weight: 800; margin-top: 4px; }
+  h1 .vs { color: var(--sky); }
+  .meta { color: var(--muted); font-size: 13px; margin-top: 4px; line-height: 1.5; }
+  .countdown { color: var(--gold); font-size: 13px; font-weight: 600; margin-top: 2px; }
+
+  .hero {
+    background: linear-gradient(135deg, #16305a, #0f1f3d);
+    border: 1px solid #27406e; border-radius: 18px;
+    padding: 18px; text-align: center; margin-bottom: 14px;
+  }
+  .hero .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 1.2px; }
+  .hero .price { font-size: 44px; font-weight: 800; margin: 6px 0 2px; }
+  .hero .src { color: var(--sky); font-size: 14px; font-weight: 600; }
+  .delta { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 700;
+           padding: 4px 12px; border-radius: 999px; }
+  .delta.down { background: rgba(46,204,113,.15); color: var(--green); }
+  .delta.up   { background: rgba(231,76,60,.15);  color: var(--red); }
+  .delta.flat { background: rgba(139,147,171,.15); color: var(--muted); }
+  .buy {
+    display: block; margin-top: 14px; background: var(--sky); color: #08101f;
+    font-weight: 800; text-decoration: none; padding: 14px; border-radius: 12px; font-size: 16px;
+  }
+  .buy:active { opacity: .8; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+  .card {
+    background: var(--card); border: 1px solid #222b45; border-radius: 14px;
+    padding: 13px; text-decoration: none; color: inherit; display: block;
+  }
+  .card:active { background: var(--card2); }
+  .card .name { font-size: 13px; color: var(--muted); font-weight: 600; }
+  .card .p { font-size: 22px; font-weight: 800; margin-top: 3px; }
+  .card .fees { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .card .d { font-size: 12px; font-weight: 700; margin-top: 4px; }
+  .d.down { color: var(--green); } .d.up { color: var(--red); } .d.flat { color: var(--muted); }
+  .card.best { border-color: var(--sky); box-shadow: 0 0 0 1px var(--sky) inset; }
+  .card.stale .p { color: var(--muted); }
+
+  section h2 { font-size: 15px; margin: 18px 0 10px; color: var(--text); }
+  .chart-wrap { background: var(--card); border: 1px solid #222b45; border-radius: 14px; padding: 12px 8px 6px; }
+  canvas { width: 100% !important; }
+  .footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 18px; line-height: 1.6; }
+  .stat-row { display: flex; gap: 10px; margin-top: 14px; }
+  .stat { flex: 1; background: var(--card); border: 1px solid #222b45; border-radius: 12px; padding: 10px; text-align: center; }
+  .stat .v { font-size: 17px; font-weight: 800; }
+  .stat .k { font-size: 11px; color: var(--muted); margin-top: 2px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="flag">🇦🇷 &nbsp;⚽️&nbsp; 🇨🇭</div>
+  <h1>Argentina <span class="vs">vs</span> Switzerland</h1>
+  <div class="meta">World Cup Quarterfinal · Match 100<br>Sat Jul 11 · 8:00 PM · Arrowhead Stadium, KC</div>
+  <div class="countdown" id="countdown"></div>
+</header>
+
+<div class="hero" id="hero">
+  <div class="label">Cheapest right now</div>
+  <div class="price" id="heroPrice">—</div>
+  <div class="src" id="heroSrc">loading…</div>
+  <div class="delta flat" id="heroDelta">—</div>
+  <a class="buy" id="buyLink" href="#" target="_blank" rel="noopener">Buy on —</a>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<section>
+  <h2>Price history (lowest listing per source)</h2>
+  <div class="chart-wrap"><canvas id="chart" height="230"></canvas></div>
+</section>
+
+<div class="stat-row">
+  <div class="stat"><div class="v" id="atl">—</div><div class="k">all-time low seen</div></div>
+  <div class="stat"><div class="v" id="checks">—</div><div class="k">price checks</div></div>
+  <div class="stat"><div class="v" id="updated">—</div><div class="k">last checked</div></div>
+</div>
+
+<div class="footer">
+  Gametime &amp; SeatGeek prices exclude fees · TickPick &amp; Vivid Seats include fees<br>
+  Auto-refreshes every 60s
+</div>
+
+<script>
+const COLORS = { tickpick:'#2ecc71', gametime:'#f5c542', vividseats:'#e77ce4', seatgeek:'#e74c3c' };
+const fmt = n => '$' + Math.round(n).toLocaleString();
+let chart;
+
+function timeAgo(iso) {
+  const s = (Date.now() - new Date(iso)) / 1000;
+  if (s < 90) return 'just now';
+  if (s < 3600) return Math.round(s/60) + 'm ago';
+  if (s < 86400) return Math.round(s/3600) + 'h ago';
+  return Math.round(s/86400) + 'd ago';
+}
+
+function lastPrice(snapshots, key) {
+  for (let i = snapshots.length - 1; i >= 0; i--) {
+    const v = snapshots[i].prices[key];
+    if (Number.isFinite(v)) return { v, ts: snapshots[i].ts, idx: i };
+  }
+  return null;
+}
+function prevPrice(snapshots, key, beforeIdx) {
+  for (let i = beforeIdx - 1; i >= 0; i--) {
+    const v = snapshots[i].prices[key];
+    if (Number.isFinite(v)) return v;
+  }
+  return null;
+}
+
+async function load() {
+  const res = await fetch('data/prices.json?_=' + Date.now());
+  const data = await res.json();
+  const snaps = data.snapshots;
+  if (!snaps.length) return;
+
+  // countdown
+  const ms = new Date(data.event.datetime) - Date.now();
+  document.getElementById('countdown').textContent =
+    ms > 0 ? `⏱ ${Math.floor(ms/86400000)}d ${Math.floor(ms%86400000/3600000)}h ${Math.floor(ms%3600000/60000)}m to kickoff` : 'Match started';
+
+  // per-source cards + find cheapest
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  let best = null;
+  const entries = Object.entries(data.sources).map(([key, src]) => {
+    const cur = lastPrice(snaps, key);
+    return { key, src, cur };
+  });
+  for (const e of entries) {
+    if (e.cur && (!best || e.cur.v < best.cur.v)) best = e;
+  }
+  for (const { key, src, cur } of entries) {
+    const a = document.createElement('a');
+    a.href = src.url; a.target = '_blank'; a.rel = 'noopener';
+    a.className = 'card' + (best && best.key === key ? ' best' : '') + (cur ? '' : ' stale');
+    const prev = cur ? prevPrice(snaps, key, cur.idx) : null;
+    const d = cur && prev != null ? cur.v - prev : null;
+    const cls = d == null ? 'flat' : d < 0 ? 'down' : d > 0 ? 'up' : 'flat';
+    const dTxt = d == null ? '·' : d === 0 ? 'no change' : (d < 0 ? '▼ ' : '▲ ') + fmt(Math.abs(d));
+    a.innerHTML = `<div class="name">${src.label}${best && best.key === key ? ' 🏆' : ''}</div>
+      <div class="p">${cur ? fmt(cur.v) : 'n/a'}</div>
+      <div class="fees">${src.feesIncluded ? 'fees included' : '+ fees'}</div>
+      <div class="d ${cls}">${dTxt}</div>`;
+    grid.appendChild(a);
+  }
+
+  // hero
+  if (best) {
+    document.getElementById('heroPrice').textContent = fmt(best.cur.v);
+    document.getElementById('heroSrc').textContent = best.src.label + (best.src.feesIncluded ? ' · fees included' : ' · + fees');
+    const link = document.getElementById('buyLink');
+    link.href = best.src.url;
+    link.textContent = 'Buy on ' + best.src.label;
+    const prevBest = snaps.length > 1 ? (() => {
+      const pv = Object.values(snaps[snaps.length-2].prices).filter(Number.isFinite);
+      return pv.length ? Math.min(...pv) : null;
+    })() : null;
+    const hd = document.getElementById('heroDelta');
+    if (prevBest != null) {
+      const d = best.cur.v - prevBest;
+      hd.className = 'delta ' + (d < 0 ? 'down' : d > 0 ? 'up' : 'flat');
+      hd.textContent = d === 0 ? 'unchanged since last check' : (d < 0 ? '▼ down ' : '▲ up ') + fmt(Math.abs(d)) + ' since last check';
+    } else hd.textContent = 'first check';
+  }
+
+  // stats
+  let atl = null;
+  for (const s of snaps) for (const v of Object.values(s.prices))
+    if (Number.isFinite(v) && (atl === null || v < atl)) atl = v;
+  document.getElementById('atl').textContent = atl ? fmt(atl) : '—';
+  document.getElementById('checks').textContent = snaps.length;
+  document.getElementById('updated').textContent = timeAgo(snaps[snaps.length-1].ts);
+
+  // chart
+  const labels = snaps.map(s => new Date(s.ts).toLocaleString([], { month:'numeric', day:'numeric', hour:'numeric', minute:'2-digit' }));
+  const datasets = Object.entries(data.sources)
+    .filter(([key]) => snaps.some(s => Number.isFinite(s.prices[key])))
+    .map(([key, src]) => ({
+      label: src.label,
+      data: snaps.map(s => Number.isFinite(s.prices[key]) ? s.prices[key] : null),
+      borderColor: COLORS[key] || '#fff', backgroundColor: COLORS[key] || '#fff',
+      spanGaps: true, tension: .25, pointRadius: 2.5, borderWidth: 2,
+    }));
+  if (chart) { chart.data = { labels, datasets }; chart.update(); }
+  else chart = new Chart(document.getElementById('chart'), {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false, interaction: { mode: 'nearest', intersect: false },
+      plugins: { legend: { labels: { color: '#8b93ab', boxWidth: 10, font: { size: 11 } } } },
+      scales: {
+        x: { ticks: { color: '#8b93ab', maxTicksLimit: 5, font: { size: 10 } }, grid: { color: '#1c2440' } },
+        y: { ticks: { color: '#8b93ab', callback: v => '$' + v.toLocaleString(), font: { size: 10 } }, grid: { color: '#1c2440' } },
+      },
+    },
+  });
+}
+load();
+setInterval(load, 60000);
+setInterval(() => { /* keep countdown fresh */ }, 30000);
+</script>
+</body>
+</html>
