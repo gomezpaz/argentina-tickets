@@ -20,12 +20,27 @@
     max-width: 560px; margin: 0 auto;
     -webkit-font-smoothing: antialiased;
   }
-  header { text-align: center; padding: 10px 0 16px; }
+  header { text-align: center; padding: 10px 0 16px; position: relative; }
   .flag { font-size: 15px; letter-spacing: 2px; }
   h1 { font-size: 21px; font-weight: 800; margin-top: 4px; }
   h1 .vs { color: var(--sky); }
   .meta { color: var(--muted); font-size: 13px; margin-top: 4px; line-height: 1.5; }
   .countdown { color: var(--gold); font-size: 13px; font-weight: 600; margin-top: 2px; }
+  #refreshBtn {
+    position: absolute; right: 0; top: 6px;
+    background: var(--card2); color: var(--sky); border: 1px solid #2a3555;
+    border-radius: 10px; padding: 8px 12px; font-size: 16px; line-height: 1;
+  }
+  #refreshBtn:active { opacity: .7; }
+  #refreshBtn.spin { animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .toast {
+    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+    background: var(--card2); border: 1px solid #2a3555; color: var(--text);
+    padding: 10px 16px; border-radius: 12px; font-size: 13px; z-index: 50;
+    max-width: 90vw; text-align: center; opacity: 0; transition: opacity .3s; pointer-events: none;
+  }
+  .toast.show { opacity: 1; }
 
   .hero {
     background: linear-gradient(135deg, #16305a, #0f1f3d);
@@ -60,14 +75,53 @@
   .card.best { border-color: var(--sky); box-shadow: 0 0 0 1px var(--sky) inset; }
   .card.stale .p { color: var(--muted); }
 
-  section h2 { font-size: 15px; margin: 18px 0 10px; color: var(--text); }
+  section h2 { font-size: 15px; margin: 20px 0 10px; }
+  section h2 small { color: var(--muted); font-weight: 400; font-size: 12px; }
   .chart-wrap { background: var(--card); border: 1px solid #222b45; border-radius: 14px; padding: 12px 8px 6px; }
   canvas { width: 100% !important; }
-  .footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 18px; line-height: 1.6; }
+
+  .combo {
+    background: var(--card); border: 1px solid #222b45; border-radius: 14px;
+    padding: 12px 14px; margin-bottom: 8px; display: block; text-decoration: none; color: inherit;
+  }
+  .combo:active { background: var(--card2); }
+  .combo .tag { font-size: 10px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase;
+    padding: 2px 8px; border-radius: 999px; display: inline-block; margin-bottom: 5px; }
+  .tag.t8 { background: rgba(46,204,113,.15); color: var(--green); }
+  .tag.t44 { background: rgba(117,170,219,.18); color: var(--sky); }
+  .tag.tany { background: rgba(245,197,66,.15); color: var(--gold); }
+  .combo .where { font-size: 15px; font-weight: 700; }
+  .combo .cost { font-size: 13px; color: var(--muted); margin-top: 3px; }
+  .combo .cost b { color: var(--text); }
+
+  .mapwrap { background: var(--card); border: 1px solid #222b45; border-radius: 14px; padding: 10px; }
+  .maplegend { display: flex; gap: 12px; justify-content: center; font-size: 11px; color: var(--muted); padding: 6px 0 2px; flex-wrap: wrap; }
+  .dotl { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+
+  .chips { display: flex; gap: 8px; margin: 0 0 10px; flex-wrap: wrap; }
+  .chip { background: var(--card); border: 1px solid #2a3555; color: var(--muted); border-radius: 999px;
+    padding: 7px 14px; font-size: 13px; font-weight: 600; }
+  .chip.on { background: var(--sky); color: #08101f; border-color: var(--sky); }
+  .lrow {
+    display: flex; align-items: center; gap: 10px; background: var(--card);
+    border: 1px solid #222b45; border-radius: 12px; padding: 10px 12px; margin-bottom: 6px;
+    text-decoration: none; color: inherit;
+  }
+  .lrow:active { background: var(--card2); }
+  .lrow .sec { flex: 1; min-width: 0; }
+  .lrow .sec .s1 { font-size: 14px; font-weight: 700; }
+  .lrow .sec .s2 { font-size: 11px; color: var(--muted); margin-top: 1px; }
+  .lrow .qty { font-size: 11px; color: var(--muted); white-space: nowrap; }
+  .lrow .pr { font-size: 16px; font-weight: 800; white-space: nowrap; }
+  .more { width: 100%; background: var(--card2); border: 1px solid #2a3555; color: var(--sky);
+    border-radius: 12px; padding: 12px; font-size: 14px; font-weight: 700; margin-top: 4px; }
+
   .stat-row { display: flex; gap: 10px; margin-top: 14px; }
   .stat { flex: 1; background: var(--card); border: 1px solid #222b45; border-radius: 12px; padding: 10px; text-align: center; }
   .stat .v { font-size: 17px; font-weight: 800; }
   .stat .k { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 18px; line-height: 1.6; }
+  .note { color: var(--muted); font-size: 12px; margin: 6px 0 0; line-height: 1.5; }
 </style>
 </head>
 <body>
@@ -76,10 +130,11 @@
   <h1>Argentina <span class="vs">vs</span> Switzerland</h1>
   <div class="meta">World Cup Quarterfinal · Match 100<br>Sat Jul 11 · 8:00 PM · Arrowhead Stadium, KC</div>
   <div class="countdown" id="countdown"></div>
+  <button id="refreshBtn" title="Refresh prices now">↻</button>
 </header>
 
 <div class="hero" id="hero">
-  <div class="label">Cheapest right now</div>
+  <div class="label">Cheapest single-ticket price</div>
   <div class="price" id="heroPrice">—</div>
   <div class="src" id="heroSrc">loading…</div>
   <div class="delta flat" id="heroDelta">—</div>
@@ -88,8 +143,34 @@
 
 <div class="grid" id="grid"></div>
 
+<section id="groupSec" style="display:none">
+  <h2>🪑 Seating 8 people <small id="groupMeta"></small></h2>
+  <div id="combos"></div>
+</section>
+
+<section id="mapSec" style="display:none">
+  <h2>🗺 Stadium map <small>tap a dot to open the listing</small></h2>
+  <div class="mapwrap">
+    <svg id="map" viewBox="0 0 100 100" width="100%"></svg>
+    <div class="maplegend" id="maplegend"></div>
+  </div>
+</section>
+
+<section id="listSec" style="display:none">
+  <h2>🎟 All listings <small id="listMeta"></small></h2>
+  <div class="chips" id="chips">
+    <button class="chip on" data-q="0">Any qty</button>
+    <button class="chip" data-q="2">Fits 2</button>
+    <button class="chip" data-q="4">Fits 4</button>
+    <button class="chip" data-q="8">Fits 8</button>
+  </div>
+  <div id="lrows"></div>
+  <button class="more" id="moreBtn" style="display:none">Show all</button>
+  <div class="note">Per-listing data from Gametime (prices shown all-in, per ticket). TickPick &amp; Vivid Seats block listing-level access — their lowest prices appear in the chart above.</div>
+</section>
+
 <section>
-  <h2>Price history (lowest listing per source)</h2>
+  <h2>📉 Price history <small>lowest listing per source</small></h2>
   <div class="chart-wrap"><canvas id="chart" height="230"></canvas></div>
 </section>
 
@@ -100,15 +181,21 @@
 </div>
 
 <div class="footer">
-  Gametime &amp; SeatGeek prices exclude fees · TickPick &amp; Vivid Seats include fees<br>
+  Gametime &amp; SeatGeek prices exclude fees in the chart · TickPick &amp; Vivid Seats include fees<br>
   Auto-refreshes every 60s
 </div>
+<div class="toast" id="toast"></div>
 
 <script>
 const COLORS = { tickpick:'#2ecc71', gametime:'#f5c542', vividseats:'#e77ce4', seatgeek:'#e74c3c' };
 const fmt = n => '$' + Math.round(n).toLocaleString();
-let chart;
+let chart, LST = null, chipQ = 0, showAll = false;
 
+function toast(msg, ms=3500) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), ms);
+}
 function timeAgo(iso) {
   const s = (Date.now() - new Date(iso)) / 1000;
   if (s < 90) return 'just now';
@@ -116,7 +203,6 @@ function timeAgo(iso) {
   if (s < 86400) return Math.round(s/3600) + 'h ago';
   return Math.round(s/86400) + 'd ago';
 }
-
 function lastPrice(snapshots, key) {
   for (let i = snapshots.length - 1; i >= 0; i--) {
     const v = snapshots[i].prices[key];
@@ -131,29 +217,26 @@ function prevPrice(snapshots, key, beforeIdx) {
   }
   return null;
 }
+const fits = (l, q) => q === 0 ? true : q >= 8 ? l.lots.some(x => x >= 8) : l.lots.includes(q);
 
 async function load() {
-  const res = await fetch('data/prices.json?_=' + Date.now());
-  const data = await res.json();
+  let data;
+  try {
+    const res = await fetch('data/prices.json?_=' + Date.now());
+    data = await res.json();
+  } catch { return; }
   const snaps = data.snapshots;
   if (!snaps.length) return;
 
-  // countdown
   const ms = new Date(data.event.datetime) - Date.now();
   document.getElementById('countdown').textContent =
     ms > 0 ? `⏱ ${Math.floor(ms/86400000)}d ${Math.floor(ms%86400000/3600000)}h ${Math.floor(ms%3600000/60000)}m to kickoff` : 'Match started';
 
-  // per-source cards + find cheapest
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
   let best = null;
-  const entries = Object.entries(data.sources).map(([key, src]) => {
-    const cur = lastPrice(snaps, key);
-    return { key, src, cur };
-  });
-  for (const e of entries) {
-    if (e.cur && (!best || e.cur.v < best.cur.v)) best = e;
-  }
+  const entries = Object.entries(data.sources).map(([key, src]) => ({ key, src, cur: lastPrice(snaps, key) }));
+  for (const e of entries) if (e.cur && (!best || e.cur.v < best.cur.v)) best = e;
   for (const { key, src, cur } of entries) {
     const a = document.createElement('a');
     a.href = src.url; a.target = '_blank'; a.rel = 'noopener';
@@ -169,7 +252,6 @@ async function load() {
     grid.appendChild(a);
   }
 
-  // hero
   if (best) {
     document.getElementById('heroPrice').textContent = fmt(best.cur.v);
     document.getElementById('heroSrc').textContent = best.src.label + (best.src.feesIncluded ? ' · fees included' : ' · + fees');
@@ -188,7 +270,6 @@ async function load() {
     } else hd.textContent = 'first check';
   }
 
-  // stats
   let atl = null;
   for (const s of snaps) for (const v of Object.values(s.prices))
     if (Number.isFinite(v) && (atl === null || v < atl)) atl = v;
@@ -196,7 +277,6 @@ async function load() {
   document.getElementById('checks').textContent = snaps.length;
   document.getElementById('updated').textContent = timeAgo(snaps[snaps.length-1].ts);
 
-  // chart
   const labels = snaps.map(s => new Date(s.ts).toLocaleString([], { month:'numeric', day:'numeric', hour:'numeric', minute:'2-digit' }));
   const datasets = Object.entries(data.sources)
     .filter(([key]) => snaps.some(s => Number.isFinite(s.prices[key])))
@@ -204,9 +284,9 @@ async function load() {
       label: src.label,
       data: snaps.map(s => Number.isFinite(s.prices[key]) ? s.prices[key] : null),
       borderColor: COLORS[key] || '#fff', backgroundColor: COLORS[key] || '#fff',
-      spanGaps: true, tension: .25, pointRadius: 2.5, borderWidth: 2,
+      spanGaps: true, tension: .25, pointRadius: 2, borderWidth: 2,
     }));
-  if (chart) { chart.data = { labels, datasets }; chart.update(); }
+  if (chart) { chart.data = { labels, datasets }; chart.update('none'); }
   else chart = new Chart(document.getElementById('chart'), {
     type: 'line',
     data: { labels, datasets },
@@ -220,9 +300,129 @@ async function load() {
     },
   });
 }
-load();
-setInterval(load, 60000);
-setInterval(() => { /* keep countdown fresh */ }, 30000);
+
+async function loadListings() {
+  try {
+    const res = await fetch('data/listings.json?_=' + Date.now());
+    LST = await res.json();
+  } catch { return; }
+  renderCombos(); renderMap(); renderList();
+}
+
+function comboCard(tag, tagCls, where, cost, url) {
+  return `<a class="combo" href="${url}" target="_blank" rel="noopener">
+    <span class="tag ${tagCls}">${tag}</span>
+    <div class="where">${where}</div>
+    <div class="cost">${cost}</div></a>`;
+}
+
+function renderCombos() {
+  const c = LST.combos;
+  const el = document.getElementById('combos');
+  const byId = Object.fromEntries(LST.listings.map(l => [l.id, l]));
+  let html = '';
+  for (const l of (c.together8 || []).slice(0, 3)) {
+    html += comboCard('All 8 together', 't8',
+      `Sec ${l.section} · Row ${l.row} <span style="color:var(--muted)">(${l.sectionGroup})</span>`,
+      `<b>${fmt(l.allIn)}</b>/ticket all-in · <b>${fmt(l.allIn * 8)}</b> total`, l.url);
+  }
+  const seen = new Set();
+  const pairs = [...(c.split44closest || []).filter(p => p.sameSection || p.distance < 400).slice(0, 2),
+                 ...(c.split44cheapest || []).slice(0, 3)];
+  for (const p of pairs) {
+    const k = p.listings.join();
+    if (seen.has(k)) continue; seen.add(k);
+    const prox = p.sameSection ? '· same section!' : p.distance != null && p.distance < 400 ? '· nearby sections' : '';
+    const url = byId[p.listings[0]]?.url || '#';
+    html += comboCard('4 + 4 split', 't44', `${p.label} ${prox}`,
+      `<b>${fmt(p.perTicketAvg)}</b>/ticket avg · <b>${fmt(p.totalAllIn)}</b> total`, url);
+  }
+  if (c.anySplit) {
+    html += comboCard('Cheapest any split', 'tany',
+      c.anySplit.parts.map(p => p.label).join(' + '),
+      `<b>${fmt(c.anySplit.totalAllIn)}</b> total for 8`, byId[c.anySplit.parts[0]?.id]?.url || '#');
+  }
+  el.innerHTML = html || '<div class="note">No group options found in current listings.</div>';
+  document.getElementById('groupMeta').textContent =
+    `${(LST.combos.together8 || []).length} listings fit all 8 · from Gametime · ${timeAgo(LST.fetchedAt)}`;
+  document.getElementById('groupSec').style.display = '';
+}
+
+function priceColor(v, lo, hi) {
+  const t = hi > lo ? (v - lo) / (hi - lo) : 0;
+  const h = 130 - 130 * Math.min(1, t * 1.4);
+  return `hsl(${h}, 70%, 55%)`;
+}
+
+function renderMap() {
+  const ls = LST.listings.filter(l => l.x != null);
+  if (ls.length < 10) return;
+  const xs = ls.map(l => l.x), ys = ls.map(l => l.y);
+  const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
+  const pad = 6, W = 100, H = 100;
+  const nx = v => pad + (v - minX) / (maxX - minX) * (W - 2*pad);
+  const ny = v => pad + (v - minY) / (maxY - minY) * (H - 2*pad);
+  const prices = ls.map(l => l.allIn);
+  const lo = Math.min(...prices), hi = Math.max(...prices);
+  const cx = ls.reduce((s,l)=>s+nx(l.x),0)/ls.length, cy = ls.reduce((s,l)=>s+ny(l.y),0)/ls.length;
+  let svg = `<ellipse cx="${cx}" cy="${cy}" rx="16" ry="10" fill="#0f2c1c" stroke="#1f4d33" stroke-width=".5"/>
+    <text x="${cx}" y="${cy+1.5}" font-size="4" fill="#3f8f61" text-anchor="middle" font-weight="700">FIELD</text>`;
+  for (const l of ls) {
+    const r = l.lots.some(q=>q>=8) ? 2.2 : l.lots.includes(4) ? 1.7 : 1.3;
+    svg += `<circle cx="${nx(l.x).toFixed(1)}" cy="${ny(l.y).toFixed(1)}" r="${r}" fill="${priceColor(l.allIn, lo, hi)}"
+      fill-opacity=".85" style="cursor:pointer" onclick="window.open('${l.url}','_blank')">
+      <title>Sec ${l.section} row ${l.row} — ${fmt(l.allIn)}/ea all-in — qty ${l.lots.join('/')}</title></circle>`;
+  }
+  document.getElementById('map').innerHTML = svg;
+  document.getElementById('maplegend').innerHTML =
+    `<span><span class="dotl" style="background:hsl(130,70%,55%)"></span>${fmt(lo)}</span>
+     <span><span class="dotl" style="background:hsl(65,70%,55%)"></span>mid</span>
+     <span><span class="dotl" style="background:hsl(0,70%,55%)"></span>${fmt(hi)}</span>
+     <span>◉ bigger dot = fits bigger group</span>`;
+  document.getElementById('mapSec').style.display = '';
+}
+
+function renderList() {
+  const rows = LST.listings.filter(l => fits(l, chipQ));
+  const shown = showAll ? rows : rows.slice(0, 25);
+  document.getElementById('lrows').innerHTML = shown.map(l => `
+    <a class="lrow" href="${l.url}" target="_blank" rel="noopener">
+      <div class="sec"><div class="s1">Sec ${l.section} · Row ${l.row}</div>
+      <div class="s2">${l.sectionGroup}</div></div>
+      <div class="qty">qty ${l.lots.join('/')}</div>
+      <div class="pr">${fmt(l.allIn)}</div>
+    </a>`).join('') || '<div class="note">No listings match this filter.</div>';
+  const mb = document.getElementById('moreBtn');
+  mb.style.display = rows.length > 25 && !showAll ? '' : 'none';
+  mb.textContent = `Show all ${rows.length}`;
+  document.getElementById('listMeta').textContent = `${rows.length} listings · all-in per ticket · ${timeAgo(LST.fetchedAt)}`;
+  document.getElementById('listSec').style.display = '';
+}
+
+document.getElementById('chips').addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('on'));
+  b.classList.add('on'); chipQ = +b.dataset.q; showAll = false; renderList();
+});
+document.getElementById('moreBtn').addEventListener('click', () => { showAll = true; renderList(); });
+
+document.getElementById('refreshBtn').addEventListener('click', async () => {
+  const btn = document.getElementById('refreshBtn');
+  btn.classList.add('spin');
+  try {
+    const res = await fetch('/refresh', { method: 'POST' });
+    if (!res.ok) throw 0;
+    await res.json();
+    await load(); await loadListings();
+    toast('Prices refreshed ✓');
+  } catch {
+    await load(); await loadListings();
+    toast('Hosted view: fresh checks run hourly in the cloud — showing latest saved data');
+  } finally { btn.classList.remove('spin'); }
+});
+
+load(); loadListings();
+setInterval(() => { load(); loadListings(); }, 60000);
 </script>
 </body>
 </html>

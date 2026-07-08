@@ -1,16 +1,45 @@
 #!/usr/bin/env node
-// Tiny static server for the ticket-watch dashboard.
+// Static server for the ticket-watch dashboard + manual refresh endpoint.
 // Binds 0.0.0.0 so you can open it from your phone on the same wifi.
+// POST /refresh runs check.js + fetch-listings.js and returns their output.
+// (On GitHub Pages there is no server; the dashboard detects that and the
+// refresh button just reloads the committed data.)
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { execFile } = require('child_process');
 
 const PORT = process.env.PORT || 4321;
 const ROOT = __dirname;
 const MIME = { '.html': 'text/html', '.json': 'application/json', '.js': 'text/javascript', '.css': 'text/css' };
 
+let refreshing = null;
+function runRefresh() {
+  if (refreshing) return refreshing;
+  refreshing = new Promise((resolve) => {
+    const out = {};
+    execFile('node', [path.join(ROOT, 'check.js')], { timeout: 90000 }, (e1, so1) => {
+      out.check = e1 ? { error: String(e1) } : safeJson(so1);
+      execFile('node', [path.join(ROOT, 'fetch-listings.js')], { timeout: 90000 }, (e2, so2) => {
+        out.listings = e2 ? { error: String(e2) } : safeJson(so2);
+        refreshing = null;
+        resolve(out);
+      });
+    });
+  });
+  return refreshing;
+}
+const safeJson = (s) => { try { return JSON.parse(s); } catch { return { raw: String(s).slice(0, 300) }; } };
+
 http
   .createServer((req, res) => {
+    if (req.method === 'POST' && req.url === '/refresh') {
+      runRefresh().then((out) => {
+        res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+        res.end(JSON.stringify(out));
+      });
+      return;
+    }
     const urlPath = decodeURIComponent(req.url.split('?')[0]);
     let file = path.normalize(path.join(ROOT, urlPath === '/' ? 'index.html' : urlPath));
     if (!file.startsWith(ROOT)) { res.writeHead(403); return res.end(); }
