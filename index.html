@@ -234,11 +234,11 @@ async function load() {
 
   // per-platform fee estimates: exact from Gametime listings (prefee vs all-in
   // on its cheapest listing); TickPick & Vivid Seats already quote all-in.
-  const gtCheapest = LST ? [...LST.listings].sort((a, b) => a.prefee - b.prefee)[0] : null;
+  const gtCheapest = LST ? [...LST.listings].sort((a, b) => a.allIn - b.allIn)[0] : null;
   const feeInfo = (key, cur) => {
     if (!cur) return key === 'seatgeek' ? 'bot-protected · no data' : '+ fees';
     if (key === 'gametime' && gtCheapest)
-      return `+ ${fmt(gtCheapest.allIn - gtCheapest.prefee)} fees → ${fmt(gtCheapest.allIn)} all-in`;
+      return `cheapest all-in ${fmt(gtCheapest.allIn)} = ${fmt(gtCheapest.prefee)} + ${fmt(gtCheapest.allIn - gtCheapest.prefee)} fees`;
     if (key === 'seatgeek') return '+ fees (excl.)';
     return 'fees included';
   };
@@ -274,7 +274,9 @@ async function load() {
   if (best) {
     document.getElementById('heroPrice').textContent = fmt(best.allIn);
     document.getElementById('heroSrc').textContent = best.src.label +
-      (best.key === 'gametime' && gtCheapest ? ` · ${fmt(gtCheapest.prefee)} + ${fmt(gtCheapest.allIn - gtCheapest.prefee)} fees` : ' · fees included');
+      (best.key === 'gametime' && gtCheapest
+        ? ` · ${fmt(gtCheapest.prefee)} ticket + ${fmt(gtCheapest.allIn - gtCheapest.prefee)} fees (Sec ${gtCheapest.section})`
+        : ' · fees included');
     const link = document.getElementById('buyLink');
     link.href = (best.key === 'gametime' && gtCheapest) ? gtCheapest.url : best.src.url;
     link.textContent = 'Buy on ' + best.src.label;
