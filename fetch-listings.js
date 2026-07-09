@@ -6,6 +6,8 @@
 // Writes data/listings.json (latest only, overwritten each run).
 // Prices are per-ticket. `allIn` includes Gametime fees; `prefee` doesn't.
 
+require('./proxy-boot'); // route fetch() through the egress proxy (re-execs if needed)
+
 const fs = require('fs');
 const path = require('path');
 

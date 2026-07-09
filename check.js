@@ -11,6 +11,8 @@
 //   node check.js --add vividseats=1608 --add seatgeek=2118
 //   node check.js --dry                          # fetch, print, don't save
 
+require('./proxy-boot'); // route fetch() through the egress proxy (re-execs if needed)
+
 const fs = require('fs');
 const path = require('path');
 
