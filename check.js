@@ -27,7 +27,7 @@ const SOURCES = {
   gametime: {
     label: 'Gametime',
     url: 'https://gametime.co/fifa/fifa-world-cup-w95-vs-w96-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3',
-    feesIncluded: false,
+    feesIncluded: true, // tracked as cheapest listing all-in (from listings.json)
   },
   vividseats: {
     label: 'Vivid Seats',
@@ -37,7 +37,7 @@ const SOURCES = {
   },
   seatgeek: {
     label: 'SeatGeek',
-    url: 'https://seatgeek.com/fifa-world-cup-tickets/international-soccer/2026-07-11-8-pm/17196238',
+    url: 'https://seatgeek.com/fifa-world-cup-tickets/international-soccer/2026-07-11-8-pm/17196238?sort=lowest_price',
     feesIncluded: false,
     manual: true,
   },
@@ -94,29 +94,30 @@ async function main() {
 
   const prices = {};
   const errors = {};
+
+  // Gametime is tracked as the cheapest listing ALL-IN price (their advertised
+  // "from" price doesn't match their actual cheapest listing). Prefer fresh
+  // listings.json (run fetch-listings.js first); fall back to the page regex.
+  let gtFromListings = false;
+  try {
+    const lst = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'listings.json'), 'utf8'));
+    if (Date.now() - new Date(lst.fetchedAt) < 15 * 60 * 1000 && lst.listings.length) {
+      prices.gametime = Math.min(...lst.listings.map((l) => l.allIn));
+      gtFromListings = true;
+    }
+  } catch {}
+
   for (const key of Object.keys(SOURCES)) {
     if (key in injected) {
       prices[key] = injected[key];
       continue;
     }
-    if (SOURCES[key].manual) continue;
+    if (SOURCES[key].manual || (key === 'gametime' && gtFromListings)) continue;
     try {
       prices[key] = await fetchLowPrice(key);
     } catch (e) {
       errors[key] = e.message;
     }
-  }
-
-  // Gametime page fetch is occasionally flaky; fall back to the latest
-  // listings snapshot (min pre-fee price) if it is under 2 hours old.
-  if (!('gametime' in prices)) {
-    try {
-      const lst = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'listings.json'), 'utf8'));
-      if (Date.now() - new Date(lst.fetchedAt) < 2 * 3600 * 1000 && lst.listings.length) {
-        prices.gametime = Math.min(...lst.listings.map((l) => l.prefee));
-        errors.gametime = (errors.gametime || '') + ' (used listings fallback)';
-      }
-    } catch {}
   }
 
   const data = loadData();

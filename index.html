@@ -32,8 +32,12 @@
     border-radius: 10px; padding: 8px 12px; font-size: 16px; line-height: 1;
   }
   #refreshBtn:active { opacity: .7; }
-  #refreshBtn.spin { animation: spin 1s linear infinite; }
-  @keyframes spin { to { transform: rotate(360deg); } }
+  #refreshBtn:disabled { opacity: .4; }
+  .fav { width: 15px; height: 15px; border-radius: 3px; vertical-align: -2px; margin-right: 5px; }
+  .srcb { display: inline-flex; align-items: center; gap: 5px; font-size: 10px; font-weight: 700;
+    color: var(--muted); background: var(--card2); border: 1px solid #2a3555;
+    padding: 2px 8px 2px 5px; border-radius: 999px; }
+  .srcb img { width: 12px; height: 12px; border-radius: 2px; }
   .toast {
     position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
     background: var(--card2); border: 1px solid #2a3555; color: var(--text);
@@ -181,13 +185,17 @@
 </div>
 
 <div class="footer">
-  Gametime &amp; SeatGeek prices exclude fees in the chart · TickPick &amp; Vivid Seats include fees<br>
-  Auto-refreshes every 60s
+  All prices are all-in (fees included); SeatGeek excluded (blocked)<br>
+  Auto-refreshes every 60s · price checks run every ~5 min
 </div>
 <div class="toast" id="toast"></div>
 
 <script>
 const COLORS = { tickpick:'#2ecc71', gametime:'#f5c542', vividseats:'#e77ce4', seatgeek:'#e74c3c' };
+const DOMAINS = { tickpick:'tickpick.com', gametime:'gametime.co', vividseats:'vividseats.com', seatgeek:'seatgeek.com' };
+const LABELS = { tickpick:'TickPick', gametime:'Gametime', vividseats:'Vivid Seats', seatgeek:'SeatGeek' };
+const fav = key => `<img class="fav" src="https://www.google.com/s2/favicons?domain=${DOMAINS[key]}&sz=64" alt="">`;
+const srcBadge = key => `<span class="srcb"><img src="https://www.google.com/s2/favicons?domain=${DOMAINS[key]}&sz=64" alt="">${LABELS[key]}</span>`;
 const fmt = n => '$' + Math.round(n).toLocaleString();
 let chart, LST = null, chipQ = 0, showAll = false;
 
@@ -238,7 +246,7 @@ async function load() {
   const feeInfo = (key, cur) => {
     if (!cur) return key === 'seatgeek' ? 'bot-protected · no data' : '+ fees';
     if (key === 'gametime' && gtCheapest)
-      return `cheapest all-in ${fmt(gtCheapest.allIn)} = ${fmt(gtCheapest.prefee)} + ${fmt(gtCheapest.allIn - gtCheapest.prefee)} fees`;
+      return `all-in = ${fmt(gtCheapest.prefee)} ticket + ${fmt(gtCheapest.allIn - gtCheapest.prefee)} fees`;
     if (key === 'seatgeek') return '+ fees (excl.)';
     return 'fees included';
   };
@@ -264,8 +272,8 @@ async function load() {
     const d = cur && prev != null ? cur.v - prev : null;
     const cls = d == null ? 'flat' : d < 0 ? 'down' : d > 0 ? 'up' : 'flat';
     const dTxt = d == null ? '·' : d === 0 ? 'no change' : (d < 0 ? '▼ ' : '▲ ') + fmt(Math.abs(d));
-    a.innerHTML = `<div class="name">${src.label}${best && best.key === key ? ' 🏆' : ''}</div>
-      <div class="p">${cur ? fmt(cur.v) : (key === 'seatgeek' ? 'blocked' : 'n/a')}</div>
+    a.innerHTML = `<div class="name">${fav(key)}${src.label}${best && best.key === key ? ' 🏆' : ''}</div>
+      <div class="p">${cur ? fmt(key === 'gametime' && gtCheapest ? gtCheapest.allIn : cur.v) : (key === 'seatgeek' ? 'blocked' : 'n/a')}</div>
       <div class="fees">${feeInfo(key, cur)}</div>
       <div class="d ${cls}">${dTxt}</div>`;
     grid.appendChild(a);
@@ -332,9 +340,9 @@ async function loadListings() {
   load(); // re-render cards/hero now that exact Gametime fees are known
 }
 
-function comboCard(tag, tagCls, where, cost, url) {
+function comboCard(tag, tagCls, where, cost, url, srcKey) {
   return `<a class="combo" href="${url}" target="_blank" rel="noopener">
-    <span class="tag ${tagCls}">${tag}</span>
+    <span class="tag ${tagCls}">${tag}</span> ${srcBadge(srcKey || 'gametime')}
     <div class="where">${where}</div>
     <div class="cost">${cost}</div></a>`;
 }
@@ -410,8 +418,8 @@ function renderList() {
   const shown = showAll ? rows : rows.slice(0, 25);
   document.getElementById('lrows').innerHTML = shown.map(l => `
     <a class="lrow" href="${l.url}" target="_blank" rel="noopener">
-      <div class="sec"><div class="s1">Sec ${l.section} · Row ${l.row}</div>
-      <div class="s2">${l.sectionGroup} · incl ${fmt(l.allIn - l.prefee)} fees</div></div>
+      <div class="sec"><div class="s1">${fav(l.source)}Sec ${l.section} · Row ${l.row}</div>
+      <div class="s2">${LABELS[l.source] || l.source} · ${l.sectionGroup} · incl ${fmt(l.allIn - l.prefee)} fees</div></div>
       <div class="qty">qty ${l.lots.join('/')}</div>
       <div class="pr">${fmt(l.allIn)}</div>
     </a>`).join('') || '<div class="note">No listings match this filter.</div>';
@@ -431,7 +439,7 @@ document.getElementById('moreBtn').addEventListener('click', () => { showAll = t
 
 document.getElementById('refreshBtn').addEventListener('click', async () => {
   const btn = document.getElementById('refreshBtn');
-  btn.classList.add('spin');
+  btn.disabled = true;
   try {
     const res = await fetch('/refresh', { method: 'POST' });
     if (!res.ok) throw 0;
@@ -441,7 +449,7 @@ document.getElementById('refreshBtn').addEventListener('click', async () => {
   } catch {
     await load(); await loadListings();
     toast('Hosted view: fresh checks run hourly in the cloud — showing latest saved data');
-  } finally { btn.classList.remove('spin'); }
+  } finally { btn.disabled = false; }
 });
 
 load(); loadListings();
