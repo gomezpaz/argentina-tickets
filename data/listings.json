@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-09T10:07:02.124Z",
+ "fetchedAt": "2026-07-09T11:06:49.948Z",
  "party": 8,
  "counts": {
   "gametime": 258
@@ -104,6 +104,28 @@
   "split44cheapest": [
    {
     "listings": [
+     "6a4d84e6239cabfa2c25deca",
+     "6a4d8466239cabfa2c00f3ad"
+    ],
+    "totalAllIn": 11864,
+    "perTicketAvg": 1483,
+    "sameSection": false,
+    "distance": 293,
+    "label": "Sec 341 row 37 + Sec 339 row 20"
+   },
+   {
+    "listings": [
+     "6a4d84e6239cabfa2c25deca",
+     "6a4e98f1239cabfa2c25cdcd"
+    ],
+    "totalAllIn": 11864,
+    "perTicketAvg": 1483,
+    "sameSection": false,
+    "distance": 1423,
+    "label": "Sec 341 row 37 + Sec 307 row 30"
+   },
+   {
+    "listings": [
      "6a4d8466239cabfa2c00f3ad",
      "6a4e98f1239cabfa2c25cdcd"
     ],
@@ -115,25 +137,14 @@
    },
    {
     "listings": [
-     "6a4d8466239cabfa2c00f3ad",
-     "6a4d84e6239cabfa2c25deca"
+     "6a4d84e6239cabfa2c25deca",
+     "6a4dbcc7239cabfa2c22b8b4"
     ],
-    "totalAllIn": 11864,
-    "perTicketAvg": 1483,
+    "totalAllIn": 11952,
+    "perTicketAvg": 1494,
     "sameSection": false,
-    "distance": 293,
-    "label": "Sec 339 row 20 + Sec 341 row 37"
-   },
-   {
-    "listings": [
-     "6a4e98f1239cabfa2c25cdcd",
-     "6a4d84e6239cabfa2c25deca"
-    ],
-    "totalAllIn": 11864,
-    "perTicketAvg": 1483,
-    "sameSection": false,
-    "distance": 1423,
-    "label": "Sec 307 row 30 + Sec 341 row 37"
+    "distance": 1601,
+    "label": "Sec 341 row 37 + Sec 309 row 20"
    },
    {
     "listings": [
@@ -160,35 +171,24 @@
    {
     "listings": [
      "6a4d84e6239cabfa2c25deca",
-     "6a4dbcc7239cabfa2c22b8b4"
-    ],
-    "totalAllIn": 11952,
-    "perTicketAvg": 1494,
-    "sameSection": false,
-    "distance": 1601,
-    "label": "Sec 341 row 37 + Sec 309 row 20"
-   },
-   {
-    "listings": [
-     "6a4d8466239cabfa2c00f3ad",
-     "6a4e581f239cabfa2ce35108"
-    ],
-    "totalAllIn": 12092,
-    "perTicketAvg": 1511.5,
-    "sameSection": false,
-    "distance": 1923,
-    "label": "Sec 339 row 20 + Sec 318 row 31"
-   },
-   {
-    "listings": [
-     "6a4d8466239cabfa2c00f3ad",
      "6a4d407a239cabfa2c356609"
     ],
     "totalAllIn": 12092,
     "perTicketAvg": 1511.5,
     "sameSection": false,
-    "distance": 1609,
-    "label": "Sec 339 row 20 + Sec 307 row 43"
+    "distance": 1449,
+    "label": "Sec 341 row 37 + Sec 307 row 43"
+   },
+   {
+    "listings": [
+     "6a4d84e6239cabfa2c25deca",
+     "6a4d5273239cabfa2cc93572"
+    ],
+    "totalAllIn": 12092,
+    "perTicketAvg": 1511.5,
+    "sameSection": false,
+    "distance": 551,
+    "label": "Sec 341 row 37 + Sec 337 row 14"
    }
   ],
   "split44closest": [
@@ -202,17 +202,6 @@
     "sameSection": true,
     "distance": 30,
     "label": "Sec 335 row 8 + Sec 335 row 13"
-   },
-   {
-    "listings": [
-     "6a4d86d5239cabfa2cca5bd9",
-     "6a4d4292239cabfa2cdc27d8"
-    ],
-    "totalAllIn": 13984,
-    "perTicketAvg": 1748,
-    "sameSection": true,
-    "distance": 30,
-    "label": "Sec 334 row 8 + Sec 334 row 13"
    },
    {
     "listings": [
@@ -235,6 +224,17 @@
     "sameSection": true,
     "distance": 36,
     "label": "Sec 340 row 24 + Sec 340 row 18"
+   },
+   {
+    "listings": [
+     "6a4d86d5239cabfa2cca5bd9",
+     "6a4d874a239cabfa2cedf7ed"
+    ],
+    "totalAllIn": 13920,
+    "perTicketAvg": 1740,
+    "sameSection": true,
+    "distance": 36,
+    "label": "Sec 334 row 8 + Sec 334 row 14"
    },
    {
     "listings": [
@@ -284,43 +284,60 @@
   "anySplit": {
    "parts": [
     {
-     "id": "6a4d845f239cabfa2cfeaeb3",
+     "id": "6a407a13239cabfa2ca3a0ce",
      "take": 2,
-     "allIn": 1439,
-     "label": "2 in Sec 333 row 14"
+     "allIn": 1411,
+     "label": "2 in Sec CAT4 row TBD"
+    },
+    {
+     "id": "6a4d84e6239cabfa2c25deca",
+     "take": 4,
+     "allIn": 1483,
+     "label": "4 in Sec 341 row 37"
     },
     {
      "id": "6a4d8466239cabfa2c00f3ad",
-     "take": 4,
-     "allIn": 1483,
-     "label": "4 in Sec 339 row 20"
-    },
-    {
-     "id": "6a4e98f1239cabfa2c25cdcd",
      "take": 2,
      "allIn": 1483,
-     "label": "2 in Sec 307 row 30"
+     "label": "2 in Sec 339 row 20"
     }
    ],
-   "totalAllIn": 11776
+   "totalAllIn": 11720
   }
  },
  "listings": [
   {
-   "id": "6a4d845f239cabfa2cfeaeb3",
+   "id": "6a407a13239cabfa2ca3a0ce",
    "source": "gametime",
-   "section": "333",
-   "sectionGroup": "Upper Touchdown Zone",
-   "row": "14",
+   "section": "CAT4",
+   "sectionGroup": "Category",
+   "row": "TBD",
    "lots": [
     2
    ],
-   "allIn": 1439,
+   "allIn": 1411,
+   "prefee": 1250,
+   "x": 2430.26208,
+   "y": 1752.25,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/CAT4@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a407a13239cabfa2ca3a0ce"
+  },
+  {
+   "id": "6a4d84e6239cabfa2c25deca",
+   "source": "gametime",
+   "section": "341",
+   "sectionGroup": "Upper Redview",
+   "row": "37",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 1483,
    "prefee": 1289,
-   "x": 394.31687,
-   "y": 1255.50871,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/333@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d845f239cabfa2cfeaeb3"
+   "x": 549.59155,
+   "y": 231.42361,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/341@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d84e6239cabfa2c25deca"
   },
   {
    "id": "6a4d8466239cabfa2c00f3ad",
@@ -357,21 +374,20 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e98f1239cabfa2c25cdcd"
   },
   {
-   "id": "6a4d84e6239cabfa2c25deca",
+   "id": "6a4d845f239cabfa2cfeaeb3",
    "source": "gametime",
-   "section": "341",
-   "sectionGroup": "Upper Redview",
-   "row": "37",
+   "section": "333",
+   "sectionGroup": "Upper Touchdown Zone",
+   "row": "14",
    "lots": [
-    2,
-    4
+    2
    ],
    "allIn": 1483,
    "prefee": 1289,
-   "x": 549.59155,
-   "y": 231.42361,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/341@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d84e6239cabfa2c25deca"
+   "x": 394.31687,
+   "y": 1255.50871,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/333@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d845f239cabfa2cfeaeb3"
   },
   {
    "id": "6a4dbd31239cabfa2c427572",
@@ -388,22 +404,6 @@
    "y": 350.03627,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/308@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4dbd31239cabfa2c427572"
-  },
-  {
-   "id": "6a4dc18c239cabfa2c9d1a88",
-   "source": "gametime",
-   "section": "311",
-   "sectionGroup": "Upper Touchdown Zone",
-   "row": "12",
-   "lots": [
-    2
-   ],
-   "allIn": 1505,
-   "prefee": 1307,
-   "x": 2164.0787,
-   "y": 747.18127,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/311@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4dc18c239cabfa2c9d1a88"
   },
   {
    "id": "6a4dbcc7239cabfa2c22b8b4",
@@ -423,6 +423,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4dbcc7239cabfa2c22b8b4"
   },
   {
+   "id": "6a4dc18c239cabfa2c9d1a88",
+   "source": "gametime",
+   "section": "311",
+   "sectionGroup": "Upper Touchdown Zone",
+   "row": "12",
+   "lots": [
+    2
+   ],
+   "allIn": 1505,
+   "prefee": 1307,
+   "x": 2164.0787,
+   "y": 747.18127,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/311@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4dc18c239cabfa2c9d1a88"
+  },
+  {
    "id": "6a4e581f239cabfa2ce34f87",
    "source": "gametime",
    "section": "310",
@@ -437,22 +453,6 @@
    "y": 628.03322,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/310@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e581f239cabfa2ce34f87"
-  },
-  {
-   "id": "6a4bbc51df37224d0254aaed",
-   "source": "gametime",
-   "section": "331",
-   "sectionGroup": "Upper Redview",
-   "row": "36",
-   "lots": [
-    2
-   ],
-   "allIn": 1523,
-   "prefee": 1323,
-   "x": 478.6452,
-   "y": 1590.09255,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/331@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4bbc51df37224d0254aaed"
   },
   {
    "id": "6a4e65d3239cabfa2ce553f7",
@@ -519,39 +519,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e5792239cabfa2cc407dd"
   },
   {
-   "id": "6a4b7360239cabfa2c8cd27c",
-   "source": "gametime",
-   "section": "309",
-   "sectionGroup": "Upper Touchdown Zone",
-   "row": "6",
-   "lots": [
-    2
-   ],
-   "allIn": 1540,
-   "prefee": 1338,
-   "x": 2060.27515,
-   "y": 536.98956,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/309@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4b7360239cabfa2c8cd27c"
-  },
-  {
-   "id": "6a4e581f239cabfa2ce35108",
-   "source": "gametime",
-   "section": "318",
-   "sectionGroup": "Upper Redview",
-   "row": "31",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 1540,
-   "prefee": 1338,
-   "x": 1980.80083,
-   "y": 1616.49708,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/318@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e581f239cabfa2ce35108"
-  },
-  {
    "id": "6a4d407a239cabfa2c356609",
    "source": "gametime",
    "section": "307",
@@ -569,6 +536,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d407a239cabfa2c356609"
   },
   {
+   "id": "6a4b7360239cabfa2c8cd27c",
+   "source": "gametime",
+   "section": "309",
+   "sectionGroup": "Upper Touchdown Zone",
+   "row": "6",
+   "lots": [
+    2
+   ],
+   "allIn": 1540,
+   "prefee": 1338,
+   "x": 2060.27515,
+   "y": 536.98956,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/309@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4b7360239cabfa2c8cd27c"
+  },
+  {
    "id": "6a4d5273239cabfa2cc93572",
    "source": "gametime",
    "section": "337",
@@ -584,6 +567,23 @@
    "y": 753.00392,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/337@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5273239cabfa2cc93572"
+  },
+  {
+   "id": "6a4e581f239cabfa2ce35108",
+   "source": "gametime",
+   "section": "318",
+   "sectionGroup": "Upper Redview",
+   "row": "31",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 1540,
+   "prefee": 1338,
+   "x": 1980.80083,
+   "y": 1616.49708,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/318@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e581f239cabfa2ce35108"
   },
   {
    "id": "6a4d4007239cabfa2c109388",
@@ -619,6 +619,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d41df239cabfa2ca38adb"
   },
   {
+   "id": "6a2462d599548238fd3550f7",
+   "source": "gametime",
+   "section": "327",
+   "sectionGroup": "Upper",
+   "row": "13",
+   "lots": [
+    2
+   ],
+   "allIn": 1574,
+   "prefee": 1368,
+   "x": 944.76334,
+   "y": 1632.51889,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/327@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a2462d599548238fd3550f7"
+  },
+  {
    "id": "6a4d52b5239cabfa2cde3b45",
    "source": "gametime",
    "section": "308",
@@ -636,22 +652,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d52b5239cabfa2cde3b45"
   },
   {
-   "id": "6a10b7e43828919bf07a2afe",
-   "source": "gametime",
-   "section": "344",
-   "sectionGroup": "Upper",
-   "row": "40",
-   "lots": [
-    2
-   ],
-   "allIn": 1597,
-   "prefee": 1388,
-   "x": 890.98913,
-   "y": 91.30293,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/344@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a10b7e43828919bf07a2afe"
-  },
-  {
    "id": "6a4d5bab239cabfa2ca10f33",
    "source": "gametime",
    "section": "329",
@@ -666,6 +666,22 @@
    "y": 1732.73676,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/329@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5bab239cabfa2ca10f33"
+  },
+  {
+   "id": "6a10b7e43828919bf07a2afe",
+   "source": "gametime",
+   "section": "344",
+   "sectionGroup": "Upper",
+   "row": "40",
+   "lots": [
+    2
+   ],
+   "allIn": 1597,
+   "prefee": 1388,
+   "x": 890.98913,
+   "y": 91.30293,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/344@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a10b7e43828919bf07a2afe"
   },
   {
    "id": "6a4d3f63239cabfa2cded303",
@@ -717,22 +733,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d86d5239cabfa2cca5bd9"
   },
   {
-   "id": "6a2462d599548238fd3550f7",
-   "source": "gametime",
-   "section": "327",
-   "sectionGroup": "Upper",
-   "row": "13",
-   "lots": [
-    2
-   ],
-   "allIn": 1625,
-   "prefee": 1412,
-   "x": 944.76334,
-   "y": 1632.51889,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/327@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a2462d599548238fd3550f7"
-  },
-  {
    "id": "6a400ac7239cabfa2c6bb8ce",
    "source": "gametime",
    "section": "340",
@@ -748,6 +748,22 @@
    "y": 377.57828,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/340@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a400ac7239cabfa2c6bb8ce"
+  },
+  {
+   "id": "6a4bbc51df37224d0254aaed",
+   "source": "gametime",
+   "section": "331",
+   "sectionGroup": "Upper Redview",
+   "row": "36",
+   "lots": [
+    2
+   ],
+   "allIn": 1641,
+   "prefee": 1426,
+   "x": 478.6452,
+   "y": 1590.09255,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/331@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4bbc51df37224d0254aaed"
   },
   {
    "id": "6a4e9e8a239cabfa2ccecc99",
@@ -801,21 +817,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d83da239cabfa2cd2aae2"
   },
   {
-   "id": "6a4d525c239cabfa2cc2410e",
+   "id": "6a4efd17239cabfa2c3b0224",
    "source": "gametime",
-   "section": "306",
-   "sectionGroup": "Upper Redview",
-   "row": "38",
+   "section": "CAT3",
+   "sectionGroup": "Category",
+   "row": "TBD",
    "lots": [
     2,
-    4
+    4,
+    6
    ],
    "allIn": 1654,
    "prefee": 1437,
-   "x": 1874.48473,
-   "y": 161.91931,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/306@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d525c239cabfa2cc2410e"
+   "x": 2430.26244,
+   "y": 1643.75,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/CAT3@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4efd17239cabfa2c3b0224"
   },
   {
    "id": "6a4d3839b0cb0b25ff330eb0",
@@ -835,22 +852,21 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d3839b0cb0b25ff330eb0"
   },
   {
-   "id": "6a4efd17239cabfa2c3b0224",
+   "id": "6a4d525c239cabfa2cc2410e",
    "source": "gametime",
-   "section": "CAT3",
-   "sectionGroup": "Category",
-   "row": "TBD",
+   "section": "306",
+   "sectionGroup": "Upper Redview",
+   "row": "38",
    "lots": [
     2,
-    4,
-    6
+    4
    ],
    "allIn": 1654,
    "prefee": 1437,
-   "x": 2430.26244,
-   "y": 1643.75,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/CAT3@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4efd17239cabfa2c3b0224"
+   "x": 1874.48473,
+   "y": 161.91931,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/306@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d525c239cabfa2cc2410e"
   },
   {
    "id": "6a4d3efe239cabfa2cbea1e6",
@@ -902,22 +918,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e9edc239cabfa2ce874d1"
   },
   {
-   "id": "6a407a13239cabfa2ca3a0ce",
-   "source": "gametime",
-   "section": "CAT4",
-   "sectionGroup": "Category",
-   "row": "TBD",
-   "lots": [
-    2
-   ],
-   "allIn": 1688,
-   "prefee": 1450,
-   "x": 2430.26208,
-   "y": 1752.25,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/CAT4@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a407a13239cabfa2ca3a0ce"
-  },
-  {
    "id": "6a4e7582239cabfa2c752f77",
    "source": "gametime",
    "section": "306",
@@ -965,6 +965,22 @@
    "y": 153.25348,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/343@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a0351303828919bf055f2d3"
+  },
+  {
+   "id": "6a4f6fd2d1fcbdaeb89819ca",
+   "source": "gametime",
+   "section": "341",
+   "sectionGroup": "Upper Redview",
+   "row": "32",
+   "lots": [
+    2
+   ],
+   "allIn": 1699,
+   "prefee": 1477,
+   "x": 565.46397,
+   "y": 257.32909,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/341@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f6fd2d1fcbdaeb89819ca"
   },
   {
    "id": "6a4e9e4c239cabfa2cbc1a95",
@@ -1020,6 +1036,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d520f239cabfa2caaff49"
   },
   {
+   "id": "6a4d86ed239cabfa2cd19c16",
+   "source": "gametime",
+   "section": "332",
+   "sectionGroup": "Upper Touchdown Zone",
+   "row": "21",
+   "lots": [
+    2
+   ],
+   "allIn": 1711,
+   "prefee": 1470,
+   "x": 419.8096,
+   "y": 1399.51287,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/332@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d86ed239cabfa2cd19c16"
+  },
+  {
    "id": "6a4e6775239cabfa2c65875c",
    "source": "gametime",
    "section": "338",
@@ -1071,22 +1103,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e9eef239cabfa2ced9dd2"
   },
   {
-   "id": "6a4d86ed239cabfa2cd19c16",
-   "source": "gametime",
-   "section": "332",
-   "sectionGroup": "Upper Touchdown Zone",
-   "row": "21",
-   "lots": [
-    2
-   ],
-   "allIn": 1711,
-   "prefee": 1470,
-   "x": 419.8096,
-   "y": 1399.51287,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/332@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d86ed239cabfa2cd19c16"
-  },
-  {
    "id": "6a4da4fa239cabfa2c18c320",
    "source": "gametime",
    "section": "329",
@@ -1104,22 +1120,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4da4fa239cabfa2c18c320"
   },
   {
-   "id": "6a4ed15582456af47ec4baed",
-   "source": "gametime",
-   "section": "304",
-   "sectionGroup": "Upper",
-   "row": "34",
-   "lots": [
-    2
-   ],
-   "allIn": 1746,
-   "prefee": 1517,
-   "x": 1628.26052,
-   "y": 121.64374,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/304@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ed15582456af47ec4baed"
-  },
-  {
    "id": "6a4c3f2b239cabfa2c7a0e37",
    "source": "gametime",
    "section": "313",
@@ -1134,6 +1134,22 @@
    "y": 998.82481,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/313@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4c3f2b239cabfa2c7a0e37"
+  },
+  {
+   "id": "6a4ed15582456af47ec4baed",
+   "source": "gametime",
+   "section": "304",
+   "sectionGroup": "Upper",
+   "row": "34",
+   "lots": [
+    2
+   ],
+   "allIn": 1746,
+   "prefee": 1517,
+   "x": 1628.26052,
+   "y": 121.64374,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/304@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ed15582456af47ec4baed"
   },
   {
    "id": "6a45e434239cabfa2cc22f76",
@@ -1183,22 +1199,6 @@
    "y": 1008.13529,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/335@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d4292239cabfa2cdc281b"
-  },
-  {
-   "id": "6a4f6fd2d1fcbdaeb89819ca",
-   "source": "gametime",
-   "section": "341",
-   "sectionGroup": "Upper Redview",
-   "row": "32",
-   "lots": [
-    2
-   ],
-   "allIn": 1772,
-   "prefee": 1540,
-   "x": 565.46397,
-   "y": 257.32909,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/341@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f6fd2d1fcbdaeb89819ca"
   },
   {
    "id": "6a4d4102bc6d3687002fa57c",
@@ -1286,6 +1286,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d3efe239cabfa2cbea255"
   },
   {
+   "id": "6a4d5219239cabfa2cae04bd",
+   "source": "gametime",
+   "section": "338",
+   "sectionGroup": "Upper Touchdown Zone",
+   "row": "3",
+   "lots": [
+    2
+   ],
+   "allIn": 1806,
+   "prefee": 1570,
+   "x": 456.04579,
+   "y": 652.20998,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/338@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5219239cabfa2cae04bd"
+  },
+  {
    "id": "6a4ee9b8d1fcbdaeb8973664",
    "source": "gametime",
    "section": "317",
@@ -1356,6 +1372,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a499de4239cabfa2c7f516f"
   },
   {
+   "id": "6a4f7b95239cabfa2c6b77b8",
+   "source": "gametime",
+   "section": "303",
+   "sectionGroup": "Upper",
+   "row": "4",
+   "lots": [
+    2
+   ],
+   "allIn": 1825,
+   "prefee": 1586,
+   "x": 1487.48182,
+   "y": 286.98656,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/303@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f7b95239cabfa2c6b77b8"
+  },
+  {
    "id": "6a426de9239cabfa2c23b61d",
    "source": "gametime",
    "section": "342",
@@ -1371,22 +1403,6 @@
    "y": 264.87918,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/342@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a426de9239cabfa2c23b61d"
-  },
-  {
-   "id": "6a4d1daedadbc5709294a76f",
-   "source": "gametime",
-   "section": "CAT2",
-   "sectionGroup": "Category",
-   "row": "TBD",
-   "lots": [
-    2
-   ],
-   "allIn": 1846,
-   "prefee": 1604,
-   "x": 2430.26294,
-   "y": 1535.25,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/CAT2@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d1daedadbc5709294a76f"
   },
   {
    "id": "6a4d955e239cabfa2c40f834",
@@ -1421,6 +1437,23 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4eac1b239cabfa2cdcc7ab"
   },
   {
+   "id": "6a4d874a239cabfa2cedf7ed",
+   "source": "gametime",
+   "section": "334",
+   "sectionGroup": "Upper Touchdown Zone",
+   "row": "14",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 1862,
+   "prefee": 1600,
+   "x": 373.33289,
+   "y": 1133.80094,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/334@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d874a239cabfa2cedf7ed"
+  },
+  {
    "id": "6a45e434239cabfa2cc22fa4",
    "source": "gametime",
    "section": "304",
@@ -1452,23 +1485,6 @@
    "y": 157.30028,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/304@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e3e95239cabfa2cc8cfdb"
-  },
-  {
-   "id": "6a4d4292239cabfa2cdc27d8",
-   "source": "gametime",
-   "section": "334",
-   "sectionGroup": "Upper Touchdown Zone",
-   "row": "13",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 1878,
-   "prefee": 1632,
-   "x": 379.17893,
-   "y": 1132.96719,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/334@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d4292239cabfa2cdc27d8"
   },
   {
    "id": "6a4b76b9239cabfa2c6dc9d8",
@@ -1587,22 +1603,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f1958478d5151d3e64268"
   },
   {
-   "id": "6a4d6869605589f377d79967",
-   "source": "gametime",
-   "section": "303",
-   "sectionGroup": "Upper",
-   "row": "5",
-   "lots": [
-    2
-   ],
-   "allIn": 1936,
-   "prefee": 1682,
-   "x": 1488.18251,
-   "y": 280.94317,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/303@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d6869605589f377d79967"
-  },
-  {
    "id": "6a4ecae2239cabfa2c804539",
    "source": "gametime",
    "section": "335",
@@ -1617,6 +1617,23 @@
    "y": 1004.02798,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/335@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ecae2239cabfa2c804539"
+  },
+  {
+   "id": "6a39c9cc33ccd9be4077e703",
+   "source": "gametime",
+   "section": "310",
+   "sectionGroup": "Upper Touchdown Zone",
+   "row": "17",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 1939,
+   "prefee": 1685,
+   "x": 2170.54338,
+   "y": 613.08763,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/310@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a39c9cc33ccd9be4077e703"
   },
   {
    "id": "6a4d4d7f613f7173ad048dda",
@@ -1653,21 +1670,23 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a35ead6eabe7342d666a001"
   },
   {
-   "id": "6a39c9cc33ccd9be4077e703",
+   "id": "6a49652b2a46776ea8dc58a1",
    "source": "gametime",
-   "section": "310",
+   "section": "338",
    "sectionGroup": "Upper Touchdown Zone",
-   "row": "17",
+   "row": "18",
    "lots": [
     1,
-    2
+    2,
+    3,
+    4
    ],
-   "allIn": 1939,
-   "prefee": 1685,
-   "x": 2170.54338,
-   "y": 613.08763,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/310@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a39c9cc33ccd9be4077e703"
+   "allIn": 1953,
+   "prefee": 1697,
+   "x": 377.9319,
+   "y": 601.33655,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/338@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a49652b2a46776ea8dc58a1"
   },
   {
    "id": "6a0351303828919bf055f300",
@@ -1700,6 +1719,25 @@
    "y": 226.04392,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/302@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ed571aa383950dbf5e22f"
+  },
+  {
+   "id": "6a4d4d7f8872a6a2064ecea5",
+   "source": "gametime",
+   "section": "340",
+   "sectionGroup": "Upper Redview",
+   "row": "32",
+   "lots": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "allIn": 1992,
+   "prefee": 1731,
+   "x": 471.48116,
+   "y": 323.68296,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/340@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d4d7f8872a6a2064ecea5"
   },
   {
    "id": "6a43ece4239cabfa2c60a7cb",
@@ -1816,23 +1854,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d8fc8239cabfa2c89c822"
   },
   {
-   "id": "6a2d519097c791990d28809c",
-   "source": "gametime",
-   "section": "307",
-   "sectionGroup": "Upper Redview",
-   "row": "25",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 2052,
-   "prefee": 1783,
-   "x": 1956.00892,
-   "y": 288.63689,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/307@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a2d519097c791990d28809c"
-  },
-  {
    "id": "6a4b76d1239cabfa2c73ba78",
    "source": "gametime",
    "section": "344",
@@ -1850,37 +1871,21 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4b76d1239cabfa2c73ba78"
   },
   {
-   "id": "6a4da528239cabfa2c275e23",
+   "id": "6a2d519097c791990d28809c",
    "source": "gametime",
-   "section": "124",
-   "sectionGroup": "Field Redzone",
-   "row": "30",
-   "lots": [
-    2
-   ],
-   "allIn": 2053,
-   "prefee": 1784,
-   "x": 770.10725,
-   "y": 1328.5824,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/124@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4da528239cabfa2c275e23"
-  },
-  {
-   "id": "6a4d8c1c239cabfa2c6eb09e",
-   "source": "gametime",
-   "section": "316",
-   "sectionGroup": "Upper Touchdown Zone",
-   "row": "22",
+   "section": "307",
+   "sectionGroup": "Upper Redview",
+   "row": "25",
    "lots": [
     2,
     4
    ],
-   "allIn": 2053,
-   "prefee": 1784,
-   "x": 2131.67828,
-   "y": 1402.37146,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/316@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d8c1c239cabfa2c6eb09e"
+   "allIn": 2052,
+   "prefee": 1783,
+   "x": 1956.00892,
+   "y": 288.63689,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/307@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a2d519097c791990d28809c"
   },
   {
    "id": "6a4da572239cabfa2c3edd4e",
@@ -1900,23 +1905,53 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4da572239cabfa2c3edd4e"
   },
   {
-   "id": "6a49652b2a46776ea8dc58a1",
+   "id": "6a4d8c1c239cabfa2c6eb09e",
    "source": "gametime",
-   "section": "338",
+   "section": "316",
    "sectionGroup": "Upper Touchdown Zone",
-   "row": "18",
+   "row": "22",
    "lots": [
-    1,
     2,
-    3,
     4
    ],
-   "allIn": 2056,
-   "prefee": 1787,
-   "x": 377.9319,
-   "y": 601.33655,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/338@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a49652b2a46776ea8dc58a1"
+   "allIn": 2053,
+   "prefee": 1784,
+   "x": 2131.67828,
+   "y": 1402.37146,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/316@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d8c1c239cabfa2c6eb09e"
+  },
+  {
+   "id": "6a4da528239cabfa2c275e23",
+   "source": "gametime",
+   "section": "124",
+   "sectionGroup": "Field Redzone",
+   "row": "30",
+   "lots": [
+    2
+   ],
+   "allIn": 2053,
+   "prefee": 1784,
+   "x": 770.10725,
+   "y": 1328.5824,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/124@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4da528239cabfa2c275e23"
+  },
+  {
+   "id": "6a4e0400a104cb54f8d6098c",
+   "source": "gametime",
+   "section": "346",
+   "sectionGroup": "Upper",
+   "row": "2",
+   "lots": [
+    2
+   ],
+   "allIn": 2067,
+   "prefee": 1797,
+   "x": 1167.17992,
+   "y": 292.97821,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/346@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e0400a104cb54f8d6098c"
   },
   {
    "id": "6a4d432095bb22367463c11f",
@@ -1988,6 +2023,38 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f0b71239cabfa2cec0689"
   },
   {
+   "id": "6a39e166cd202219ed2277d4",
+   "source": "gametime",
+   "section": "342",
+   "sectionGroup": "Upper Redview",
+   "row": "27",
+   "lots": [
+    2
+   ],
+   "allIn": 2131,
+   "prefee": 1852,
+   "x": 696.15459,
+   "y": 226.06338,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/342@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a39e166cd202219ed2277d4"
+  },
+  {
+   "id": "6a4f14d9520f5ac3c2574c58",
+   "source": "gametime",
+   "section": "109",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "32",
+   "lots": [
+    2
+   ],
+   "allIn": 2136,
+   "prefee": 1857,
+   "x": 1942.64941,
+   "y": 816.75421,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/109@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f14d9520f5ac3c2574c58"
+  },
+  {
    "id": "6a4d6d2369cab5bc74ee707d",
    "source": "gametime",
    "section": "123",
@@ -2037,23 +2104,6 @@
    "y": 511.44395,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/132@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f4e55aa2d2a8c1f8fc9d9"
-  },
-  {
-   "id": "6a4d3437239cabfa2c6c7842",
-   "source": "gametime",
-   "section": "342",
-   "sectionGroup": "Upper Redview",
-   "row": "25",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 2165,
-   "prefee": 1882,
-   "x": 700.78703,
-   "y": 237.36601,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/342@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d3437239cabfa2c6c7842"
   },
   {
    "id": "6a4b9b9c239cabfa2c70c75a",
@@ -2132,36 +2182,21 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4c1d7aac78f08ce916eeef"
   },
   {
-   "id": "6a4e2729d8bef5bfec08dec6",
+   "id": "691832d3759318d49d2303ab",
    "source": "gametime",
-   "section": "304",
-   "sectionGroup": "Upper",
-   "row": "6",
+   "section": "CAT2",
+   "sectionGroup": "Category",
+   "row": "TBD",
    "lots": [
-    2
+    2,
+    4
    ],
-   "allIn": 2185,
-   "prefee": 1899,
-   "x": 1595.81924,
-   "y": 287.81334,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/304@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e2729d8bef5bfec08dec6"
-  },
-  {
-   "id": "6a4f1449d1fcbdaeb897a6a7",
-   "source": "gametime",
-   "section": "109",
-   "sectionGroup": "Field Touchdown Zone",
-   "row": "31",
-   "lots": [
-    2
-   ],
-   "allIn": 2189,
-   "prefee": 1902,
-   "x": 1936.30204,
-   "y": 817.64072,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/109@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f1449d1fcbdaeb897a6a7"
+   "allIn": 2176,
+   "prefee": 1891,
+   "x": 2430.26294,
+   "y": 1535.25,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/CAT2@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/691832d3759318d49d2303ab"
   },
   {
    "id": "6a4ee295fd48aff6a57885f2",
@@ -2230,22 +2265,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d3b65239cabfa2cae0faf"
   },
   {
-   "id": "6a4ec746239cabfa2c510706",
-   "source": "gametime",
-   "section": "108",
-   "sectionGroup": "Field Touchdown Zone",
-   "row": "30",
-   "lots": [
-    2
-   ],
-   "allIn": 2201,
-   "prefee": 1913,
-   "x": 1920.0269,
-   "y": 708.78916,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/108@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ec746239cabfa2c510706"
-  },
-  {
    "id": "6a4d457e239cabfa2cd9fa20",
    "source": "gametime",
    "section": "126",
@@ -2262,6 +2281,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d457e239cabfa2cd9fa20"
   },
   {
+   "id": "6a4ec746239cabfa2c510706",
+   "source": "gametime",
+   "section": "108",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "30",
+   "lots": [
+    2
+   ],
+   "allIn": 2201,
+   "prefee": 1913,
+   "x": 1920.0269,
+   "y": 708.78916,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/108@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ec746239cabfa2c510706"
+  },
+  {
    "id": "6a429ef4239cabfa2c073e22",
    "source": "gametime",
    "section": "301",
@@ -2276,6 +2311,22 @@
    "y": 103.26842,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/301@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a429ef4239cabfa2c073e22"
+  },
+  {
+   "id": "6a4d8539239cabfa2c3f0ef0",
+   "source": "gametime",
+   "section": "126",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "38",
+   "lots": [
+    2
+   ],
+   "allIn": 2211,
+   "prefee": 1900,
+   "x": 581.51286,
+   "y": 1186.63362,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/126@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d8539239cabfa2c3f0ef0"
   },
   {
    "id": "6a4daa07a80c7839d5ec84c9",
@@ -2295,20 +2346,20 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4daa07a80c7839d5ec84c9"
   },
   {
-   "id": "6a4d8539239cabfa2c3f0ef0",
+   "id": "6a4d387304c80ab1ff8f2140",
    "source": "gametime",
-   "section": "126",
-   "sectionGroup": "Field Touchdown Zone",
-   "row": "38",
+   "section": "315",
+   "sectionGroup": "Upper Touchdown Zone",
+   "row": "19",
    "lots": [
     2
    ],
-   "allIn": 2211,
-   "prefee": 1900,
-   "x": 581.51286,
-   "y": 1186.63362,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/126@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d8539239cabfa2c3f0ef0"
+   "allIn": 2224,
+   "prefee": 1933,
+   "x": 2169.79471,
+   "y": 1296.77719,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/315@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d387304c80ab1ff8f2140"
   },
   {
    "id": "6a4eed50239cabfa2c4acccf",
@@ -2327,22 +2378,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4eed50239cabfa2c4acccf"
   },
   {
-   "id": "6a4d387304c80ab1ff8f2140",
-   "source": "gametime",
-   "section": "315",
-   "sectionGroup": "Upper Touchdown Zone",
-   "row": "19",
-   "lots": [
-    2
-   ],
-   "allIn": 2224,
-   "prefee": 1933,
-   "x": 2169.79471,
-   "y": 1296.77719,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/315@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d387304c80ab1ff8f2140"
-  },
-  {
    "id": "6a3ad3176005888aa4b94c5a",
    "source": "gametime",
    "section": "301",
@@ -2357,6 +2392,23 @@
    "y": 60.86236,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/301@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a3ad3176005888aa4b94c5a"
+  },
+  {
+   "id": "6a4e9a9a239cabfa2c9d2dae",
+   "source": "gametime",
+   "section": "210",
+   "sectionGroup": "Touchdown Zone",
+   "row": "8",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 2232,
+   "prefee": 1940,
+   "x": 2044.69259,
+   "y": 664.19683,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/210@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e9a9a239cabfa2c9d2dae"
   },
   {
    "id": "6a4f0d18239cabfa2c76c204",
@@ -2424,36 +2476,20 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e9527239cabfa2c07c2dd"
   },
   {
-   "id": "6a4e0400a104cb54f8d6098c",
+   "id": "6a4e9c3f239cabfa2c1c3566",
    "source": "gametime",
-   "section": "346",
-   "sectionGroup": "Upper",
-   "row": "2",
+   "section": "112",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "31",
    "lots": [
     2
    ],
-   "allIn": 2265,
-   "prefee": 1969,
-   "x": 1167.17992,
-   "y": 292.97821,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/346@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e0400a104cb54f8d6098c"
-  },
-  {
-   "id": "6a4e8100239cabfa2cee6ab0",
-   "source": "gametime",
-   "section": "338",
-   "sectionGroup": "Upper Touchdown Zone",
-   "row": "1",
-   "lots": [
-    2
-   ],
-   "allIn": 2269,
-   "prefee": 1972,
-   "x": 467.31712,
-   "y": 656.85887,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/338@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e8100239cabfa2cee6ab0"
+   "allIn": 2267,
+   "prefee": 1971,
+   "x": 1926.48308,
+   "y": 1166.4541,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/112@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e9c3f239cabfa2c1c3566"
   },
   {
    "id": "6a4d0f43239cabfa2c177d9b",
@@ -2471,55 +2507,6 @@
    "y": 1306.48419,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/232@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d0f43239cabfa2c177d9b"
-  },
-  {
-   "id": "6a4e9a9a239cabfa2c9d2dae",
-   "source": "gametime",
-   "section": "210",
-   "sectionGroup": "Touchdown Zone",
-   "row": "8",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 2279,
-   "prefee": 1981,
-   "x": 2044.69259,
-   "y": 664.19683,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/210@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e9a9a239cabfa2c9d2dae"
-  },
-  {
-   "id": "6a4d5355239cabfa2c115b8d",
-   "source": "gametime",
-   "section": "130",
-   "sectionGroup": "Field Touchdown Zone",
-   "row": "20",
-   "lots": [
-    2
-   ],
-   "allIn": 2280,
-   "prefee": 1982,
-   "x": 688.9619,
-   "y": 736.44776,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/130@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5355239cabfa2c115b8d"
-  },
-  {
-   "id": "6a4be26e239cabfa2c109c2a",
-   "source": "gametime",
-   "section": "339",
-   "sectionGroup": "Upper Touchdown Zone",
-   "row": "1",
-   "lots": [
-    2
-   ],
-   "allIn": 2280,
-   "prefee": 1982,
-   "x": 513.95403,
-   "y": 558.80129,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/339@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4be26e239cabfa2c109c2a"
   },
   {
    "id": "6a4d8897239cabfa2c570476",
@@ -2553,6 +2540,38 @@
    "y": 634.56192,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/106@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d52ae239cabfa2cdb9eef"
+  },
+  {
+   "id": "6a4be26e239cabfa2c109c2a",
+   "source": "gametime",
+   "section": "339",
+   "sectionGroup": "Upper Touchdown Zone",
+   "row": "1",
+   "lots": [
+    2
+   ],
+   "allIn": 2280,
+   "prefee": 1982,
+   "x": 513.95403,
+   "y": 558.80129,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/339@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4be26e239cabfa2c109c2a"
+  },
+  {
+   "id": "6a4d5355239cabfa2c115b8d",
+   "source": "gametime",
+   "section": "130",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "20",
+   "lots": [
+    2
+   ],
+   "allIn": 2280,
+   "prefee": 1982,
+   "x": 688.9619,
+   "y": 736.44776,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/130@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5355239cabfa2c115b8d"
   },
   {
    "id": "6a049f733828919bf050afcf",
@@ -2653,6 +2672,24 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ea463239cabfa2c964599"
   },
   {
+   "id": "6a4db4d5095ce9d198ccaa66",
+   "source": "gametime",
+   "section": "127",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "29",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 2345,
+   "prefee": 2039,
+   "x": 625.14066,
+   "y": 1060.05346,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/127@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4db4d5095ce9d198ccaa66"
+  },
+  {
    "id": "6a3d52e8384ebe811d00d6ac",
    "source": "gametime",
    "section": "107",
@@ -2735,24 +2772,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4400fd239cabfa2c1c801c"
   },
   {
-   "id": "6a4db4d5095ce9d198ccaa66",
-   "source": "gametime",
-   "section": "127",
-   "sectionGroup": "Field Touchdown Zone",
-   "row": "29",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 2383,
-   "prefee": 2071,
-   "x": 625.14066,
-   "y": 1060.05346,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/127@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4db4d5095ce9d198ccaa66"
-  },
-  {
    "id": "6a4d94f9239cabfa2c20e5f5",
    "source": "gametime",
    "section": "114",
@@ -2787,57 +2806,21 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d521f239cabfa2cafc7b3"
   },
   {
-   "id": "6a4da4fb239cabfa2c18f137",
+   "id": "6a4cc55e239cabfa2cd8dc69",
    "source": "gametime",
-   "section": "110",
-   "sectionGroup": "Field Touchdown Zone",
-   "row": "38",
-   "lots": [
-    1,
-    2,
-    3,
-    4
-   ],
-   "allIn": 2394,
-   "prefee": 2081,
-   "x": 1981.1249,
-   "y": 937.45423,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/110@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4da4fb239cabfa2c18f137"
-  },
-  {
-   "id": "6a4d528d239cabfa2cd09f80",
-   "source": "gametime",
-   "section": "320",
-   "sectionGroup": "Upper",
-   "row": "24",
+   "section": "123",
+   "sectionGroup": "Field Redzone",
+   "row": "8",
    "lots": [
     2,
     4
    ],
    "allIn": 2394,
    "prefee": 2081,
-   "x": 1734.77209,
-   "y": 1673.74817,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/320@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d528d239cabfa2cd09f80"
-  },
-  {
-   "id": "6a4d850c239cabfa2c30a950",
-   "source": "gametime",
-   "section": "122",
-   "sectionGroup": "Field Sideline",
-   "row": "26",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 2394,
-   "prefee": 2081,
-   "x": 963.46206,
-   "y": 1364.0931,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/122@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d850c239cabfa2c30a950"
+   "x": 911.5066,
+   "y": 1236.02971,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/123@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4cc55e239cabfa2cd8dc69"
   },
   {
    "id": "6a3ddb44239cabfa2c61f352",
@@ -2859,6 +2842,25 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a3ddb44239cabfa2c61f352"
   },
   {
+   "id": "6a4da4fb239cabfa2c18f137",
+   "source": "gametime",
+   "section": "110",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "38",
+   "lots": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "allIn": 2394,
+   "prefee": 2081,
+   "x": 1981.1249,
+   "y": 937.45423,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/110@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4da4fb239cabfa2c18f137"
+  },
+  {
    "id": "6a4d8507239cabfa2c2f5da7",
    "source": "gametime",
    "section": "116",
@@ -2876,21 +2878,21 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d8507239cabfa2c2f5da7"
   },
   {
-   "id": "6a4cc55e239cabfa2cd8dc69",
+   "id": "6a4d528d239cabfa2cd09f80",
    "source": "gametime",
-   "section": "123",
-   "sectionGroup": "Field Redzone",
-   "row": "8",
+   "section": "320",
+   "sectionGroup": "Upper",
+   "row": "24",
    "lots": [
     2,
     4
    ],
    "allIn": 2394,
    "prefee": 2081,
-   "x": 911.5066,
-   "y": 1236.02971,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/123@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4cc55e239cabfa2cd8dc69"
+   "x": 1734.77209,
+   "y": 1673.74817,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/320@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d528d239cabfa2cd09f80"
   },
   {
    "id": "6a4db850be5a2a7edffc77ab",
@@ -2924,6 +2926,25 @@
    "y": 1281.08655,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/125@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a400ac7239cabfa2c6bb8b9"
+  },
+  {
+   "id": "6a4d851c239cabfa2c35a6cd",
+   "source": "gametime",
+   "section": "122",
+   "sectionGroup": "Field Sideline",
+   "row": "28",
+   "lots": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "allIn": 2431,
+   "prefee": 2113,
+   "x": 960.97552,
+   "y": 1376.37744,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/122@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d851c239cabfa2c35a6cd"
   },
   {
    "id": "6a426e38239cabfa2c3a60d9",
@@ -2991,6 +3012,39 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d4909239cabfa2cee044b"
   },
   {
+   "id": "6a47985e239cabfa2cbfcadb",
+   "source": "gametime",
+   "section": "106",
+   "sectionGroup": "Field Redzone",
+   "row": "36",
+   "lots": [
+    2
+   ],
+   "allIn": 2508,
+   "prefee": 2180,
+   "x": 1800.95927,
+   "y": 518.47849,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/106@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a47985e239cabfa2cbfcadb"
+  },
+  {
+   "id": "6a4d5242239cabfa2cbadcfa",
+   "source": "gametime",
+   "section": "107",
+   "sectionGroup": "Field Redzone",
+   "row": "10",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 2508,
+   "prefee": 2180,
+   "x": 1767.73174,
+   "y": 698.76936,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/107@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5242239cabfa2cbadcfa"
+  },
+  {
    "id": "6a28d27e99548238fd021d27",
    "source": "gametime",
    "section": "131",
@@ -3006,22 +3060,6 @@
    "y": 657.80941,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/131@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a28d27e99548238fd021d27"
-  },
-  {
-   "id": "6a47985e239cabfa2cbfcadb",
-   "source": "gametime",
-   "section": "106",
-   "sectionGroup": "Field Redzone",
-   "row": "36",
-   "lots": [
-    2
-   ],
-   "allIn": 2508,
-   "prefee": 2180,
-   "x": 1800.95927,
-   "y": 518.47849,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/106@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a47985e239cabfa2cbfcadb"
   },
   {
    "id": "6a4080c6239cabfa2c6b4cbb",
@@ -3102,22 +3140,6 @@
    "y": 444.60833,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/135@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4df85d239cabfa2c02f0a0"
-  },
-  {
-   "id": "6a0e00a13828919bf0e75ea4",
-   "source": "gametime",
-   "section": "231",
-   "sectionGroup": "Touchdown Zone",
-   "row": "5",
-   "lots": [
-    2
-   ],
-   "allIn": 2580,
-   "prefee": 2243,
-   "x": 626.33049,
-   "y": 1364.17646,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/231@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a0e00a13828919bf0e75ea4"
   },
   {
    "id": "6a4c95f2239cabfa2c3fd428",
@@ -3201,23 +3223,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5751239cabfa2c529445"
   },
   {
-   "id": "6a4d84d5239cabfa2c20ce5a",
-   "source": "gametime",
-   "section": "130",
-   "sectionGroup": "Field Touchdown Zone",
-   "row": "8",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 2622,
-   "prefee": 2279,
-   "x": 761.09056,
-   "y": 762.86971,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/130@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d84d5239cabfa2c20ce5a"
-  },
-  {
    "id": "6a4d5207239cabfa2ca8e2cb",
    "source": "gametime",
    "section": "123",
@@ -3233,6 +3238,23 @@
    "y": 1312.93488,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/123@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5207239cabfa2ca8e2cb"
+  },
+  {
+   "id": "6a4d84d5239cabfa2c20ce5a",
+   "source": "gametime",
+   "section": "130",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "8",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 2622,
+   "prefee": 2279,
+   "x": 761.09056,
+   "y": 762.86971,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/130@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d84d5239cabfa2c20ce5a"
   },
   {
    "id": "6a4d85e8239cabfa2c776d4a",
@@ -3251,20 +3273,20 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d85e8239cabfa2c776d4a"
   },
   {
-   "id": "6a4f27c7d1fcbdaeb897cdb4",
+   "id": "6a0e00a13828919bf0e75ea4",
    "source": "gametime",
-   "section": "117",
-   "sectionGroup": "Field Sideline",
-   "row": "23",
+   "section": "231",
+   "sectionGroup": "Touchdown Zone",
+   "row": "5",
    "lots": [
     2
    ],
    "allIn": 2641,
-   "prefee": 2295,
-   "x": 1487.4491,
-   "y": 1358.47582,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/117@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f27c7d1fcbdaeb897cdb4"
+   "prefee": 2296,
+   "x": 626.33049,
+   "y": 1364.17646,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/231@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a0e00a13828919bf0e75ea4"
   },
   {
    "id": "6a4d44c03bc2f8d27c2aa80e",
@@ -3357,6 +3379,38 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d6196e2ab518926554427"
   },
   {
+   "id": "6a4f22b9f55ed6ec427e7408",
+   "source": "gametime",
+   "section": "117",
+   "sectionGroup": "Field Sideline",
+   "row": "20",
+   "lots": [
+    2
+   ],
+   "allIn": 2697,
+   "prefee": 2344,
+   "x": 1485.30716,
+   "y": 1339.65484,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/117@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f22b9f55ed6ec427e7408"
+  },
+  {
+   "id": "6a4c961a239cabfa2c4a3b7b",
+   "source": "gametime",
+   "section": "127",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "11",
+   "lots": [
+    2
+   ],
+   "allIn": 2733,
+   "prefee": 2375,
+   "x": 739.19659,
+   "y": 1046.00713,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/127@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4c961a239cabfa2c4a3b7b"
+  },
+  {
    "id": "691a8348759318d49db7c0df",
    "source": "gametime",
    "section": "CAT1",
@@ -3427,22 +3481,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a48536e239cabfa2cb607b1"
   },
   {
-   "id": "6a4d5282239cabfa2ccd9048",
-   "source": "gametime",
-   "section": "204",
-   "sectionGroup": "Sideline Select",
-   "row": "4",
-   "lots": [
-    2
-   ],
-   "allIn": 2850,
-   "prefee": 2477,
-   "x": 1578.29385,
-   "y": 378.99101,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/204@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5282239cabfa2ccd9048"
-  },
-  {
    "id": "6a483646239cabfa2ca744fa",
    "source": "gametime",
    "section": "104",
@@ -3462,6 +3500,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a483646239cabfa2ca744fa"
   },
   {
+   "id": "6a4d5282239cabfa2ccd9048",
+   "source": "gametime",
+   "section": "204",
+   "sectionGroup": "Sideline Select",
+   "row": "4",
+   "lots": [
+    2
+   ],
+   "allIn": 2850,
+   "prefee": 2477,
+   "x": 1578.29385,
+   "y": 378.99101,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/204@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5282239cabfa2ccd9048"
+  },
+  {
    "id": "6a10b7d73828919bf076d028",
    "source": "gametime",
    "section": "314",
@@ -3477,39 +3531,6 @@
    "y": 1112.64934,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/314@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a10b7d73828919bf076d028"
-  },
-  {
-   "id": "6a4d8b76b73f82f82087756e",
-   "source": "gametime",
-   "section": "303",
-   "sectionGroup": "Upper",
-   "row": "40",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 2875,
-   "prefee": 2499,
-   "x": 1514.38164,
-   "y": 71.01291,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/303@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d8b76b73f82f82087756e"
-  },
-  {
-   "id": "6a406172d662713e9092dad0",
-   "source": "gametime",
-   "section": "108",
-   "sectionGroup": "Field Touchdown Zone",
-   "row": "38",
-   "lots": [
-    2
-   ],
-   "allIn": 2879,
-   "prefee": 2503,
-   "x": 1967.88211,
-   "y": 691.77763,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/108@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a406172d662713e9092dad0"
   },
   {
    "id": "6a4ee289d1fcbdaeb8972748",
@@ -3529,6 +3550,38 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ee289d1fcbdaeb8972748"
   },
   {
+   "id": "6a406172d662713e9092dad0",
+   "source": "gametime",
+   "section": "108",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "38",
+   "lots": [
+    2
+   ],
+   "allIn": 2879,
+   "prefee": 2503,
+   "x": 1967.88211,
+   "y": 691.77763,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/108@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a406172d662713e9092dad0"
+  },
+  {
+   "id": "6a47b755239cabfa2c8707b1",
+   "source": "gametime",
+   "section": "134",
+   "sectionGroup": "Field Sideline",
+   "row": "17",
+   "lots": [
+    2
+   ],
+   "allIn": 2883,
+   "prefee": 2506,
+   "x": 969.75681,
+   "y": 571.13701,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/134@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a47b755239cabfa2c8707b1"
+  },
+  {
    "id": "6a4beb54239cabfa2cc1174e",
    "source": "gametime",
    "section": "104",
@@ -3543,22 +3596,6 @@
    "y": 594.69851,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/104@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4beb54239cabfa2cc1174e"
-  },
-  {
-   "id": "6a47b755239cabfa2c8707b1",
-   "source": "gametime",
-   "section": "134",
-   "sectionGroup": "Field Sideline",
-   "row": "17",
-   "lots": [
-    2
-   ],
-   "allIn": 2889,
-   "prefee": 2511,
-   "x": 969.75681,
-   "y": 571.13701,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/134@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a47b755239cabfa2c8707b1"
   },
   {
    "id": "6a4df183f2b42e25339b194f",
@@ -3585,8 +3622,8 @@
    "lots": [
     2
    ],
-   "allIn": 2937,
-   "prefee": 2553,
+   "allIn": 2908,
+   "prefee": 2528,
    "x": 1758.53578,
    "y": 436.11457,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/206@4x.jpg",
@@ -3669,23 +3706,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4db4e6239cabfa2cd6bf97"
   },
   {
-   "id": "6a4d5218239cabfa2cad9e2c",
-   "source": "gametime",
-   "section": "107",
-   "sectionGroup": "Field Redzone",
-   "row": "7",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 2964,
-   "prefee": 2577,
-   "x": 1752.52323,
-   "y": 710.70063,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/107@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5218239cabfa2cad9e2c"
-  },
-  {
    "id": "6a4e3a09239cabfa2c89ba0d",
    "source": "gametime",
    "section": "105",
@@ -3740,6 +3760,23 @@
    "y": 1230.54241,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/333@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4e8a2b239cabfa2ca46559"
+  },
+  {
+   "id": "69fd26319e5c2363874ec505",
+   "source": "gametime",
+   "section": "111",
+   "sectionGroup": "Field Touchdown Zone",
+   "row": "31",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 3033,
+   "prefee": 2637,
+   "x": 1936.438,
+   "y": 1054.58033,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/111@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/69fd26319e5c2363874ec505"
   },
   {
    "id": "6a408c0e239cabfa2c8fd047",
@@ -3879,6 +3916,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a469ce1239cabfa2c70b56b"
   },
   {
+   "id": "6a4f7d9c239cabfa2c099437",
+   "source": "gametime",
+   "section": "120",
+   "sectionGroup": "Lower",
+   "row": "32",
+   "lots": [
+    2
+   ],
+   "allIn": 3287,
+   "prefee": 2858,
+   "x": 1165.87458,
+   "y": 1422.99261,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/120@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4f7d9c239cabfa2c099437"
+  },
+  {
    "id": "6a4d409a89381747c81e5234",
    "source": "gametime",
    "section": "132",
@@ -3895,57 +3948,6 @@
    "y": 537.27805,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/132@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d409a89381747c81e5234"
-  },
-  {
-   "id": "6a4ede7a239cabfa2ca645ea",
-   "source": "gametime",
-   "section": "120",
-   "sectionGroup": "Lower",
-   "row": "32",
-   "lots": [
-    2
-   ],
-   "allIn": 3298,
-   "prefee": 2867,
-   "x": 1165.87458,
-   "y": 1422.99261,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/120@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ede7a239cabfa2ca645ea"
-  },
-  {
-   "id": "6a4d525e239cabfa2cc2b249",
-   "source": "gametime",
-   "section": "219",
-   "sectionGroup": "Redzone",
-   "row": "7",
-   "lots": [
-    2
-   ],
-   "allIn": 3420,
-   "prefee": 2973,
-   "x": 1773.72153,
-   "y": 1468.86424,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/219@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d525e239cabfa2cc2b249"
-  },
-  {
-   "id": "6a10b85e3828919bf095be0e",
-   "source": "gametime",
-   "section": "112",
-   "sectionGroup": "Field Touchdown Zone",
-   "row": "30",
-   "lots": [
-    1,
-    2,
-    3,
-    4
-   ],
-   "allIn": 3420,
-   "prefee": 2973,
-   "x": 1920.29835,
-   "y": 1164.63735,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/112@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a10b85e3828919bf095be0e"
   },
   {
    "id": "6a3ddadd239cabfa2c48f468",
@@ -3965,6 +3967,22 @@
    "y": 1773.65263,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/328@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a3ddadd239cabfa2c48f468"
+  },
+  {
+   "id": "6a4d525e239cabfa2cc2b249",
+   "source": "gametime",
+   "section": "219",
+   "sectionGroup": "Redzone",
+   "row": "7",
+   "lots": [
+    2
+   ],
+   "allIn": 3420,
+   "prefee": 2973,
+   "x": 1773.72153,
+   "y": 1468.86424,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/219@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d525e239cabfa2cc2b249"
   },
   {
    "id": "6a48316a239cabfa2c478c4e",
@@ -4208,21 +4226,20 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a3ea662239cabfa2c3db88e"
   },
   {
-   "id": "69d6cd1a53c05bd145fdd0d6",
+   "id": "6a3d83eefd0300dd01095690",
    "source": "gametime",
-   "section": "127",
+   "section": "111",
    "sectionGroup": "Field Touchdown Zone",
-   "row": "14",
+   "row": "18",
    "lots": [
-    2,
-    4
+    2
    ],
-   "allIn": 4254,
-   "prefee": 3698,
-   "x": 720.11074,
-   "y": 1047.92505,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/127@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/69d6cd1a53c05bd145fdd0d6"
+   "allIn": 4011,
+   "prefee": 3487,
+   "x": 1854.49162,
+   "y": 1045.66197,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/111@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a3d83eefd0300dd01095690"
   },
   {
    "id": "6a41c550b65ec705bdfc8f54",
@@ -4239,6 +4256,22 @@
    "y": 1308.2963,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/117@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a41c550b65ec705bdfc8f54"
+  },
+  {
+   "id": "6a435cd21abb7d87a9658b60",
+   "source": "gametime",
+   "section": "136",
+   "sectionGroup": "Lower",
+   "row": "11",
+   "lots": [
+    2
+   ],
+   "allIn": 4449,
+   "prefee": 3868,
+   "x": 1170.7378,
+   "y": 588.77941,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/136@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a435cd21abb7d87a9658b60"
   },
   {
    "id": "6a4b9c16239cabfa2c94decf",
@@ -4291,22 +4324,6 @@
    "y": 586.38124,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/101@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4eb6081e2b8b95d6878678"
-  },
-  {
-   "id": "6a435cd21abb7d87a9658b60",
-   "source": "gametime",
-   "section": "136",
-   "sectionGroup": "Lower",
-   "row": "11",
-   "lots": [
-    2
-   ],
-   "allIn": 4733,
-   "prefee": 4115,
-   "x": 1170.7378,
-   "y": 588.77941,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/136@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a435cd21abb7d87a9658b60"
   },
   {
    "id": "6a4d3fe8239cabfa2c05c938",
@@ -4377,23 +4394,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a3d5e40239cabfa2c8a9355"
   },
   {
-   "id": "6a4d45dc239cabfa2cf9331c",
-   "source": "gametime",
-   "section": "321",
-   "sectionGroup": "Upper",
-   "row": "17",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 5129,
-   "prefee": 4459,
-   "x": 1612.91254,
-   "y": 1655.60517,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/321@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d45dc239cabfa2cf9331c"
-  },
-  {
    "id": "6a4d3feb239cabfa2c0706f5",
    "source": "gametime",
    "section": "122",
@@ -4437,8 +4437,8 @@
     3,
     4
    ],
-   "allIn": 5460,
-   "prefee": 4747,
+   "allIn": 5351,
+   "prefee": 4652,
    "x": 875.94406,
    "y": 1175.93041,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/124@4x.jpg",
@@ -4462,6 +4462,23 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d4633239cabfa2c17a757"
   },
   {
+   "id": "6a4d53a1239cabfa2c294dea",
+   "source": "gametime",
+   "section": "201",
+   "sectionGroup": "Sideline Select Fifty",
+   "row": "4",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 5926,
+   "prefee": 5152,
+   "x": 1272.90542,
+   "y": 358.7279,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/201@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d53a1239cabfa2c294dea"
+  },
+  {
    "id": "6a39bd2b4664f92a18569024",
    "source": "gametime",
    "section": "118",
@@ -4477,22 +4494,6 @@
    "y": 1384.66489,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/118@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a39bd2b4664f92a18569024"
-  },
-  {
-   "id": "6a4d5334239cabfa2c086c69",
-   "source": "gametime",
-   "section": "201",
-   "sectionGroup": "Sideline Select Fifty",
-   "row": "3",
-   "lots": [
-    2
-   ],
-   "allIn": 6268,
-   "prefee": 5449,
-   "x": 1273.09307,
-   "y": 364.85706,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/201@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d5334239cabfa2c086c69"
   },
   {
    "id": "6a12a15f3828919bf06e0995",
@@ -4525,22 +4526,6 @@
    "y": 1286.21717,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/119@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4ecc061d6897e7d2ad373e"
-  },
-  {
-   "id": "6a4515b1239cabfa2cc3b56f",
-   "source": "gametime",
-   "section": "125",
-   "sectionGroup": "Lower",
-   "row": "5",
-   "lots": [
-    2
-   ],
-   "allIn": 7209,
-   "prefee": 6200,
-   "x": 806.19656,
-   "y": 1160.00982,
-   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/125@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4515b1239cabfa2cc3b56f"
   },
   {
    "id": "6a4ec25e239cabfa2cc212a7",
@@ -4625,6 +4610,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a46ac11239cabfa2c9f8571"
   },
   {
+   "id": "6a4d4056239cabfa2c29d3c3",
+   "source": "gametime",
+   "section": "201",
+   "sectionGroup": "Sideline Select Fifty",
+   "row": "1",
+   "lots": [
+    2
+   ],
+   "allIn": 11394,
+   "prefee": 9907,
+   "x": 1273.14339,
+   "y": 376.95377,
+   "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/201@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-argentina-vs-switzerland-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3/listings/6a4d4056239cabfa2c29d3c3"
+  },
+  {
    "id": "6a37d338eabe7342d6676c6a",
    "source": "gametime",
    "section": "321",
@@ -4633,8 +4634,8 @@
    "lots": [
     2
    ],
-   "allIn": 14754,
-   "prefee": 12828,
+   "allIn": 14716,
+   "prefee": 12796,
    "x": 1607.0367,
    "y": 1625.99082,
    "view": "https://images.gametime.co/v2/arrowhead_stadium/fifa/321@4x.jpg",
