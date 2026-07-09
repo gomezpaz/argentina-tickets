@@ -164,6 +164,11 @@ async function main() {
     return min;
   }, null);
 
+  if (!Object.keys(prices).length) {
+    console.error(JSON.stringify({ fatal: 'no prices fetched (network down?)', errors }));
+    process.exit(1);
+  }
+
   if (!dry) {
     data.snapshots.push(snapshot);
     fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
