@@ -32,11 +32,19 @@ async function tick() {
     } catch {} // nothing to commit
 
     const { drop, newAllTimeLow, cheapest } = report;
-    if ((drop != null && drop >= 25) || newAllTimeLow != null) {
+    // Oscillation guard: sources (esp. FIFA's crowdsourced feed) bounce between
+    // values, re-triggering the drop rule for prices already alerted. Only alert
+    // when meaningfully below the last alerted price, or on a true new low.
+    const STATE = path.join(ROOT, '.alert-state.json');
+    let lastAlert = null;
+    try { lastAlert = JSON.parse(fs.readFileSync(STATE, 'utf8')).price; } catch {}
+    const isFresh = lastAlert == null || cheapest.price < lastAlert - 10;
+    if (((drop != null && drop >= 25) || newAllTimeLow != null) && (isFresh || newAllTimeLow != null)) {
       fs.appendFileSync(
         ALERTS,
         `${stamp} ALERT drop=$${drop} newATL=${newAllTimeLow ?? 'no'} cheapest=$${cheapest.price} (${cheapest.source}) ${cheapest.url}\n`
       );
+      fs.writeFileSync(STATE, JSON.stringify({ price: cheapest.price, ts: stamp }));
     }
     console.log(stamp, 'ok', JSON.stringify(report.prices), 'drop:', drop);
   } catch (e) {
