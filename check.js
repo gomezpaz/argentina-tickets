@@ -43,7 +43,28 @@ const SOURCES = {
     feesIncluded: false,
     manual: true,
   },
+  fifaresale: {
+    label: 'FIFA Resale',
+    url: 'https://thegreatreviewer.com/wc-tracker/',
+    feesIncluded: true,
+    api: true, // thegreatreviewer.com dashboard API (crowdsourced FIFA marketplace scans)
+  },
 };
+
+async function fetchFifaResale() {
+  const res = await fetch('https://thegreatreviewer.com/api/seat-alerts/get-dashboard.php', {
+    headers: { 'User-Agent': UA, Accept: 'application/json' },
+    signal: AbortSignal.timeout(20000),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const data = await res.json();
+  const m = (data.matches || []).find(
+    (x) => x.matchId === '10229226725356' || /argentina vs switzerland/i.test(x.matchLabel || '')
+  );
+  if (!m || !Number.isFinite(m.minPrice)) throw new Error('match not in dashboard');
+  if (m.minPrice < 50 || m.minPrice > 100000) throw new Error(`implausible price ${m.minPrice}`);
+  return Math.round(m.minPrice);
+}
 
 async function fetchLowPrice(key) {
   const src = SOURCES[key];
@@ -116,7 +137,7 @@ async function main() {
     }
     if (SOURCES[key].manual || (key === 'gametime' && gtFromListings)) continue;
     try {
-      prices[key] = await fetchLowPrice(key);
+      prices[key] = key === 'fifaresale' ? await fetchFifaResale() : await fetchLowPrice(key);
     } catch (e) {
       errors[key] = e.message;
     }

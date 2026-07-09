@@ -21,6 +21,12 @@ Open from your phone (same wifi): `http://<your-mac-lan-ip>:4321`
 | Gametime | scripted fetch (`"lowPrice"` in page HTML) | + fees |
 | Vivid Seats | blocks scripts; injected via `--add vividseats=<price>` | fees included |
 | SeatGeek | blocks scripts + headless browsers (Kasada) | pending |
+| FIFA Resale | thegreatreviewer.com/api/seat-alerts/get-dashboard.php (crowdsourced FIFA marketplace scans, matchId 10229226725356) | official resale |
+
+## Reference links
+
+- FIFA resale tracker (all 104 matches): https://thegreatreviewer.com/wc-tracker/
+- Historical price data for this match: https://www.ticketdata.com/events/855407 (Cloudflare-walled to scripts; open in a browser)
 
 ```bash
 node check.js --add vividseats=1608 --add seatgeek=2118

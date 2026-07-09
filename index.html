@@ -186,14 +186,15 @@
 
 <div class="footer">
   All prices are all-in (fees included); SeatGeek excluded (blocked)<br>
-  Auto-refreshes every 60s · price checks run every ~5 min
+  FIFA Resale = official marketplace via <a href="https://thegreatreviewer.com/wc-tracker/" style="color:var(--sky)">wc-tracker</a> (crowdsourced, may lag)<br>
+  History reference: <a href="https://www.ticketdata.com/events/855407" style="color:var(--sky)">ticketdata.com</a> · Auto-refreshes every 60s · checks every ~5 min
 </div>
 <div class="toast" id="toast"></div>
 
 <script>
-const COLORS = { tickpick:'#2ecc71', gametime:'#f5c542', vividseats:'#e77ce4', seatgeek:'#e74c3c' };
-const DOMAINS = { tickpick:'tickpick.com', gametime:'gametime.co', vividseats:'vividseats.com', seatgeek:'seatgeek.com' };
-const LABELS = { tickpick:'TickPick', gametime:'Gametime', vividseats:'Vivid Seats', seatgeek:'SeatGeek' };
+const COLORS = { tickpick:'#2ecc71', gametime:'#f5c542', vividseats:'#e77ce4', seatgeek:'#e74c3c', fifaresale:'#4aa3ff' };
+const DOMAINS = { tickpick:'tickpick.com', gametime:'gametime.co', vividseats:'vividseats.com', seatgeek:'seatgeek.com', fifaresale:'fifa.com' };
+const LABELS = { tickpick:'TickPick', gametime:'Gametime', vividseats:'Vivid Seats', seatgeek:'SeatGeek', fifaresale:'FIFA Resale' };
 const fav = key => `<img class="fav" src="https://www.google.com/s2/favicons?domain=${DOMAINS[key]}&sz=64" alt="">`;
 const srcBadge = key => `<span class="srcb"><img src="https://www.google.com/s2/favicons?domain=${DOMAINS[key]}&sz=64" alt="">${LABELS[key]}</span>`;
 const fmt = n => '$' + Math.round(n).toLocaleString();
@@ -248,6 +249,7 @@ async function load() {
     if (key === 'gametime' && gtCheapest)
       return `all-in = ${fmt(gtCheapest.prefee)} ticket + ${fmt(gtCheapest.allIn - gtCheapest.prefee)} fees`;
     if (key === 'seatgeek') return '+ fees (excl.)';
+    if (key === 'fifaresale') return 'official resale · crowdsourced scans';
     return 'fees included';
   };
   const allInOf = (key, cur) => {
