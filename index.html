@@ -38,6 +38,13 @@
     color: var(--muted); background: var(--card2); border: 1px solid #2a3555;
     padding: 2px 8px 2px 5px; border-radius: 999px; }
   .srcb img { width: 12px; height: 12px; border-radius: 2px; }
+  .catb { display: inline-block; font-size: 9px; font-weight: 800; letter-spacing: .5px;
+    padding: 1px 6px; border-radius: 999px; margin-left: 6px; vertical-align: 2px; }
+  .catb.c1 { background: rgba(245,197,66,.18); color: var(--gold); }
+  .catb.c2 { background: rgba(117,170,219,.18); color: var(--sky); }
+  .catb.c3 { background: rgba(46,204,113,.18); color: var(--green); }
+  .catb.c4 { background: rgba(231,124,228,.18); color: #e77ce4; }
+  .catb.cx { background: rgba(139,147,171,.18); color: var(--muted); }
   .toast {
     position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
     background: var(--card2); border: 1px solid #2a3555; color: var(--text);
@@ -175,7 +182,7 @@
   </div>
   <div id="lrows"></div>
   <button class="more" id="moreBtn" style="display:none">Show all</button>
-  <div class="note">Per-listing data from Gametime (prices shown all-in, per ticket). TickPick &amp; Vivid Seats block listing-level access — their lowest prices appear in the chart above.</div>
+  <div class="note">Listings from Gametime (all-in, per ticket) and FIFA official resale (individual seats, grouped when adjacent — category tag shows seat tier, Cat 1 closest to midfield). TickPick &amp; Vivid Seats block listing-level access — their lowest prices appear in the chart above.</div>
 </section>
 
 <div class="stat-row">
@@ -198,6 +205,13 @@ const LABELS = { tickpick:'TickPick', gametime:'Gametime', vividseats:'Vivid Sea
 const fav = key => `<img class="fav" src="https://www.google.com/s2/favicons?domain=${DOMAINS[key]}&sz=64" alt="">`;
 const srcBadge = key => `<span class="srcb"><img src="https://www.google.com/s2/favicons?domain=${DOMAINS[key]}&sz=64" alt="">${LABELS[key]}</span>`;
 const fmt = n => '$' + Math.round(n).toLocaleString();
+const catBadge = c => {
+  if (!c) return '';
+  const m = c.match(/Category (\d)/);
+  const cls = m ? 'c' + m[1] : 'cx';
+  const short = m ? 'CAT ' + m[1] : c.replace(/Category/i, 'Cat').slice(0, 22).toUpperCase();
+  return `<span class="catb ${cls}" title="${c}">${short}</span>`;
+};
 let chart, LST = null, chipQ = 0, showAll = false;
 
 function toast(msg, ms=3500) {
@@ -356,8 +370,8 @@ function renderCombos() {
   let html = '';
   for (const l of (c.together8 || []).slice(0, 3)) {
     html += comboCard('All 8 together', 't8',
-      `Sec ${l.section} · Row ${l.row} <span style="color:var(--muted)">(${l.sectionGroup})</span>`,
-      `<b>${fmt(l.allIn)}</b>/ticket all-in · <b>${fmt(l.allIn * 8)}</b> total`, l.url);
+      `Sec ${l.section} · Row ${l.row}${l.seat ? ' · Seats ' + l.seat : ''}${catBadge(l.category)} <span style="color:var(--muted)">(${l.sectionGroup})</span>`,
+      `<b>${fmt(l.allIn)}</b>/ticket all-in · <b>${fmt(l.allIn * 8)}</b> total`, l.url, l.source);
   }
   const seen = new Set();
   const pairs = [...(c.split44closest || []).filter(p => p.sameSection || p.distance < 400).slice(0, 2),
@@ -366,18 +380,19 @@ function renderCombos() {
     const k = p.listings.join();
     if (seen.has(k)) continue; seen.add(k);
     const prox = p.sameSection ? '· same section!' : p.distance != null && p.distance < 400 ? '· nearby sections' : '';
-    const url = byId[p.listings[0]]?.url || '#';
+    const first = byId[p.listings[0]];
     html += comboCard('4 + 4 split', 't44', `${p.label} ${prox}`,
-      `<b>${fmt(p.perTicketAvg)}</b>/ticket avg · <b>${fmt(p.totalAllIn)}</b> total`, url);
+      `<b>${fmt(p.perTicketAvg)}</b>/ticket avg · <b>${fmt(p.totalAllIn)}</b> total`, first?.url || '#', first?.source);
   }
   if (c.anySplit) {
+    const first = byId[c.anySplit.parts[0]?.id];
     html += comboCard('Cheapest any split', 'tany',
       c.anySplit.parts.map(p => p.label).join(' + '),
-      `<b>${fmt(c.anySplit.totalAllIn)}</b> total for 8`, byId[c.anySplit.parts[0]?.id]?.url || '#');
+      `<b>${fmt(c.anySplit.totalAllIn)}</b> total for 8`, first?.url || '#', first?.source);
   }
   el.innerHTML = html || '<div class="note">No group options found in current listings.</div>';
   document.getElementById('groupMeta').textContent =
-    `${(LST.combos.together8 || []).length} listings fit all 8 · from Gametime · ${timeAgo(LST.fetchedAt)}`;
+    `${(LST.combos.together8 || []).length} options fit all 8 · Gametime + FIFA resale · ${timeAgo(LST.fetchedAt)}`;
   document.getElementById('groupSec').style.display = '';
 }
 
@@ -420,9 +435,9 @@ function renderList() {
   const shown = showAll ? rows : rows.slice(0, 25);
   document.getElementById('lrows').innerHTML = shown.map(l => `
     <a class="lrow" href="${l.url}" target="_blank" rel="noopener">
-      <div class="sec"><div class="s1">${fav(l.source)}Sec ${l.section} · Row ${l.row}</div>
-      <div class="s2">${LABELS[l.source] || l.source} · ${l.sectionGroup} · incl ${fmt(l.allIn - l.prefee)} fees</div></div>
-      <div class="qty">qty ${l.lots.join('/')}</div>
+      <div class="sec"><div class="s1">${fav(l.source)}Sec ${l.section} · Row ${l.row}${l.seat ? ' · Seat ' + l.seat : ''}${catBadge(l.category)}</div>
+      <div class="s2">${LABELS[l.source] || l.source} · ${l.source === 'fifaresale' ? 'official resale' : l.sectionGroup + ' · incl ' + fmt(l.allIn - l.prefee) + ' fees'}</div></div>
+      <div class="qty">${l.lots.length > 4 ? 'qty 1-' + Math.max(...l.lots) : 'qty ' + l.lots.join('/')}</div>
       <div class="pr">${fmt(l.allIn)}</div>
     </a>`).join('') || '<div class="note">No listings match this filter.</div>';
   const mb = document.getElementById('moreBtn');

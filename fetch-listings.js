@@ -53,6 +53,58 @@ async function fetchGametimeListings() {
     }));
 }
 
+// FIFA official resale seats (crowdsourced scans via thegreatreviewer.com).
+// Individual seats are grouped into runs of adjacent seats (same block+row,
+// consecutive numbers, same category) so they participate in group combos.
+async function fetchFifaSeats() {
+  const res = await fetch('https://thegreatreviewer.com/api/seat-alerts/get-dashboard.php', {
+    headers: { 'User-Agent': UA, Accept: 'application/json' },
+    signal: AbortSignal.timeout(20000),
+  });
+  if (!res.ok) throw new Error(`fifa HTTP ${res.status}`);
+  const data = await res.json();
+  const m = (data.matches || []).find((x) => x.matchId === '10229226725356');
+  if (!m || !Array.isArray(m.seats) || !m.seats.length) throw new Error('no fifa seat data');
+
+  const byRow = {};
+  for (const s of m.seats) {
+    if (!Number.isFinite(s.price) || s.price < 50) continue;
+    (byRow[`${s.block}|${s.row}`] ||= []).push({ ...s, seatNum: parseInt(s.seat, 10) || 0 });
+  }
+  const listings = [];
+  for (const arr of Object.values(byRow)) {
+    arr.sort((a, b) => a.seatNum - b.seatNum);
+    let run = [arr[0]];
+    const flush = () => {
+      const n = run.length;
+      const avg = run.reduce((sum, x) => sum + x.price, 0) / n;
+      listings.push({
+        id: `fifa-${run[0].block}-${run[0].row}-${run[0].seatNum}${n > 1 ? '-x' + n : ''}`,
+        source: 'fifaresale',
+        section: String(run[0].block),
+        sectionGroup: run[0].category,
+        row: String(run[0].row),
+        seat: n > 1 ? `${run[0].seatNum}-${run[n - 1].seatNum}` : String(run[0].seatNum),
+        category: run[0].category,
+        lots: Array.from({ length: n }, (_, i) => i + 1),
+        allIn: +avg.toFixed(2),
+        prefee: +avg.toFixed(2),
+        x: null,
+        y: null,
+        view: null,
+        url: run[0].buyUrl || 'https://tickets.fifa.com/',
+      });
+    };
+    for (let i = 1; i < arr.length; i++) {
+      const prev = run[run.length - 1];
+      if (arr[i].seatNum === prev.seatNum + 1 && arr[i].category === prev.category) run.push(arr[i]);
+      else { flush(); run = [arr[i]]; }
+    }
+    flush();
+  }
+  return listings;
+}
+
 function dist(a, b) {
   if (a.x == null || b.x == null) return Infinity;
   return Math.hypot(a.x - b.x, a.y - b.y);
@@ -113,12 +165,17 @@ function computeCombos(listings) {
 }
 
 async function main() {
-  const listings = await fetchGametimeListings();
+  const results = await Promise.allSettled([fetchGametimeListings(), fetchFifaSeats()]);
+  const gametime = results[0].status === 'fulfilled' ? results[0].value : [];
+  const fifa = results[1].status === 'fulfilled' ? results[1].value : [];
+  for (const r of results) if (r.status === 'rejected') console.error(JSON.stringify({ warn: r.reason.message }));
+  const listings = [...gametime, ...fifa];
+  if (!listings.length) throw new Error('all listing sources failed');
   const combos = computeCombos(listings);
   const out = {
     fetchedAt: new Date().toISOString(),
     party: PARTY,
-    counts: { gametime: listings.length },
+    counts: { gametime: gametime.length, fifaresale: fifa.length },
     combos,
     listings: listings.sort((a, b) => a.allIn - b.allIn),
   };
