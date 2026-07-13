@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Fetch per-listing inventory for the ARG-SUI QF from Gametime's event page
+// Fetch per-listing inventory for the ENG-ARG semifinal from Gametime's event page
 // (embedded window.__data redux state) and compute group-seating options
 // for a party of 8: all together, 4+4, and cheapest-any-split.
 //
@@ -15,7 +15,7 @@ const OUT = path.join(__dirname, 'data', 'listings.json');
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 const EVENT_URL =
-  'https://gametime.co/fifa/fifa-world-cup-w95-vs-w96-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3';
+  'https://gametime.co/fifa/fifa-world-cup-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7';
 const PARTY = 8;
 
 async function fetchGametimeListings() {
@@ -63,7 +63,7 @@ async function fetchFifaSeats() {
   });
   if (!res.ok) throw new Error(`fifa HTTP ${res.status}`);
   const data = await res.json();
-  const m = (data.matches || []).find((x) => x.matchId === '10229226725356');
+  const m = (data.matches || []).find((x) => x.matchId === '10229226725358');
   if (!m || !Array.isArray(m.seats) || !m.seats.length) throw new Error('no fifa seat data');
 
   const byRow = {};

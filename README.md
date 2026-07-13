@@ -1,8 +1,11 @@
 # ARG Ticket Watch
 
 Mobile-first dashboard tracking the cheapest resale tickets for
-**Argentina vs Switzerland — World Cup Quarterfinal (Match 100)**,
-Sat Jul 11 2026, 8:00 PM, GEHA Field at Arrowhead Stadium, Kansas City.
+**England vs Argentina — World Cup Semifinal (Match 102)**,
+Wed Jul 15 2026, 3:00 PM, Mercedes-Benz Stadium, Atlanta.
+
+(Previously tracked the ARG-SUI quarterfinal — that data is archived in
+`data/archive/`.)
 
 ## Run
 
@@ -21,12 +24,12 @@ Open from your phone (same wifi): `http://<your-mac-lan-ip>:4321`
 | Gametime | scripted fetch (`"lowPrice"` in page HTML) | + fees |
 | Vivid Seats | blocks scripts; injected via `--add vividseats=<price>` | fees included |
 | SeatGeek | blocks scripts + headless browsers (Kasada) | pending |
-| FIFA Resale | thegreatreviewer.com/api/seat-alerts/get-dashboard.php (crowdsourced FIFA marketplace scans, matchId 10229226725356) | official resale |
+| FIFA Resale | thegreatreviewer.com/api/seat-alerts/get-dashboard.php (crowdsourced FIFA marketplace scans, matchId 10229226725358) | official resale |
 
 ## Reference links
 
 - FIFA resale tracker (all 104 matches): https://thegreatreviewer.com/wc-tracker/
-- Historical price data for this match: https://www.ticketdata.com/events/855407 (Cloudflare-walled to scripts; open in a browser)
+- Historical price data (QF, Match 100): https://www.ticketdata.com/events/855407 (Cloudflare-walled to scripts; open in a browser)
 
 ```bash
 node check.js --add vividseats=1608 --add seatgeek=2118

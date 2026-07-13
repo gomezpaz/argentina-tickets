@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Price checker for Argentina vs Switzerland — World Cup QF (Match 100)
-// Sat Jul 11 2026, 8:00 PM — GEHA Field at Arrowhead Stadium, Kansas City
+// Price checker for England vs Argentina — World Cup Semifinal (Match 102)
+// Wed Jul 15 2026, 3:00 PM — Mercedes-Benz Stadium, Atlanta
 //
 // Fetches lowest listed price from TickPick and Gametime (their event pages
 // embed a "lowPrice" JSON field). Sources that block scripted fetches
@@ -23,23 +23,23 @@ const UA =
 const SOURCES = {
   tickpick: {
     label: 'TickPick',
-    url: 'https://www.tickpick.com/buy-fifa-world-cup-26-quarter-finals-w95-vs-w96-match-100-tickets-arrowhead-stadium-7-11-26-8pm/6259639/',
+    url: 'https://www.tickpick.com/buy-world-cup-26-semi-finals-england-vs-argentina-match-102-tickets-mercedes-benz-stadium-7-15-26-3pm/6259549/',
     feesIncluded: true,
   },
   gametime: {
     label: 'Gametime',
-    url: 'https://gametime.co/fifa/fifa-world-cup-w95-vs-w96-match-100-quarter-final-tickets/7-11-2026-kansas-city-mo-geha-field-at-arrowhead-stadium/events/66ac1f15ba6c613e111c87d3',
+    url: 'https://gametime.co/fifa/fifa-world-cup-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7',
     feesIncluded: true, // tracked as cheapest listing all-in (from listings.json)
   },
   vividseats: {
     label: 'Vivid Seats',
-    url: 'https://www.vividseats.com/world-cup-soccer-tickets-geha-field-at-arrowhead-stadium-7-11-2026--sports-soccer/production/5080868',
+    url: 'https://www.vividseats.com/world-cup-soccer-tickets-mercedes-benz-stadium-7-15-2026--sports-soccer/production/5080871',
     feesIncluded: true,
     manual: true, // blocks scripted fetches; injected via --add
   },
   seatgeek: {
     label: 'SeatGeek',
-    url: 'https://seatgeek.com/fifa-world-cup-tickets/international-soccer/2026-07-11-8-pm/17196238?sort=lowest_price',
+    url: 'https://seatgeek.com/fifa-world-cup-tickets/international-soccer/2026-07-15-3-pm/17174347?sort=lowest_price',
     feesIncluded: false,
     manual: true,
   },
@@ -59,7 +59,7 @@ async function fetchFifaResale() {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
   const m = (data.matches || []).find(
-    (x) => x.matchId === '10229226725356' || /argentina vs switzerland/i.test(x.matchLabel || '')
+    (x) => x.matchId === '10229226725358' || /england vs argentina/i.test(x.matchLabel || '')
   );
   if (!m || !Number.isFinite(m.minPrice)) throw new Error('match not in dashboard');
   if (m.minPrice < 50 || m.minPrice > 100000) throw new Error(`implausible price ${m.minPrice}`);
@@ -88,9 +88,9 @@ function loadData() {
   } catch {
     return {
       event: {
-        title: 'Argentina vs Switzerland — World Cup Quarterfinal (Match 100)',
-        datetime: '2026-07-11T20:00:00-05:00',
-        venue: 'GEHA Field at Arrowhead Stadium, Kansas City, MO',
+        title: 'England vs Argentina — World Cup Semifinal (Match 102)',
+        datetime: '2026-07-15T15:00:00-04:00',
+        venue: 'Mercedes-Benz Stadium, Atlanta, GA',
       },
       sources: Object.fromEntries(
         Object.entries(SOURCES).map(([k, s]) => [
@@ -124,8 +124,9 @@ async function main() {
   let gtFromListings = false;
   try {
     const lst = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'listings.json'), 'utf8'));
-    if (Date.now() - new Date(lst.fetchedAt) < 15 * 60 * 1000 && lst.listings.length) {
-      prices.gametime = Math.min(...lst.listings.map((l) => l.allIn));
+    const gt = lst.listings.filter((l) => l.source === 'gametime');
+    if (Date.now() - new Date(lst.fetchedAt) < 15 * 60 * 1000 && gt.length) {
+      prices.gametime = Math.min(...gt.map((l) => l.allIn));
       gtFromListings = true;
     }
   } catch {}
