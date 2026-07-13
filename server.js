@@ -13,20 +13,27 @@ const PORT = process.env.PORT || 4321;
 const ROOT = __dirname;
 const MIME = { '.html': 'text/html', '.json': 'application/json', '.js': 'text/javascript', '.css': 'text/css' };
 
+const EVENTS = Object.keys(require('./events'));
+const runOne = (script, ev) =>
+  new Promise((resolve) =>
+    execFile('node', [path.join(ROOT, script), `--event=${ev}`], { timeout: 90000 }, (e, so) =>
+      resolve(e ? { error: String(e) } : safeJson(so))
+    )
+  );
 let refreshing = null;
 function runRefresh() {
   if (refreshing) return refreshing;
-  refreshing = new Promise((resolve) => {
+  refreshing = (async () => {
     const out = {};
-    execFile('node', [path.join(ROOT, 'check.js')], { timeout: 90000 }, (e1, so1) => {
-      out.check = e1 ? { error: String(e1) } : safeJson(so1);
-      execFile('node', [path.join(ROOT, 'fetch-listings.js')], { timeout: 90000 }, (e2, so2) => {
-        out.listings = e2 ? { error: String(e2) } : safeJson(so2);
-        refreshing = null;
-        resolve(out);
-      });
-    });
-  });
+    for (const ev of EVENTS) {
+      out[ev] = {
+        listings: await runOne('fetch-listings.js', ev),
+        check: await runOne('check.js', ev),
+      };
+    }
+    refreshing = null;
+    return out;
+  })();
   return refreshing;
 }
 const safeJson = (s) => { try { return JSON.parse(s); } catch { return { raw: String(s).slice(0, 300) }; } };

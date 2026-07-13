@@ -1,0 +1,53 @@
+{
+ "event": {
+  "title": "World Cup Final (Match 104)",
+  "datetime": "2026-07-19T15:00:00-04:00",
+  "venue": "MetLife Stadium, East Rutherford, NJ"
+ },
+ "sources": {
+  "tickpick": {
+   "label": "TickPick",
+   "url": "https://www.tickpick.com/buy-world-cup-26-final-match-104-tickets-metlife-stadium-7-19-26-3pm/6250040/",
+   "feesIncluded": true
+  },
+  "gametime": {
+   "label": "Gametime",
+   "url": "https://gametime.co/fifa/fifa-world-cup-w101-vs-w102-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923",
+   "feesIncluded": true
+  },
+  "vividseats": {
+   "label": "Vivid Seats",
+   "url": "https://www.vividseats.com/world-cup-soccer-tickets-hard-rock-stadium-7-19-2026--sports-soccer/production/5080877",
+   "feesIncluded": true
+  },
+  "seatgeek": {
+   "label": "SeatGeek",
+   "url": "https://seatgeek.com/fifa-world-cup-tickets/international-soccer/2026-07-19-3-pm/17307574?sort=lowest_price",
+   "feesIncluded": false
+  },
+  "fifaresale": {
+   "label": "FIFA Resale",
+   "url": "https://thegreatreviewer.com/wc-tracker/",
+   "feesIncluded": true
+  }
+ },
+ "snapshots": [
+  {
+   "ts": "2026-07-13T18:25:44.641Z",
+   "prices": {
+    "gametime": 6667,
+    "tickpick": 6743,
+    "fifaresale": 7214
+   }
+  },
+  {
+   "ts": "2026-07-13T18:26:36.042Z",
+   "prices": {
+    "gametime": 6667,
+    "tickpick": 6743,
+    "vividseats": 6983,
+    "fifaresale": 7214
+   }
+  }
+ ]
+}

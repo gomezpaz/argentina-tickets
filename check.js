@@ -1,55 +1,34 @@
 #!/usr/bin/env node
-// Price checker for England vs Argentina — World Cup Semifinal (Match 102)
-// Wed Jul 15 2026, 3:00 PM — Mercedes-Benz Stadium, Atlanta
+// Multi-event World Cup ticket price checker (see events.js for the matches).
 //
 // Fetches lowest listed price from TickPick and Gametime (their event pages
 // embed a "lowPrice" JSON field). Sources that block scripted fetches
 // (Vivid Seats, SeatGeek) can be injected via --add name=price.
 //
 // Usage:
-//   node check.js                                # fetch + append snapshot
-//   node check.js --add vividseats=1608 --add seatgeek=2118
+//   node check.js                                # semifinal (default)
+//   node check.js --event=final
+//   node check.js --event=final --add vividseats=7100
 //   node check.js --dry                          # fetch, print, don't save
 
 require('./proxy-boot'); // route fetch() through the egress proxy (re-execs if needed)
 
 const fs = require('fs');
 const path = require('path');
+const EVENTS = require('./events');
 
-const DATA_FILE = path.join(__dirname, 'data', 'prices.json');
+const evArg = process.argv.find((a) => a.startsWith('--event='));
+const EVENT = EVENTS[evArg ? evArg.split('=')[1] : 'semifinal'];
+if (!EVENT) {
+  console.error(JSON.stringify({ fatal: `unknown event; valid: ${Object.keys(EVENTS).join(', ')}` }));
+  process.exit(1);
+}
+
+const DATA_FILE = path.join(__dirname, 'data', EVENT.key, 'prices.json');
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 
-const SOURCES = {
-  tickpick: {
-    label: 'TickPick',
-    url: 'https://www.tickpick.com/buy-world-cup-26-semi-finals-england-vs-argentina-match-102-tickets-mercedes-benz-stadium-7-15-26-3pm/6259549/',
-    feesIncluded: true,
-  },
-  gametime: {
-    label: 'Gametime',
-    url: 'https://gametime.co/fifa/fifa-world-cup-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7',
-    feesIncluded: true, // tracked as cheapest listing all-in (from listings.json)
-  },
-  vividseats: {
-    label: 'Vivid Seats',
-    url: 'https://www.vividseats.com/world-cup-soccer-tickets-mercedes-benz-stadium-7-15-2026--sports-soccer/production/5080871',
-    feesIncluded: true,
-    manual: true, // blocks scripted fetches; injected via --add
-  },
-  seatgeek: {
-    label: 'SeatGeek',
-    url: 'https://seatgeek.com/fifa-world-cup-tickets/international-soccer/2026-07-15-3-pm/17174347?sort=lowest_price',
-    feesIncluded: false,
-    manual: true,
-  },
-  fifaresale: {
-    label: 'FIFA Resale',
-    url: 'https://thegreatreviewer.com/wc-tracker/',
-    feesIncluded: true,
-    api: true, // thegreatreviewer.com dashboard API (crowdsourced FIFA marketplace scans)
-  },
-};
+const SOURCES = EVENT.sources;
 
 async function fetchFifaResale() {
   const res = await fetch('https://thegreatreviewer.com/api/seat-alerts/get-dashboard.php', {
@@ -58,9 +37,7 @@ async function fetchFifaResale() {
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
-  const m = (data.matches || []).find(
-    (x) => x.matchId === '10229226725358' || /england vs argentina/i.test(x.matchLabel || '')
-  );
+  const m = (data.matches || []).find((x) => x.matchId === EVENT.fifaMatchId);
   if (!m || !Number.isFinite(m.minPrice)) throw new Error('match not in dashboard');
   if (m.minPrice < 50 || m.minPrice > 100000) throw new Error(`implausible price ${m.minPrice}`);
   return Math.round(m.minPrice);
@@ -88,9 +65,9 @@ function loadData() {
   } catch {
     return {
       event: {
-        title: 'England vs Argentina — World Cup Semifinal (Match 102)',
-        datetime: '2026-07-15T15:00:00-04:00',
-        venue: 'Mercedes-Benz Stadium, Atlanta, GA',
+        title: EVENT.title,
+        datetime: EVENT.datetime,
+        venue: EVENT.venue,
       },
       sources: Object.fromEntries(
         Object.entries(SOURCES).map(([k, s]) => [
@@ -123,7 +100,7 @@ async function main() {
   // listings.json (run fetch-listings.js first); fall back to the page regex.
   let gtFromListings = false;
   try {
-    const lst = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'listings.json'), 'utf8'));
+    const lst = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', EVENT.key, 'listings.json'), 'utf8'));
     const gt = lst.listings.filter((l) => l.source === 'gametime');
     if (Date.now() - new Date(lst.fetchedAt) < 15 * 60 * 1000 && gt.length) {
       prices.gametime = Math.min(...gt.map((l) => l.allIn));
@@ -177,6 +154,7 @@ async function main() {
   }
 
   const report = {
+    event: EVENT.key,
     saved: !dry,
     snapshotCount: data.snapshots.length,
     prices,

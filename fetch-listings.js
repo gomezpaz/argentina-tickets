@@ -1,21 +1,29 @@
 #!/usr/bin/env node
-// Fetch per-listing inventory for the ENG-ARG semifinal from Gametime's event page
-// (embedded window.__data redux state) and compute group-seating options
-// for a party of 8: all together, 4+4, and cheapest-any-split.
+// Fetch per-listing inventory (Gametime embedded window.__data redux state +
+// FIFA official resale seats) for one of the events in events.js and compute
+// group-seating options for a party of 8: all together, 4+4, cheapest-any-split.
 //
-// Writes data/listings.json (latest only, overwritten each run).
+// Usage: node fetch-listings.js [--event=final]   (default: semifinal)
+// Writes data/<event>/listings.json (latest only, overwritten each run).
 // Prices are per-ticket. `allIn` includes Gametime fees; `prefee` doesn't.
 
 require('./proxy-boot'); // route fetch() through the egress proxy (re-execs if needed)
 
 const fs = require('fs');
 const path = require('path');
+const EVENTS = require('./events');
 
-const OUT = path.join(__dirname, 'data', 'listings.json');
+const evArg = process.argv.find((a) => a.startsWith('--event='));
+const EVENT = EVENTS[evArg ? evArg.split('=')[1] : 'semifinal'];
+if (!EVENT) {
+  console.error(JSON.stringify({ fatal: `unknown event; valid: ${Object.keys(EVENTS).join(', ')}` }));
+  process.exit(1);
+}
+
+const OUT = path.join(__dirname, 'data', EVENT.key, 'listings.json');
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
-const EVENT_URL =
-  'https://gametime.co/fifa/fifa-world-cup-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7';
+const EVENT_URL = EVENT.sources.gametime.url;
 const PARTY = 8;
 
 async function fetchGametimeListings() {
@@ -63,7 +71,7 @@ async function fetchFifaSeats() {
   });
   if (!res.ok) throw new Error(`fifa HTTP ${res.status}`);
   const data = await res.json();
-  const m = (data.matches || []).find((x) => x.matchId === '10229226725358');
+  const m = (data.matches || []).find((x) => x.matchId === EVENT.fifaMatchId);
   if (!m || !Array.isArray(m.seats) || !m.seats.length) throw new Error('no fifa seat data');
 
   const byRow = {};
@@ -173,16 +181,19 @@ async function main() {
   if (!listings.length) throw new Error('all listing sources failed');
   const combos = computeCombos(listings);
   const out = {
+    event: EVENT.key,
     fetchedAt: new Date().toISOString(),
     party: PARTY,
     counts: { gametime: gametime.length, fifaresale: fifa.length },
     combos,
     listings: listings.sort((a, b) => a.allIn - b.allIn),
   };
+  fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(out, null, 1));
   console.log(
     JSON.stringify(
       {
+        event: EVENT.key,
         listings: listings.length,
         cheapestAllIn: listings[0] ? Math.min(...listings.map((l) => l.allIn)) : null,
         together8: combos.together8.length,
