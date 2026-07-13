@@ -1,13 +1,33 @@
 {
  "event": "final",
- "fetchedAt": "2026-07-13T20:01:21.324Z",
+ "fetchedAt": "2026-07-13T20:06:32.838Z",
  "party": 8,
  "counts": {
-  "gametime": 248,
+  "gametime": 250,
   "fifaresale": 471
  },
  "combos": {
   "together8": [
+   {
+    "id": "6a5215ca952c562d3ffd2eee",
+    "source": "gametime",
+    "section": "334",
+    "sectionGroup": "Middle",
+    "row": "12",
+    "lots": [
+     2,
+     4,
+     6,
+     8,
+     10
+    ],
+    "allIn": 9258,
+    "prefee": 8050,
+    "x": 1836.37222,
+    "y": 1714.82811,
+    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/334@4x.jpg",
+    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5215ca952c562d3ffd2eee"
+   },
    {
     "id": "6a4e6a1b239cabfa2c19db71",
     "source": "gametime",
@@ -175,28 +195,6 @@
    {
     "listings": [
      "6a5041dc63d38d17e79fd266",
-     "6a545f4805175b96f5fe9763"
-    ],
-    "totalAllIn": 55852,
-    "perTicketAvg": 6981.5,
-    "sameSection": false,
-    "distance": 1986,
-    "label": "Sec 350 row 24 + Sec 332 row 26"
-   },
-   {
-    "listings": [
-     "6a4d8d75239cabfa2cd26e2c",
-     "6a545f4805175b96f5fe9763"
-    ],
-    "totalAllIn": 55852,
-    "perTicketAvg": 6981.5,
-    "sameSection": false,
-    "distance": 1921,
-    "label": "Sec 349 row 24 + Sec 332 row 26"
-   },
-   {
-    "listings": [
-     "6a5041dc63d38d17e79fd266",
      "6a51948fd1cff6d3399dfd87"
     ],
     "totalAllIn": 56016,
@@ -218,39 +216,72 @@
    },
    {
     "listings": [
-     "6a545f4805175b96f5fe9763",
-     "6a51948fd1cff6d3399dfd87"
-    ],
-    "totalAllIn": 56044,
-    "perTicketAvg": 7005.5,
-    "sameSection": false,
-    "distance": 195,
-    "label": "Sec 332 row 26 + Sec 334 row 25"
-   },
-   {
-    "listings": [
      "6a5041dc63d38d17e79fd266",
-     "6a54efa7c136841a1d6c27cd"
+     "6a545f4805175b96f5fe9763"
     ],
-    "totalAllIn": 57720,
-    "perTicketAvg": 7215,
+    "totalAllIn": 56448,
+    "perTicketAvg": 7056,
     "sameSection": false,
-    "distance": 764,
-    "label": "Sec 350 row 24 + Sec 344 row 18"
+    "distance": 1986,
+    "label": "Sec 350 row 24 + Sec 332 row 26"
    },
    {
     "listings": [
      "6a4d8d75239cabfa2cd26e2c",
-     "6a54efa7c136841a1d6c27cd"
+     "6a545f4805175b96f5fe9763"
     ],
-    "totalAllIn": 57720,
-    "perTicketAvg": 7215,
+    "totalAllIn": 56448,
+    "perTicketAvg": 7056,
     "sameSection": false,
-    "distance": 637,
-    "label": "Sec 349 row 24 + Sec 344 row 18"
+    "distance": 1921,
+    "label": "Sec 349 row 24 + Sec 332 row 26"
+   },
+   {
+    "listings": [
+     "6a51948fd1cff6d3399dfd87",
+     "6a545f4805175b96f5fe9763"
+    ],
+    "totalAllIn": 56640,
+    "perTicketAvg": 7080,
+    "sameSection": false,
+    "distance": 195,
+    "label": "Sec 334 row 25 + Sec 332 row 26"
+   },
+   {
+    "listings": [
+     "6a5041dc63d38d17e79fd266",
+     "6a53047399ef3af31052d54b"
+    ],
+    "totalAllIn": 57876,
+    "perTicketAvg": 7234.5,
+    "sameSection": false,
+    "distance": 1787,
+    "label": "Sec 350 row 24 + Sec 334 row 17"
+   },
+   {
+    "listings": [
+     "6a4d8d75239cabfa2cd26e2c",
+     "6a53047399ef3af31052d54b"
+    ],
+    "totalAllIn": 57876,
+    "perTicketAvg": 7234.5,
+    "sameSection": false,
+    "distance": 1716,
+    "label": "Sec 349 row 24 + Sec 334 row 17"
    }
   ],
   "split44closest": [
+   {
+    "listings": [
+     "6a53047399ef3af31052d54b",
+     "6a5215ca952c562d3ffd2eee"
+    ],
+    "totalAllIn": 66996,
+    "perTicketAvg": 8374.5,
+    "sameSection": true,
+    "distance": 30,
+    "label": "Sec 334 row 17 + Sec 334 row 12"
+   },
    {
     "listings": [
      "6a54068d3050ebd9c2d54ad0",
@@ -272,6 +303,28 @@
     "sameSection": true,
     "distance": 54,
     "label": "Sec 334 row 25 + Sec 334 row 17"
+   },
+   {
+    "listings": [
+     "6a51948fd1cff6d3399dfd87",
+     "6a5215ca952c562d3ffd2eee"
+    ],
+    "totalAllIn": 65136,
+    "perTicketAvg": 8142,
+    "sameSection": true,
+    "distance": 82,
+    "label": "Sec 334 row 25 + Sec 334 row 12"
+   },
+   {
+    "listings": [
+     "6a511bd7d741b793a0d1f6fa",
+     "6a5100d863d38d17e7f901e2"
+    ],
+    "totalAllIn": 70264,
+    "perTicketAvg": 8783,
+    "sameSection": false,
+    "distance": 109,
+    "label": "Sec 343 row 4 + Sec 344 row 2"
    },
    {
     "listings": [
@@ -305,39 +358,6 @@
     "sameSection": false,
     "distance": 124,
     "label": "Sec 350 row 24 + Sec 301 row 17"
-   },
-   {
-    "listings": [
-     "6a54efa7c136841a1d6c27cd",
-     "6a10b7c43828919bf0720af9"
-    ],
-    "totalAllIn": 63848,
-    "perTicketAvg": 7981,
-    "sameSection": false,
-    "distance": 124,
-    "label": "Sec 344 row 18 + Sec 345 row 22"
-   },
-   {
-    "listings": [
-     "6a51397e1c6a5ae747fc3aba",
-     "6a550e49d4f74f1780063511"
-    ],
-    "totalAllIn": 62020,
-    "perTicketAvg": 7752.5,
-    "sameSection": false,
-    "distance": 126,
-    "label": "Sec 307 row 25 + Sec 308 row 23"
-   },
-   {
-    "listings": [
-     "6a51397ecd187bef0d3ec171",
-     "6a5044aa63d38d17e774fad9"
-    ],
-    "totalAllIn": 61272,
-    "perTicketAvg": 7659,
-    "sameSection": false,
-    "distance": 127,
-    "label": "Sec 306 row 16 + Sec 305 row 18"
    }
   ],
   "anySplit": {
@@ -486,23 +506,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5541ac9d3848621b4615b6"
   },
   {
-   "id": "6a545f4805175b96f5fe9763",
-   "source": "gametime",
-   "section": "332",
-   "sectionGroup": "Middle",
-   "row": "26",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 6985,
-   "prefee": 6073,
-   "x": 2064.07937,
-   "y": 1724.09973,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/332@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a545f4805175b96f5fe9763"
-  },
-  {
    "id": "6a51948fd1cff6d3399dfd87",
    "source": "gametime",
    "section": "334",
@@ -518,56 +521,6 @@
    "y": 1784.76315,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/334@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51948fd1cff6d3399dfd87"
-  },
-  {
-   "id": "6a4d8be4239cabfa2c602b2b",
-   "source": "gametime",
-   "section": "307",
-   "sectionGroup": "Upper",
-   "row": "17",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 7035,
-   "prefee": 6117,
-   "x": 490.55553,
-   "y": 258.51892,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/307@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4d8be4239cabfa2c602b2b"
-  },
-  {
-   "id": "6a5417b885a1570330f7ff02",
-   "source": "gametime",
-   "section": "343",
-   "sectionGroup": "Upper",
-   "row": "16",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 7075,
-   "prefee": 6152,
-   "x": 706.50603,
-   "y": 1737.27485,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/343@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5417b885a1570330f7ff02"
-  },
-  {
-   "id": "6a4d8be4239cabfa2c60296d",
-   "source": "gametime",
-   "section": "321",
-   "sectionGroup": "Upper",
-   "row": "15",
-   "lots": [
-    2
-   ],
-   "allIn": 7121,
-   "prefee": 6191,
-   "x": 2126.00868,
-   "y": 348.50241,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/321@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4d8be4239cabfa2c60296d"
   },
   {
    "id": "6a4d8c59239cabfa2c811c5c",
@@ -602,20 +555,20 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a551f72881446de54f4767f"
   },
   {
-   "id": "6a43fe4c92ae6b689e64e259",
+   "id": "6a4d8be4239cabfa2c60296d",
    "source": "gametime",
-   "section": "333",
+   "section": "321",
    "sectionGroup": "Upper",
-   "row": "18",
+   "row": "15",
    "lots": [
     2
    ],
-   "allIn": 7132,
-   "prefee": 6201,
-   "x": 1952.00485,
-   "y": 1723.53627,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/333@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a43fe4c92ae6b689e64e259"
+   "allIn": 7121,
+   "prefee": 6191,
+   "x": 2126.00868,
+   "y": 348.50241,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/321@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4d8be4239cabfa2c60296d"
   },
   {
    "id": "6a495fbaf7e67eb37647787d",
@@ -632,6 +585,39 @@
    "y": 106.98816,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/317@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a495fbaf7e67eb37647787d"
+  },
+  {
+   "id": "6a43fe4c92ae6b689e64e259",
+   "source": "gametime",
+   "section": "333",
+   "sectionGroup": "Upper",
+   "row": "18",
+   "lots": [
+    2
+   ],
+   "allIn": 7132,
+   "prefee": 6201,
+   "x": 1952.00485,
+   "y": 1723.53627,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/333@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a43fe4c92ae6b689e64e259"
+  },
+  {
+   "id": "6a545f4805175b96f5fe9763",
+   "source": "gametime",
+   "section": "332",
+   "sectionGroup": "Middle",
+   "row": "26",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 7134,
+   "prefee": 6203,
+   "x": 2064.07937,
+   "y": 1724.09973,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/332@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a545f4805175b96f5fe9763"
   },
   {
    "id": "6a545a1263d38d17e77f586b",
@@ -668,6 +654,23 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a53930063d38d17e76d5ffd"
   },
   {
+   "id": "6a4d8be4239cabfa2c602b2b",
+   "source": "gametime",
+   "section": "307",
+   "sectionGroup": "Upper",
+   "row": "17",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 7179,
+   "prefee": 6241,
+   "x": 490.55553,
+   "y": 258.51892,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/307@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4d8be4239cabfa2c602b2b"
+  },
+  {
    "id": "6a495ff797734a81b92960f6",
    "source": "gametime",
    "section": "318",
@@ -701,6 +704,23 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54f1e03bc02338a4c72b15"
   },
   {
+   "id": "6a5417b885a1570330f7ff02",
+   "source": "gametime",
+   "section": "343",
+   "sectionGroup": "Upper",
+   "row": "16",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 7294,
+   "prefee": 6342,
+   "x": 706.50603,
+   "y": 1737.27485,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/343@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5417b885a1570330f7ff02"
+  },
+  {
    "id": "6a55360218c7d5b3fcff5ca9",
    "source": "gametime",
    "section": "303",
@@ -731,39 +751,6 @@
    "y": 1337.70751,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/348@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4d98ca239cabfa2c57cd52"
-  },
-  {
-   "id": "6a5351deccfb99afd0e0a1e2",
-   "source": "gametime",
-   "section": "321",
-   "sectionGroup": "Middle",
-   "row": "7",
-   "lots": [
-    2
-   ],
-   "allIn": 7429,
-   "prefee": 6459,
-   "x": 2087.47893,
-   "y": 377.23423,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/321@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5351deccfb99afd0e0a1e2"
-  },
-  {
-   "id": "6a54efa7c136841a1d6c27cd",
-   "source": "gametime",
-   "section": "344",
-   "sectionGroup": "Middle",
-   "row": "18",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 7452,
-   "prefee": 6479,
-   "x": 596.87,
-   "y": 1715.19186,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/344@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54efa7c136841a1d6c27cd"
   },
   {
    "id": "6a54127763d38d17e77d1828",
@@ -831,21 +818,36 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a50dfd129dbb1e0d259aa8e"
   },
   {
-   "id": "6a54ee01301041c45a8f8ebd",
+   "id": "6a518fd635f3cd8cd93d428a",
    "source": "gametime",
-   "section": "342",
+   "section": "344",
    "sectionGroup": "Middle",
-   "row": "18",
+   "row": "16",
    "lots": [
-    1,
     2
    ],
-   "allIn": 7547,
-   "prefee": 6562,
-   "x": 828.14121,
-   "y": 1776.87373,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/342@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54ee01301041c45a8f8ebd"
+   "allIn": 7519,
+   "prefee": 6537,
+   "x": 600.5662,
+   "y": 1703.94481,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/344@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a518fd635f3cd8cd93d428a"
+  },
+  {
+   "id": "6a3c725f97c791990d033b1e",
+   "source": "gametime",
+   "section": "320",
+   "sectionGroup": "Upper",
+   "row": "15",
+   "lots": [
+    2
+   ],
+   "allIn": 7549,
+   "prefee": 6563,
+   "x": 2040.19178,
+   "y": 260.46868,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/320@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a3c725f97c791990d033b1e"
   },
   {
    "id": "6a52c77b1d2ee2d25218fa24",
@@ -864,22 +866,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a52c77b1d2ee2d25218fa24"
   },
   {
-   "id": "6a3c725f97c791990d033b1e",
-   "source": "gametime",
-   "section": "320",
-   "sectionGroup": "Upper",
-   "row": "15",
-   "lots": [
-    2
-   ],
-   "allIn": 7559,
-   "prefee": 6572,
-   "x": 2040.19178,
-   "y": 260.46868,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/320@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a3c725f97c791990d033b1e"
-  },
-  {
    "id": "6a54f01d4fabc16db27efad3",
    "source": "gametime",
    "section": "336",
@@ -894,23 +880,6 @@
    "y": 1846.00075,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/336@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54f01d4fabc16db27efad3"
-  },
-  {
-   "id": "6a5411c763d38d17e7497347",
-   "source": "gametime",
-   "section": "346",
-   "sectionGroup": "Upper",
-   "row": "22",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 7564,
-   "prefee": 6576,
-   "x": 381.88135,
-   "y": 1571.58172,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/346@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5411c763d38d17e7497347"
   },
   {
    "id": "6a35dbac97c791990dd4cbc3",
@@ -928,6 +897,23 @@
    "y": 1752.43477,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/333@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a35dbac97c791990dd4cbc3"
+  },
+  {
+   "id": "6a5411c763d38d17e7497347",
+   "source": "gametime",
+   "section": "346",
+   "sectionGroup": "Upper",
+   "row": "22",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 7564,
+   "prefee": 6576,
+   "x": 381.88135,
+   "y": 1571.58172,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/346@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5411c763d38d17e7497347"
   },
   {
    "id": "6a51a57563d38d17e7390bcf",
@@ -1116,6 +1102,39 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a53aa9f63d38d17e7eeebfd"
   },
   {
+   "id": "6a5351deccfb99afd0e0a1e2",
+   "source": "gametime",
+   "section": "321",
+   "sectionGroup": "Middle",
+   "row": "7",
+   "lots": [
+    2
+   ],
+   "allIn": 7659,
+   "prefee": 6659,
+   "x": 2087.47893,
+   "y": 377.23423,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/321@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5351deccfb99afd0e0a1e2"
+  },
+  {
+   "id": "6a54ee01301041c45a8f8ebd",
+   "source": "gametime",
+   "section": "342",
+   "sectionGroup": "Middle",
+   "row": "18",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 7698,
+   "prefee": 6693,
+   "x": 828.14121,
+   "y": 1776.87373,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/342@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54ee01301041c45a8f8ebd"
+  },
+  {
    "id": "6a5044aa63d38d17e774fad9",
    "source": "gametime",
    "section": "305",
@@ -1149,22 +1168,6 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a54c117758f25c43e8f4da7",
-   "source": "gametime",
-   "section": "334",
-   "sectionGroup": "Upper",
-   "row": "11",
-   "lots": [
-    2
-   ],
-   "allIn": 7780,
-   "prefee": 6765,
-   "x": 1833.38314,
-   "y": 1709.34323,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/334@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54c117758f25c43e8f4da7"
   },
   {
    "id": "6a5511ad3bc02338a4c73c3a",
@@ -1407,21 +1410,20 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a50fec127ee0b6f2a921cea"
   },
   {
-   "id": "6a5135e50e5c12c5f92e0a7d",
+   "id": "6a55090b744cb114b81fbf8f",
    "source": "gametime",
-   "section": "335",
-   "sectionGroup": "Middle",
-   "row": "17",
+   "section": "334",
+   "sectionGroup": "Upper",
+   "row": "7",
    "lots": [
-    2,
-    4
+    2
    ],
-   "allIn": 8070,
-   "prefee": 7016,
-   "x": 1718.36493,
-   "y": 1768.93846,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/335@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5135e50e5c12c5f92e0a7d"
+   "allIn": 8145,
+   "prefee": 7082,
+   "x": 1828.56323,
+   "y": 1685.9857,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/334@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a55090b744cb114b81fbf8f"
   },
   {
    "id": "6a5169729a036a7612bb0498",
@@ -1521,6 +1523,23 @@
    "y": 951.38157,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/301@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a53a5f063d38d17e79faaa5"
+  },
+  {
+   "id": "6a5135e50e5c12c5f92e0a7d",
+   "source": "gametime",
+   "section": "335",
+   "sectionGroup": "Middle",
+   "row": "17",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 8241,
+   "prefee": 7165,
+   "x": 1718.36493,
+   "y": 1768.93846,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/335@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5135e50e5c12c5f92e0a7d"
   },
   {
    "id": "fifa-347-26-12",
@@ -1623,20 +1642,21 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a53a4cb63d38d17e750feb4"
   },
   {
-   "id": "6a5100d863d38d17e7f8fd6f",
+   "id": "6a510ad10e5c12c5f92de935",
    "source": "gametime",
-   "section": "344",
-   "sectionGroup": "Upper",
-   "row": "3",
+   "section": "320",
+   "sectionGroup": "Middle",
+   "row": "7",
    "lots": [
+    1,
     2
    ],
-   "allIn": 8377,
-   "prefee": 7283,
-   "x": 627.18288,
-   "y": 1614.39394,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/344@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5100d863d38d17e7f8fd6f"
+   "allIn": 8411,
+   "prefee": 7313,
+   "x": 2014.84178,
+   "y": 300.62082,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/320@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a510ad10e5c12c5f92de935"
   },
   {
    "id": "6a5100e263d38d17e7fbfc53",
@@ -1647,28 +1667,12 @@
    "lots": [
     2
    ],
-   "allIn": 8445,
-   "prefee": 7343,
+   "allIn": 8432,
+   "prefee": 7332,
    "x": 1915.58812,
    "y": 305.74015,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/319@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5100e263d38d17e7fbfc53"
-  },
-  {
-   "id": "6a51075063d38d17e7b79e78",
-   "source": "gametime",
-   "section": "320",
-   "sectionGroup": "Upper",
-   "row": "3",
-   "lots": [
-    2
-   ],
-   "allIn": 8454,
-   "prefee": 7350,
-   "x": 1976.77729,
-   "y": 320.46173,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/320@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51075063d38d17e7b79e78"
   },
   {
    "id": "fifa-319-24-14",
@@ -1866,22 +1870,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a55385d63d38d17e7b99fee",
-   "source": "gametime",
-   "section": "302",
-   "sectionGroup": "Upper",
-   "row": "6",
-   "lots": [
-    2
-   ],
-   "allIn": 8708,
-   "prefee": 7571,
-   "x": 299.1003,
-   "y": 844.18136,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/302@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a55385d63d38d17e7b99fee"
-  },
-  {
    "id": "6a30c30f97c791990d5449b6",
    "source": "gametime",
    "section": "318",
@@ -1897,6 +1885,22 @@
    "y": 139.41705,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/318@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a30c30f97c791990d5449b6"
+  },
+  {
+   "id": "6a51074f63d38d17e7b77da9",
+   "source": "gametime",
+   "section": "320",
+   "sectionGroup": "Upper",
+   "row": "2",
+   "lots": [
+    2
+   ],
+   "allIn": 8775,
+   "prefee": 7630,
+   "x": 1977.17236,
+   "y": 327.18843,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/320@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51074f63d38d17e7b77da9"
   },
   {
    "id": "6a538a3c03a8cf8ef16716ad",
@@ -1932,6 +1936,23 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4e991486c2d85050c86af2"
   },
   {
+   "id": "6a5100d863d38d17e7f901e2",
+   "source": "gametime",
+   "section": "344",
+   "sectionGroup": "Upper",
+   "row": "2",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 8943,
+   "prefee": 7776,
+   "x": 628.16523,
+   "y": 1608.76737,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/344@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5100d863d38d17e7f901e2"
+  },
+  {
    "id": "fifa-326-23-13-x2",
    "source": "fifaresale",
    "section": "326",
@@ -1949,22 +1970,6 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a4d286962f52bd548336e36",
-   "source": "gametime",
-   "section": "313",
-   "sectionGroup": "Middle",
-   "row": "25",
-   "lots": [
-    2
-   ],
-   "allIn": 8947,
-   "prefee": 7779,
-   "x": 1182.3367,
-   "y": 72.40789,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/313@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4d286962f52bd548336e36"
   },
   {
    "id": "fifa-328-20-25-x4",
@@ -2048,23 +2053,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4e9914a61ccc713b533f96"
   },
   {
-   "id": "6a52dbf863d38d17e7fe939d",
-   "source": "gametime",
-   "section": "326",
-   "sectionGroup": "Middle",
-   "row": "22",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 9077,
-   "prefee": 7892,
-   "x": 2350.3411,
-   "y": 944.00675,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/326@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a52dbf863d38d17e7fe939d"
-  },
-  {
    "id": "6a2ff23997c791990db64786",
    "source": "gametime",
    "section": "331",
@@ -2080,6 +2068,23 @@
    "y": 1591.17255,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/331@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a2ff23997c791990db64786"
+  },
+  {
+   "id": "6a52dbf863d38d17e7fe939d",
+   "source": "gametime",
+   "section": "326",
+   "sectionGroup": "Middle",
+   "row": "22",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 9077,
+   "prefee": 7892,
+   "x": 2350.3411,
+   "y": 944.00675,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/326@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a52dbf863d38d17e7fe939d"
   },
   {
    "id": "6a5434a763d38d17e702df96",
@@ -2263,6 +2268,26 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a5215ca952c562d3ffd2eee",
+   "source": "gametime",
+   "section": "334",
+   "sectionGroup": "Middle",
+   "row": "12",
+   "lots": [
+    2,
+    4,
+    6,
+    8,
+    10
+   ],
+   "allIn": 9258,
+   "prefee": 8050,
+   "x": 1836.37222,
+   "y": 1714.82811,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/334@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5215ca952c562d3ffd2eee"
   },
   {
    "id": "6a4e6a1b239cabfa2c19db71",
@@ -2833,6 +2858,22 @@
    "y": 1766.94233,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/CAT4@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5295120154af5a4bcc2099"
+  },
+  {
+   "id": "6a3d8fb3239cabfa2cae6c90",
+   "source": "gametime",
+   "section": "313",
+   "sectionGroup": "Middle",
+   "row": "22",
+   "lots": [
+    2
+   ],
+   "allIn": 10036,
+   "prefee": 8726,
+   "x": 1205.01364,
+   "y": 89.87022,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/313@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a3d8fb3239cabfa2cae6c90"
   },
   {
    "id": "fifa-331-19-23-x2",
@@ -3656,23 +3697,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a538d97fdd412084653fccd"
   },
   {
-   "id": "6a513eae63d38d17e7905641",
-   "source": "gametime",
-   "section": "148",
-   "sectionGroup": "Lower",
-   "row": "32",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 11232,
-   "prefee": 9766,
-   "x": 699.30476,
-   "y": 1159.68563,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/148@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a513eae63d38d17e7905641"
-  },
-  {
    "id": "6a51497a63d38d17e79f13ef",
    "source": "gametime",
    "section": "315",
@@ -3688,6 +3712,23 @@
    "y": 105.8755,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/315@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51497a63d38d17e79f13ef"
+  },
+  {
+   "id": "6a513eae63d38d17e7905641",
+   "source": "gametime",
+   "section": "148",
+   "sectionGroup": "Lower",
+   "row": "32",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 11232,
+   "prefee": 9766,
+   "x": 699.30476,
+   "y": 1159.68563,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/148@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a513eae63d38d17e7905641"
   },
   {
    "id": "6a46fad6950876b720929fa5",
@@ -3780,6 +3821,23 @@
    "y": 1058.35232,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/149@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a10b7af3828919bf06d0f54"
+  },
+  {
+   "id": "6a51b5e863d38d17e7f42f10",
+   "source": "gametime",
+   "section": "302",
+   "sectionGroup": "Upper",
+   "row": "5",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 11345,
+   "prefee": 9865,
+   "x": 305.11641,
+   "y": 844.39775,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/302@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51b5e863d38d17e7f42f10"
   },
   {
    "id": "fifa-334-4-11",
@@ -4373,22 +4431,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a543bb363d38d17e70168f7",
-   "source": "gametime",
-   "section": "128",
-   "sectionGroup": "Lower",
-   "row": "11",
-   "lots": [
-    2
-   ],
-   "allIn": 12353,
-   "prefee": 10741,
-   "x": 1749.10692,
-   "y": 1038.49851,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/128@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a543bb363d38d17e70168f7"
-  },
-  {
    "id": "fifa-320-15-2-x2",
    "source": "fifaresale",
    "section": "320",
@@ -4590,6 +4632,22 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a4f399ef76523846a620241",
+   "source": "gametime",
+   "section": "121",
+   "sectionGroup": "Lower",
+   "row": "35",
+   "lots": [
+    2
+   ],
+   "allIn": 12607,
+   "prefee": 10962,
+   "x": 1789.76477,
+   "y": 611.1278,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/121@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4f399ef76523846a620241"
   },
   {
    "id": "6a506cdd29dbb1e0d25944a8",
@@ -5020,21 +5078,20 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a51244ff978170987fa430b",
+   "id": "6a507642c10230a886265ab5",
    "source": "gametime",
    "section": "146",
    "sectionGroup": "Lower",
-   "row": "32",
+   "row": "35",
    "lots": [
-    2,
-    4
+    2
    ],
-   "allIn": 13200,
-   "prefee": 11478,
-   "x": 747.84425,
-   "y": 1270.5727,
+   "allIn": 13180,
+   "prefee": 11460,
+   "x": 731.52383,
+   "y": 1277.35046,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/146@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51244ff978170987fa430b"
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a507642c10230a886265ab5"
   },
   {
    "id": "fifa-310-25-10-x2",
@@ -5145,22 +5202,6 @@
    "y": 756.52244,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/104@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5115bc63d38d17e7a9ae1a"
-  },
-  {
-   "id": "6a4f399ef76523846a620241",
-   "source": "gametime",
-   "section": "121",
-   "sectionGroup": "Lower",
-   "row": "35",
-   "lots": [
-    2
-   ],
-   "allIn": 13307,
-   "prefee": 11571,
-   "x": 1789.76477,
-   "y": 611.1278,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/121@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4f399ef76523846a620241"
   },
   {
    "id": "fifa-319-14-10",
@@ -5275,22 +5316,6 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a518fcd0d6ca03d89147cc6",
-   "source": "gametime",
-   "section": "128",
-   "sectionGroup": "Lower",
-   "row": "17",
-   "lots": [
-    2
-   ],
-   "allIn": 13611,
-   "prefee": 11834,
-   "x": 1784.86815,
-   "y": 1043.4074,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/128@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a518fcd0d6ca03d89147cc6"
   },
   {
    "id": "6a37fd2197c791990d0ab870",
@@ -5670,6 +5695,38 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a55099e63d38d17e788531a"
   },
   {
+   "id": "6a518fcd0d6ca03d89147cc6",
+   "source": "gametime",
+   "section": "128",
+   "sectionGroup": "Lower",
+   "row": "17",
+   "lots": [
+    2
+   ],
+   "allIn": 14348,
+   "prefee": 12476,
+   "x": 1784.86815,
+   "y": 1043.4074,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/128@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a518fcd0d6ca03d89147cc6"
+  },
+  {
+   "id": "6a506bfb84411cfe7875713c",
+   "source": "gametime",
+   "section": "128",
+   "sectionGroup": "Lower",
+   "row": "10",
+   "lots": [
+    2
+   ],
+   "allIn": 14348,
+   "prefee": 12476,
+   "x": 1743.33549,
+   "y": 1037.3555,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/128@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a506bfb84411cfe7875713c"
+  },
+  {
    "id": "fifa-310-26-8-x2",
    "source": "fifaresale",
    "section": "310",
@@ -5895,22 +5952,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a42e0625de65f456a561211"
   },
   {
-   "id": "6a4ea6076f3dc481bcb96a81",
-   "source": "gametime",
-   "section": "231A",
-   "sectionGroup": "Middle",
-   "row": "8",
-   "lots": [
-    2
-   ],
-   "allIn": 14413,
-   "prefee": 12532,
-   "x": 1936.9704,
-   "y": 1379.99427,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/231A@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4ea6076f3dc481bcb96a81"
-  },
-  {
    "id": "6a501cbb210d8bde6bbedb34",
    "source": "gametime",
    "section": "123",
@@ -5996,6 +6037,22 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a4ea6076f3dc481bcb96a81",
+   "source": "gametime",
+   "section": "231A",
+   "sectionGroup": "Middle",
+   "row": "8",
+   "lots": [
+    2
+   ],
+   "allIn": 14720,
+   "prefee": 12799,
+   "x": 1936.9704,
+   "y": 1379.99427,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/231A@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4ea6076f3dc481bcb96a81"
   },
   {
    "id": "fifa-316-13-16",
@@ -6101,6 +6158,22 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a5544fc63d38d17e74e2135",
+   "source": "gametime",
+   "section": "230A",
+   "sectionGroup": "Middle",
+   "row": "4",
+   "lots": [
+    2
+   ],
+   "allIn": 14799,
+   "prefee": 12868,
+   "x": 1958.18783,
+   "y": 1279.95657,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/230A@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5544fc63d38d17e74e2135"
   },
   {
    "id": "fifa-316-22-26",
@@ -6512,22 +6585,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a4f0377239cabfa2c5ae90d",
-   "source": "gametime",
-   "section": "144",
-   "sectionGroup": "Lower",
-   "row": "28",
-   "lots": [
-    2
-   ],
-   "allIn": 15363,
-   "prefee": 13358,
-   "x": 839.7899,
-   "y": 1325.2944,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/144@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4f0377239cabfa2c5ae90d"
-  },
-  {
    "id": "fifa-301-5-1-x3",
    "source": "fifaresale",
    "section": "301",
@@ -6563,6 +6620,22 @@
    "y": 1039.60902,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/149@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a39c0760d1072368e2537c8"
+  },
+  {
+   "id": "6a4f0377239cabfa2c5ae90d",
+   "source": "gametime",
+   "section": "144",
+   "sectionGroup": "Lower",
+   "row": "28",
+   "lots": [
+    2
+   ],
+   "allIn": 15413,
+   "prefee": 13402,
+   "x": 839.7899,
+   "y": 1325.2944,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/144@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4f0377239cabfa2c5ae90d"
   },
   {
    "id": "fifa-334-5-15-x4",
@@ -6771,23 +6844,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a504c8c63d38d17e7e05217"
   },
   {
-   "id": "6a51ba8363d38d17e745efe1",
-   "source": "gametime",
-   "section": "206A",
-   "sectionGroup": "Middle",
-   "row": "1",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 15883,
-   "prefee": 13810,
-   "x": 638.38097,
-   "y": 539.81982,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/206A@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51ba8363d38d17e745efe1"
-  },
-  {
    "id": "6a50557663d38d17e798fdac",
    "source": "gametime",
    "section": "219",
@@ -6803,6 +6859,23 @@
    "y": 365.26483,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/219@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a50557663d38d17e798fdac"
+  },
+  {
+   "id": "6a51ba8363d38d17e745efe1",
+   "source": "gametime",
+   "section": "206A",
+   "sectionGroup": "Middle",
+   "row": "1",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 15883,
+   "prefee": 13810,
+   "x": 638.38097,
+   "y": 539.81982,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/206A@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51ba8363d38d17e745efe1"
   },
   {
    "id": "6a3fdf639dfbb9cc272f136c",
@@ -7495,20 +7568,20 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5505d3e6dc5293cc0f1cd6"
   },
   {
-   "id": "6a4a6480239cabfa2cd2fe9d",
+   "id": "6a10b7f73828919bf07ebd4c",
    "source": "gametime",
-   "section": "121",
-   "sectionGroup": "Lower",
-   "row": "45",
+   "section": "304",
+   "sectionGroup": "Upper",
+   "row": "24",
    "lots": [
     2
    ],
-   "allIn": 17017,
-   "prefee": 14797,
-   "x": 1839.94781,
-   "y": 580.34497,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/121@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4a6480239cabfa2cd2fe9d"
+   "allIn": 17016,
+   "prefee": 14796,
+   "x": 252.78773,
+   "y": 572.91154,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/304@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a10b7f73828919bf07ebd4c"
   },
   {
    "id": "6a511f7f63d38d17e731caab",
@@ -7528,6 +7601,22 @@
    "y": 516.43205,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/221A@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a511f7f63d38d17e731caab"
+  },
+  {
+   "id": "6a4a6480239cabfa2cd2fe9d",
+   "source": "gametime",
+   "section": "121",
+   "sectionGroup": "Lower",
+   "row": "45",
+   "lots": [
+    2
+   ],
+   "allIn": 17017,
+   "prefee": 14797,
+   "x": 1839.94781,
+   "y": 580.34497,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/121@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4a6480239cabfa2cd2fe9d"
   },
   {
    "id": "fifa-331-23-1-x2",
@@ -8157,23 +8246,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a515f7d63d38d17e71a1e21"
   },
   {
-   "id": "6a509a6163d38d17e7045c3e",
-   "source": "gametime",
-   "section": "304",
-   "sectionGroup": "Upper",
-   "row": "22",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 17471,
-   "prefee": 15191,
-   "x": 264.21006,
-   "y": 576.2901,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/304@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a509a6163d38d17e7045c3e"
-  },
-  {
    "id": "6a4c8ae0239cabfa2ce80b23",
    "source": "gametime",
    "section": "148",
@@ -8379,28 +8451,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a533265bc07f7aa92a86e9f",
-   "source": "gametime",
-   "section": "143",
-   "sectionGroup": "Lower",
-   "row": "24",
-   "lots": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
-   ],
-   "allIn": 18039,
-   "prefee": 15686,
-   "x": 946.54345,
-   "y": 1336.0358,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/143@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a533265bc07f7aa92a86e9f"
-  },
-  {
    "id": "fifa-316-26-7-x2",
    "source": "fifaresale",
    "section": "316",
@@ -8434,6 +8484,28 @@
    "y": 1554.05018,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/234@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5044e663d38d17e78751dc"
+  },
+  {
+   "id": "6a533265bc07f7aa92a86e9f",
+   "source": "gametime",
+   "section": "143",
+   "sectionGroup": "Lower",
+   "row": "24",
+   "lots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "allIn": 18233,
+   "prefee": 15854,
+   "x": 946.54345,
+   "y": 1336.0358,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/143@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a533265bc07f7aa92a86e9f"
   },
   {
    "id": "fifa-318-23-23",
@@ -9347,23 +9419,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a4bc8e4239cabfa2c68bbb6",
-   "source": "gametime",
-   "section": "230A",
-   "sectionGroup": "Middle",
-   "row": "7",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 20178,
-   "prefee": 17545,
-   "x": 1974.45634,
-   "y": 1287.49288,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/230A@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4bc8e4239cabfa2c68bbb6"
-  },
-  {
    "id": "6a530f3d99927d4b4ada1871",
    "source": "gametime",
    "section": "128",
@@ -9469,6 +9524,22 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a53db4cfc634cfdf9f9c053",
+   "source": "gametime",
+   "section": "235",
+   "sectionGroup": "Middle",
+   "row": "12",
+   "lots": [
+    2
+   ],
+   "allIn": 20633,
+   "prefee": 17941,
+   "x": 1592.41844,
+   "y": 1579.68557,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/235@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a53db4cfc634cfdf9f9c053"
   },
   {
    "id": "fifa-121-35-7-x2",
@@ -9615,22 +9686,6 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a53db4cfc634cfdf9f9c053",
-   "source": "gametime",
-   "section": "235",
-   "sectionGroup": "Middle",
-   "row": "12",
-   "lots": [
-    2
-   ],
-   "allIn": 21271,
-   "prefee": 18496,
-   "x": 1592.41844,
-   "y": 1579.68557,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/235@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a53db4cfc634cfdf9f9c053"
   },
   {
    "id": "fifa-327-22-16",
@@ -11263,6 +11318,22 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4d3a00957c488b1a8626ab"
   },
   {
+   "id": "6a53fecbc753d30eb8e32472",
+   "source": "gametime",
+   "section": "140",
+   "sectionGroup": "Lower",
+   "row": "24",
+   "lots": [
+    2
+   ],
+   "allIn": 30386,
+   "prefee": 26422,
+   "x": 1159.23319,
+   "y": 1375.28926,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/140@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a53fecbc753d30eb8e32472"
+  },
+  {
    "id": "fifa-123-4-10-x2",
    "source": "fifaresale",
    "section": "123",
@@ -11856,6 +11927,22 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "6a4aaad4239cabfa2c222c4d",
+   "source": "gametime",
+   "section": "211",
+   "sectionGroup": "Middle",
+   "row": "12",
+   "lots": [
+    2
+   ],
+   "allIn": 37809,
+   "prefee": 32876,
+   "x": 1043.17841,
+   "y": 310.03275,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/211@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4aaad4239cabfa2c222c4d"
+  },
+  {
    "id": "6a4c3929ac78f08ce917126f",
    "source": "gametime",
    "section": "115C",
@@ -11870,22 +11957,6 @@
    "y": 521.95989,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/115C@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4c3929ac78f08ce917126f"
-  },
-  {
-   "id": "6a4aaad4239cabfa2c222c4d",
-   "source": "gametime",
-   "section": "211",
-   "sectionGroup": "Middle",
-   "row": "12",
-   "lots": [
-    2
-   ],
-   "allIn": 38191,
-   "prefee": 33208,
-   "x": 1043.17841,
-   "y": 310.03275,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/211@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4aaad4239cabfa2c222c4d"
   },
   {
    "id": "6a4c3aef239cabfa2c5a19fd",
@@ -12246,25 +12317,6 @@
    "y": 544.89795,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/114@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a44155a239cabfa2c6fd1e7"
-  },
-  {
-   "id": "6a472257239cabfa2c310299",
-   "source": "gametime",
-   "section": "140",
-   "sectionGroup": "Lower",
-   "row": "20",
-   "lots": [
-    1,
-    2,
-    3,
-    4
-   ],
-   "allIn": 45579,
-   "prefee": 39633,
-   "x": 1160.8046,
-   "y": 1351.48851,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/140@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-fra-esp-vs-eng-arg-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a472257239cabfa2c310299"
   },
   {
    "id": "fifa-108-13-1",
