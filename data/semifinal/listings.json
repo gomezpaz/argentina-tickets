@@ -1,398 +1,277 @@
 {
  "event": "semifinal",
- "fetchedAt": "2026-07-15T17:09:13.079Z",
+ "fetchedAt": "2026-07-15T18:06:50.029Z",
  "party": 8,
  "counts": {
-  "gametime": 17,
-  "fifaresale": 16
+  "gametime": 9,
+  "fifaresale": 5
  },
  "combos": {
   "together8": [],
   "split44cheapest": [
    {
     "listings": [
-     "68fab7259fd9918f9cd21584",
-     "6a3ab247a841aabff51cc9d7"
+     "6a579fe2f31e45ea763b3250",
+     "691844fd759318d49d480087"
     ],
-    "totalAllIn": 54612,
-    "perTicketAvg": 6826.5,
+    "totalAllIn": 46724,
+    "perTicketAvg": 5840.5,
     "sameSection": false,
-    "distance": 636,
-    "label": "Sec CAT3 row TBD + Sec 104 row 45"
+    "distance": 1256,
+    "label": "Sec 347 row 6 + Sec CAT2 row TBD"
+   },
+   {
+    "listings": [
+     "6a579fe2f31e45ea763b3250",
+     "68fab7259fd9918f9cd21584"
+    ],
+    "totalAllIn": 48108,
+    "perTicketAvg": 6013.5,
+    "sameSection": false,
+    "distance": 1357,
+    "label": "Sec 347 row 6 + Sec CAT3 row TBD"
+   },
+   {
+    "listings": [
+     "691844fd759318d49d480087",
+     "68fab7259fd9918f9cd21584"
+    ],
+    "totalAllIn": 50520,
+    "perTicketAvg": 6315,
+    "sameSection": false,
+    "distance": 107,
+    "label": "Sec CAT2 row TBD + Sec CAT3 row TBD"
+   },
+   {
+    "listings": [
+     "6a579fe2f31e45ea763b3250",
+     "6a57b467fdf1a942d397462f"
+    ],
+    "totalAllIn": 52548,
+    "perTicketAvg": 6568.5,
+    "sameSection": false,
+    "distance": 370,
+    "label": "Sec 347 row 6 + Sec 134 row 24"
+   },
+   {
+    "listings": [
+     "691844fd759318d49d480087",
+     "6a57b467fdf1a942d397462f"
+    ],
+    "totalAllIn": 54960,
+    "perTicketAvg": 6870,
+    "sameSection": false,
+    "distance": 1066,
+    "label": "Sec CAT2 row TBD + Sec 134 row 24"
+   },
+   {
+    "listings": [
+     "6a579fe2f31e45ea763b3250",
+     "6a57cc20764cf0ba5d7182c4"
+    ],
+    "totalAllIn": 55860,
+    "perTicketAvg": 6982.5,
+    "sameSection": false,
+    "distance": 624,
+    "label": "Sec 347 row 6 + Sec 130 row 5"
    },
    {
     "listings": [
      "68fab7259fd9918f9cd21584",
-     "6a57a2521af66d60e3f185b5"
+     "6a57b467fdf1a942d397462f"
     ],
-    "totalAllIn": 68496,
-    "perTicketAvg": 8562,
+    "totalAllIn": 56344,
+    "perTicketAvg": 7043,
     "sameSection": false,
-    "distance": 1443,
-    "label": "Sec CAT3 row TBD + Sec 130 row 5"
+    "distance": 1154,
+    "label": "Sec CAT3 row TBD + Sec 134 row 24"
    },
    {
     "listings": [
-     "6a3ab247a841aabff51cc9d7",
-     "6a57a2521af66d60e3f185b5"
+     "691844fd759318d49d480087",
+     "6a57cc20764cf0ba5d7182c4"
     ],
-    "totalAllIn": 71204,
-    "perTicketAvg": 8900.5,
+    "totalAllIn": 58272,
+    "perTicketAvg": 7284,
     "sameSection": false,
-    "distance": 823,
-    "label": "Sec 104 row 45 + Sec 130 row 5"
-   },
-   {
-    "listings": [
-     "68fab7259fd9918f9cd21584",
-     "6a4fecbeb99f4f4ab82c1a28"
-    ],
-    "totalAllIn": 92156,
-    "perTicketAvg": 11519.5,
-    "sameSection": false,
-    "distance": 1685,
-    "label": "Sec CAT3 row TBD + Sec 126 row 5"
-   },
-   {
-    "listings": [
-     "6a3ab247a841aabff51cc9d7",
-     "6a4fecbeb99f4f4ab82c1a28"
-    ],
-    "totalAllIn": 94864,
-    "perTicketAvg": 11858,
-    "sameSection": false,
-    "distance": 1050,
-    "label": "Sec 104 row 45 + Sec 126 row 5"
-   },
-   {
-    "listings": [
-     "6a57a2521af66d60e3f185b5",
-     "6a4fecbeb99f4f4ab82c1a28"
-    ],
-    "totalAllIn": 108748,
-    "perTicketAvg": 13593.5,
-    "sameSection": false,
-    "distance": 325,
-    "label": "Sec 130 row 5 + Sec 126 row 5"
+    "distance": 1368,
+    "label": "Sec CAT2 row TBD + Sec 130 row 5"
    }
   ],
   "split44closest": [
    {
     "listings": [
-     "6a57a2521af66d60e3f185b5",
+     "691844fd759318d49d480087",
+     "68fab7259fd9918f9cd21584"
+    ],
+    "totalAllIn": 50520,
+    "perTicketAvg": 6315,
+    "sameSection": false,
+    "distance": 107,
+    "label": "Sec CAT2 row TBD + Sec CAT3 row TBD"
+   },
+   {
+    "listings": [
+     "6a57cc20764cf0ba5d7182c4",
      "6a4fecbeb99f4f4ab82c1a28"
     ],
-    "totalAllIn": 108748,
-    "perTicketAvg": 13593.5,
+    "totalAllIn": 97924,
+    "perTicketAvg": 12240.5,
     "sameSection": false,
     "distance": 325,
     "label": "Sec 130 row 5 + Sec 126 row 5"
    },
    {
     "listings": [
-     "68fab7259fd9918f9cd21584",
-     "6a3ab247a841aabff51cc9d7"
+     "6a579fe2f31e45ea763b3250",
+     "6a57b467fdf1a942d397462f"
     ],
-    "totalAllIn": 54612,
-    "perTicketAvg": 6826.5,
+    "totalAllIn": 52548,
+    "perTicketAvg": 6568.5,
     "sameSection": false,
-    "distance": 636,
-    "label": "Sec CAT3 row TBD + Sec 104 row 45"
+    "distance": 370,
+    "label": "Sec 347 row 6 + Sec 134 row 24"
    },
    {
     "listings": [
-     "6a3ab247a841aabff51cc9d7",
-     "6a57a2521af66d60e3f185b5"
+     "6a57b467fdf1a942d397462f",
+     "6a57cc20764cf0ba5d7182c4"
     ],
-    "totalAllIn": 71204,
-    "perTicketAvg": 8900.5,
+    "totalAllIn": 64096,
+    "perTicketAvg": 8012,
     "sameSection": false,
-    "distance": 823,
-    "label": "Sec 104 row 45 + Sec 130 row 5"
+    "distance": 385,
+    "label": "Sec 134 row 24 + Sec 130 row 5"
    },
    {
     "listings": [
-     "6a3ab247a841aabff51cc9d7",
+     "6a579fe2f31e45ea763b3250",
+     "6a57cc20764cf0ba5d7182c4"
+    ],
+    "totalAllIn": 55860,
+    "perTicketAvg": 6982.5,
+    "sameSection": false,
+    "distance": 624,
+    "label": "Sec 347 row 6 + Sec 130 row 5"
+   },
+   {
+    "listings": [
+     "6a57b467fdf1a942d397462f",
      "6a4fecbeb99f4f4ab82c1a28"
     ],
-    "totalAllIn": 94864,
-    "perTicketAvg": 11858,
+    "totalAllIn": 94612,
+    "perTicketAvg": 11826.5,
     "sameSection": false,
-    "distance": 1050,
-    "label": "Sec 104 row 45 + Sec 126 row 5"
+    "distance": 708,
+    "label": "Sec 134 row 24 + Sec 126 row 5"
    },
    {
     "listings": [
-     "68fab7259fd9918f9cd21584",
-     "6a57a2521af66d60e3f185b5"
-    ],
-    "totalAllIn": 68496,
-    "perTicketAvg": 8562,
-    "sameSection": false,
-    "distance": 1443,
-    "label": "Sec CAT3 row TBD + Sec 130 row 5"
-   },
-   {
-    "listings": [
-     "68fab7259fd9918f9cd21584",
+     "6a579fe2f31e45ea763b3250",
      "6a4fecbeb99f4f4ab82c1a28"
     ],
-    "totalAllIn": 92156,
-    "perTicketAvg": 11519.5,
+    "totalAllIn": 86376,
+    "perTicketAvg": 10797,
     "sameSection": false,
-    "distance": 1685,
-    "label": "Sec CAT3 row TBD + Sec 126 row 5"
+    "distance": 931,
+    "label": "Sec 347 row 6 + Sec 126 row 5"
+   },
+   {
+    "listings": [
+     "691844fd759318d49d480087",
+     "6a57b467fdf1a942d397462f"
+    ],
+    "totalAllIn": 54960,
+    "perTicketAvg": 6870,
+    "sameSection": false,
+    "distance": 1066,
+    "label": "Sec CAT2 row TBD + Sec 134 row 24"
    }
   ],
   "anySplit": {
    "parts": [
     {
-     "id": "fifa-124-36-15",
+     "id": "fifa-349-1A-14",
      "take": 1,
-     "allIn": 3496,
-     "label": "1 in Sec 124 row 36"
+     "allIn": 5405,
+     "label": "1 in Sec 349 row 1A"
     },
     {
-     "id": "fifa-326-4-20",
-     "take": 1,
-     "allIn": 4347,
-     "label": "1 in Sec 326 row 4"
+     "id": "6a579fe2f31e45ea763b3250",
+     "take": 4,
+     "allIn": 5539,
+     "label": "4 in Sec 347 row 6"
     },
     {
-     "id": "6a57bb0628c8d738bd84e811",
+     "id": "691844fd759318d49d480087",
      "take": 2,
-     "allIn": 4753,
-     "label": "2 in Sec 317 row 15"
-    },
-    {
-     "id": "fifa-322-26-4",
-     "take": 1,
-     "allIn": 4830,
-     "label": "1 in Sec 322 row 26"
-    },
-    {
-     "id": "fifa-226-5-19",
-     "take": 1,
-     "allIn": 5060,
-     "label": "1 in Sec 226 row 5"
-    },
-    {
-     "id": "69426db3d35159144f37ab26",
-     "take": 2,
-     "allIn": 5141,
+     "allIn": 6142,
      "label": "2 in Sec CAT2 row TBD"
+    },
+    {
+     "id": "69d461a653c05bd145dae1ad",
+     "take": 1,
+     "allIn": 6278,
+     "label": "1 in Sec CAT1 row TBD"
     }
    ],
-   "totalAllIn": 37521
+   "totalAllIn": 46123
   }
  },
  "listings": [
   {
-   "id": "fifa-124-36-15",
+   "id": "fifa-349-1A-14",
    "source": "fifaresale",
-   "section": "124",
-   "sectionGroup": "Category 1",
-   "row": "36",
-   "seat": "15",
-   "category": "Category 1",
+   "section": "349",
+   "sectionGroup": "Wheelchair & Easy Access Amenity - Category 3",
+   "row": "1A",
+   "seat": "14",
+   "category": "Wheelchair & Easy Access Amenity - Category 3",
    "lots": [
     1
    ],
-   "allIn": 3496,
-   "prefee": 3496,
+   "allIn": 5405,
+   "prefee": 5405,
    "x": null,
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-326-4-20",
-   "source": "fifaresale",
-   "section": "326",
-   "sectionGroup": "Category 3",
-   "row": "4",
-   "seat": "20",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 4347,
-   "prefee": 4347,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a57bb0628c8d738bd84e811",
+   "id": "6a579fe2f31e45ea763b3250",
    "source": "gametime",
-   "section": "317",
+   "section": "347",
    "sectionGroup": "Upper",
-   "row": "15",
+   "row": "6",
    "lots": [
-    2
+    1,
+    2,
+    3,
+    4
    ],
-   "allIn": 4753,
-   "prefee": 4112,
-   "x": 676.73057,
-   "y": 1663.13188,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/317@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57bb0628c8d738bd84e811"
+   "allIn": 5539,
+   "prefee": 4756,
+   "x": 2010.72608,
+   "y": 374.80166,
+   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/347@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a579fe2f31e45ea763b3250"
   },
   {
-   "id": "fifa-322-26-4",
-   "source": "fifaresale",
-   "section": "322",
-   "sectionGroup": "Category 3",
-   "row": "26",
-   "seat": "4",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 4830,
-   "prefee": 4830,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-226-5-19",
-   "source": "fifaresale",
-   "section": "226",
-   "sectionGroup": "Category 2",
-   "row": "5",
-   "seat": "19",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 5060,
-   "prefee": 5060,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "69426db3d35159144f37ab26",
+   "id": "691844fd759318d49d480087",
    "source": "gametime",
    "section": "CAT2",
    "sectionGroup": "Category",
    "row": "TBD",
    "lots": [
-    1,
-    2
+    2,
+    4
    ],
-   "allIn": 5141,
-   "prefee": 4266,
+   "allIn": 6142,
+   "prefee": 4903,
    "x": 2443.84056,
    "y": 1553.98779,
    "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/CAT2@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/69426db3d35159144f37ab26"
-  },
-  {
-   "id": "6a4fdb203a0d401b0dbb48d5",
-   "source": "gametime",
-   "section": "332",
-   "sectionGroup": "Upper",
-   "row": "20",
-   "lots": [
-    1,
-    2,
-    3,
-    5
-   ],
-   "allIn": 5244,
-   "prefee": 4186,
-   "x": 486.28891,
-   "y": 303.80537,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/332@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a4fdb203a0d401b0dbb48d5"
-  },
-  {
-   "id": "6a57b6c24c0fa3d1db16884f",
-   "source": "gametime",
-   "section": "134",
-   "sectionGroup": "Lower",
-   "row": "26",
-   "lots": [
-    2
-   ],
-   "allIn": 5572,
-   "prefee": 4449,
-   "x": 1803.36733,
-   "y": 644.53589,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/134@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57b6c24c0fa3d1db16884f"
-  },
-  {
-   "id": "6a57a4cfcb9d122c3a6310af",
-   "source": "gametime",
-   "section": "123",
-   "sectionGroup": "Lower",
-   "row": "32",
-   "lots": [
-    2
-   ],
-   "allIn": 5926,
-   "prefee": 4945,
-   "x": 810.26966,
-   "y": 561.38782,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/123@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57a4cfcb9d122c3a6310af"
-  },
-  {
-   "id": "6a57bcd5d144eeea4f8af232",
-   "source": "gametime",
-   "section": "123",
-   "sectionGroup": "Lower",
-   "row": "22",
-   "lots": [
-    2
-   ],
-   "allIn": 5955,
-   "prefee": 4898,
-   "x": 836.11417,
-   "y": 616.85132,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/123@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57bcd5d144eeea4f8af232"
-  },
-  {
-   "id": "6a57ba6ad9abfa5c3f30596a",
-   "source": "gametime",
-   "section": "126",
-   "sectionGroup": "Lower",
-   "row": "27",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 6138,
-   "prefee": 5160,
-   "x": 1109.08747,
-   "y": 500.54661,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/126@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57ba6ad9abfa5c3f30596a"
-  },
-  {
-   "id": "fifa-320-24-19",
-   "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "24",
-   "seat": "19",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 6210,
-   "prefee": 6210,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
+   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/691844fd759318d49d480087"
   },
   {
    "id": "69d461a653c05bd145dae1ad",
@@ -412,24 +291,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/69d461a653c05bd145dae1ad"
   },
   {
-   "id": "fifa-122-45-6",
-   "source": "fifaresale",
-   "section": "122",
-   "sectionGroup": "Category 1",
-   "row": "45",
-   "seat": "6",
-   "category": "Category 1",
-   "lots": [
-    1
-   ],
-   "allIn": 6325,
-   "prefee": 6325,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "68fab7259fd9918f9cd21584",
    "source": "gametime",
    "section": "CAT3",
@@ -447,52 +308,18 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/68fab7259fd9918f9cd21584"
   },
   {
-   "id": "6a57af46cb9d122c3a6318a4",
-   "source": "gametime",
-   "section": "S224",
-   "sectionGroup": "Suite",
-   "row": "1",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 6628,
-   "prefee": 5762,
-   "x": 1108.27386,
-   "y": 1632.66484,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/S224@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57af46cb9d122c3a6318a4"
-  },
-  {
-   "id": "6a57bd19cbe08bbe2628a966",
-   "source": "gametime",
-   "section": "112",
-   "sectionGroup": "Lower",
-   "row": "25",
-   "lots": [
-    2
-   ],
-   "allIn": 6741,
-   "prefee": 5382,
-   "x": 1109.60214,
-   "y": 1397.20339,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/112@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57bd19cbe08bbe2628a966"
-  },
-  {
-   "id": "fifa-244-9-20",
+   "id": "fifa-246-1-9",
    "source": "fifaresale",
-   "section": "244",
-   "sectionGroup": "Category 2",
-   "row": "9",
-   "seat": "20",
-   "category": "Category 2",
+   "section": "246",
+   "sectionGroup": "Front Category 2",
+   "row": "1",
+   "seat": "9",
+   "category": "Front Category 2",
    "lots": [
     1
    ],
-   "allIn": 6900,
-   "prefee": 6900,
+   "allIn": 6555,
+   "prefee": 6555,
    "x": null,
    "y": null,
    "view": null,
@@ -517,131 +344,24 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a3ab247a841aabff51cc9d7",
+   "id": "6a57b467fdf1a942d397462f",
    "source": "gametime",
-   "section": "104",
+   "section": "134",
    "sectionGroup": "Lower",
-   "row": "45",
+   "row": "24",
    "lots": [
-    1,
     2,
     4
    ],
-   "allIn": 7165,
-   "prefee": 5720,
-   "x": 1932.28185,
-   "y": 1283.69005,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/104@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a3ab247a841aabff51cc9d7"
+   "allIn": 7598,
+   "prefee": 6066,
+   "x": 1818.58834,
+   "y": 690.87721,
+   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/134@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57b467fdf1a942d397462f"
   },
   {
-   "id": "6a57b68f63d38d17e7fa0a4f",
-   "source": "gametime",
-   "section": "107",
-   "sectionGroup": "Lower",
-   "row": "40",
-   "lots": [
-    2
-   ],
-   "allIn": 7694,
-   "prefee": 6143,
-   "x": 1566.06872,
-   "y": 1475.37377,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/107@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57b68f63d38d17e7fa0a4f"
-  },
-  {
-   "id": "fifa-216-1-2",
-   "source": "fifaresale",
-   "section": "216",
-   "sectionGroup": "Front Category 2",
-   "row": "1",
-   "seat": "2",
-   "category": "Front Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 7705,
-   "prefee": 7705,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a56bddbc2732deb71218a5e",
-   "source": "gametime",
-   "section": "128",
-   "sectionGroup": "Lower",
-   "row": "34",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 7824,
-   "prefee": 6247,
-   "x": 1276.69743,
-   "y": 460.67468,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/128@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a56bddbc2732deb71218a5e"
-  },
-  {
-   "id": "fifa-229-1-1",
-   "source": "fifaresale",
-   "section": "229",
-   "sectionGroup": "Front Category 2",
-   "row": "1",
-   "seat": "1",
-   "category": "Front Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 7877.5,
-   "prefee": 7877.5,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-113-12-6",
-   "source": "fifaresale",
-   "section": "113",
-   "sectionGroup": "Front Category 1",
-   "row": "12",
-   "seat": "6",
-   "category": "Front Category 1",
-   "lots": [
-    1
-   ],
-   "allIn": 8050,
-   "prefee": 8050,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-231-1-14",
-   "source": "fifaresale",
-   "section": "231",
-   "sectionGroup": "Front Category 2",
-   "row": "1",
-   "seat": "14",
-   "category": "Front Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 8050,
-   "prefee": 8050,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a57a2521af66d60e3f185b5",
+   "id": "6a57cc20764cf0ba5d7182c4",
    "source": "gametime",
    "section": "130",
    "sectionGroup": "Lower",
@@ -650,16 +370,30 @@
     1,
     2,
     3,
-    4,
-    5,
-    6
+    4
    ],
-   "allIn": 10636,
-   "prefee": 8492,
+   "allIn": 8426,
+   "prefee": 6727,
    "x": 1439.15608,
    "y": 625.23388,
    "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/130@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57a2521af66d60e3f185b5"
+   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57cc20764cf0ba5d7182c4"
+  },
+  {
+   "id": "6a57c12163d38d17e7f1de72",
+   "source": "gametime",
+   "section": "126",
+   "sectionGroup": "Lower",
+   "row": "30",
+   "lots": [
+    2
+   ],
+   "allIn": 10203,
+   "prefee": 8146,
+   "x": 1109.17578,
+   "y": 483.59843,
+   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/126@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a57c12163d38d17e7f1de72"
   },
   {
    "id": "fifa-133-13-11",
@@ -680,22 +414,20 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-327-15-12",
-   "source": "fifaresale",
-   "section": "327",
-   "sectionGroup": "Category 3",
-   "row": "15",
-   "seat": "12",
-   "category": "Category 3",
+   "id": "6a53985d1d2ee2d2521944e4",
+   "source": "gametime",
+   "section": "127",
+   "sectionGroup": "Lower",
+   "row": "1",
    "lots": [
-    1
+    2
    ],
-   "allIn": 12075,
-   "prefee": 12075,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
+   "allIn": 12702,
+   "prefee": 10142,
+   "x": 1193.67911,
+   "y": 648.04135,
+   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/127@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a53985d1d2ee2d2521944e4"
   },
   {
    "id": "6a4fecbeb99f4f4ab82c1a28",
@@ -710,28 +442,12 @@
     4,
     5
    ],
-   "allIn": 16551,
-   "prefee": 13215,
+   "allIn": 16055,
+   "prefee": 12819,
    "x": 1114.11148,
    "y": 625.23373,
    "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/126@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a4fecbeb99f4f4ab82c1a28"
-  },
-  {
-   "id": "6a53985d1d2ee2d2521944e4",
-   "source": "gametime",
-   "section": "127",
-   "sectionGroup": "Lower",
-   "row": "1",
-   "lots": [
-    2
-   ],
-   "allIn": 19052,
-   "prefee": 15212,
-   "x": 1193.67911,
-   "y": 648.04135,
-   "view": "https://images.gametime.co/v2/mercedes_benz_stadium/fifa/127@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-england-vs-argentina-match-102-semi-final-tickets/7-15-2026-atlanta-ga-mercedes-benz-stadium/events/66a7e8a5218fbd1123388be7/listings/6a53985d1d2ee2d2521944e4"
   },
   {
    "id": "fifa-133-13-3",
@@ -746,24 +462,6 @@
    ],
    "allIn": 23000,
    "prefee": 23000,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-232-1-1",
-   "source": "fifaresale",
-   "section": "232",
-   "sectionGroup": "Front Category 2",
-   "row": "1",
-   "seat": "1",
-   "category": "Front Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 27598.85,
-   "prefee": 27598.85,
    "x": null,
    "y": null,
    "view": null,
