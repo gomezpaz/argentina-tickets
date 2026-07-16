@@ -1,10 +1,10 @@
 {
  "event": "final",
- "fetchedAt": "2026-07-16T06:07:53.993Z",
+ "fetchedAt": "2026-07-16T09:10:05.135Z",
  "party": 8,
  "counts": {
-  "gametime": 209,
-  "fifaresale": 700
+  "gametime": 210,
+  "fifaresale": 730
  },
  "combos": {
   "together8": [
@@ -157,125 +157,136 @@
    {
     "listings": [
      "6a52469abb41f074ecd27504",
+     "6a52469afc634cfdf9f8feab"
+    ],
+    "totalAllIn": 63848,
+    "perTicketAvg": 7981,
+    "sameSection": false,
+    "distance": 2153,
+    "label": "Sec 321 row 22 + Sec 348 row 23"
+   },
+   {
+    "listings": [
+     "6a52469abb41f074ecd27504",
+     "6a52469a1dfd3c3f3053db3c"
+    ],
+    "totalAllIn": 63848,
+    "perTicketAvg": 7981,
+    "sameSection": false,
+    "distance": 136,
+    "label": "Sec 321 row 22 + Sec 322 row 20"
+   },
+   {
+    "listings": [
+     "6a52469afc634cfdf9f8feab",
+     "6a52469a1dfd3c3f3053db3c"
+    ],
+    "totalAllIn": 63848,
+    "perTicketAvg": 7981,
+    "sameSection": false,
+    "distance": 2149,
+    "label": "Sec 348 row 23 + Sec 322 row 20"
+   },
+   {
+    "listings": [
+     "6a52469abb41f074ecd27504",
      "6a4e9914a61ccc713b533f96"
     ],
-    "totalAllIn": 65032,
-    "perTicketAvg": 8129,
+    "totalAllIn": 64572,
+    "perTicketAvg": 8071.5,
     "sameSection": false,
     "distance": 1998,
     "label": "Sec 321 row 22 + Sec 350 row 5"
    },
    {
     "listings": [
-     "6a52469abb41f074ecd27504",
-     "6a42e81ae8b9e03fdccf2655"
+     "6a52469afc634cfdf9f8feab",
+     "6a4e9914a61ccc713b533f96"
     ],
-    "totalAllIn": 65496,
-    "perTicketAvg": 8187,
+    "totalAllIn": 64572,
+    "perTicketAvg": 8071.5,
     "sameSection": false,
-    "distance": 1271,
-    "label": "Sec 321 row 22 + Sec CAT2 row TBD"
+    "distance": 278,
+    "label": "Sec 348 row 23 + Sec 350 row 5"
+   },
+   {
+    "listings": [
+     "6a52469a1dfd3c3f3053db3c",
+     "6a4e9914a61ccc713b533f96"
+    ],
+    "totalAllIn": 64572,
+    "perTicketAvg": 8071.5,
+    "sameSection": false,
+    "distance": 2009,
+    "label": "Sec 322 row 20 + Sec 350 row 5"
    },
    {
     "listings": [
      "6a52469abb41f074ecd27504",
-     "6a56d84f86fef321a42b2196"
+     "6a58199663d38d17e7ae0c43"
     ],
-    "totalAllIn": 65628,
-    "perTicketAvg": 8203.5,
+    "totalAllIn": 64660,
+    "perTicketAvg": 8082.5,
     "sameSection": false,
-    "distance": 2172,
-    "label": "Sec 321 row 22 + Sec 348 row 26"
+    "distance": 1115,
+    "label": "Sec 321 row 22 + Sec 330 row 17"
    },
    {
     "listings": [
-     "6a4e9914a61ccc713b533f96",
-     "6a42e81ae8b9e03fdccf2655"
+     "6a52469afc634cfdf9f8feab",
+     "6a58199663d38d17e7ae0c43"
     ],
-    "totalAllIn": 65760,
-    "perTicketAvg": 8220,
+    "totalAllIn": 64660,
+    "perTicketAvg": 8082.5,
     "sameSection": false,
-    "distance": 2196,
-    "label": "Sec 350 row 5 + Sec CAT2 row TBD"
-   },
-   {
-    "listings": [
-     "6a4e9914a61ccc713b533f96",
-     "6a56d84f86fef321a42b2196"
-    ],
-    "totalAllIn": 65892,
-    "perTicketAvg": 8236.5,
-    "sameSection": false,
-    "distance": 295,
-    "label": "Sec 350 row 5 + Sec 348 row 26"
-   },
-   {
-    "listings": [
-     "6a42e81ae8b9e03fdccf2655",
-     "6a56d84f86fef321a42b2196"
-    ],
-    "totalAllIn": 66356,
-    "perTicketAvg": 8294.5,
-    "sameSection": false,
-    "distance": 2206,
-    "label": "Sec CAT2 row TBD + Sec 348 row 26"
-   },
-   {
-    "listings": [
-     "6a52469abb41f074ecd27504",
-     "6a58089d63d38d17e7578991"
-    ],
-    "totalAllIn": 66648,
-    "perTicketAvg": 8331,
-    "sameSection": false,
-    "distance": 143,
-    "label": "Sec 321 row 22 + Sec 320 row 9"
-   },
-   {
-    "listings": [
-     "6a52469abb41f074ecd27504",
-     "6a53a5f063d38d17e79faaa5"
-    ],
-    "totalAllIn": 66876,
-    "perTicketAvg": 8359.5,
-    "sameSection": false,
-    "distance": 2034,
-    "label": "Sec 321 row 22 + Sec 301 row 17"
+    "distance": 1951,
+    "label": "Sec 348 row 23 + Sec 330 row 17"
    }
   ],
   "split44closest": [
    {
     "listings": [
-     "6a57dcc363d38d17e714be04",
-     "6a51063c63d38d17e768f567"
-    ],
-    "totalAllIn": 85048,
-    "perTicketAvg": 10631,
-    "sameSection": true,
-    "distance": 18,
-    "label": "Sec 333 row 4 + Sec 333 row 1"
-   },
-   {
-    "listings": [
      "6a583cb264011ad6a6c12246",
      "6a5833af61456fd5ba9814c8"
     ],
-    "totalAllIn": 79156,
-    "perTicketAvg": 9894.5,
+    "totalAllIn": 79208,
+    "perTicketAvg": 9901,
     "sameSection": true,
     "distance": 27,
     "label": "Sec 226 row 3 + Sec 226 row 8"
    },
    {
     "listings": [
+     "6a5800668721bdc48d0d3b35",
+     "6a526e7c0f4f6834a65823df"
+    ],
+    "totalAllIn": 74776,
+    "perTicketAvg": 9347,
+    "sameSection": true,
+    "distance": 36,
+    "label": "Sec 306 row 19 + Sec 306 row 13"
+   },
+   {
+    "listings": [
      "6a5828b363d38d17e7a08947",
      "6a4739f9f18bc0ea9259becf"
     ],
-    "totalAllIn": 81904,
-    "perTicketAvg": 10238,
+    "totalAllIn": 81920,
+    "perTicketAvg": 10240,
     "sameSection": true,
     "distance": 36,
     "label": "Sec 342 row 8 + Sec 342 row 14"
+   },
+   {
+    "listings": [
+     "6a52469afc634cfdf9f8feab",
+     "6a58043763d38d17e7475516"
+    ],
+    "totalAllIn": 70104,
+    "perTicketAvg": 8763,
+    "sameSection": true,
+    "distance": 42,
+    "label": "Sec 348 row 23 + Sec 348 row 16"
    },
    {
     "listings": [
@@ -290,107 +301,214 @@
    },
    {
     "listings": [
-     "6a56d84f86fef321a42b2196",
-     "6a58043763d38d17e7475516"
+     "6a4e9914a61ccc713b533f96",
+     "6a581bf263d38d17e73b5365"
     ],
-    "totalAllIn": 71424,
-    "perTicketAvg": 8928,
+    "totalAllIn": 66368,
+    "perTicketAvg": 8296,
     "sameSection": true,
-    "distance": 61,
-    "label": "Sec 348 row 26 + Sec 348 row 16"
+    "distance": 66,
+    "label": "Sec 350 row 5 + Sec 350 row 16"
    },
    {
     "listings": [
      "6a5664f86526f5e3a0bd5e12",
      "6a51014e63d38d17e71bb27f"
     ],
-    "totalAllIn": 80748,
-    "perTicketAvg": 10093.5,
+    "totalAllIn": 80760,
+    "perTicketAvg": 10095,
     "sameSection": true,
     "distance": 75,
     "label": "Sec 334 row 12 + Sec 334 row 2"
    },
    {
     "listings": [
-     "6a58321a63d38d17e72a5c94",
-     "6a5833e363d38d17e79a34c9"
+     "6a57dcc363d38d17e714be04",
+     "6a51014e63d38d17e71bb27f"
     ],
-    "totalAllIn": 78712,
-    "perTicketAvg": 9839,
+    "totalAllIn": 80576,
+    "perTicketAvg": 10072,
     "sameSection": false,
-    "distance": 101,
-    "label": "Sec 228A row 5 + Sec 229 row 3"
-   },
-   {
-    "listings": [
-     "6a51014e63d38d17e71bb27f",
-     "6a51063c63d38d17e768f567"
-    ],
-    "totalAllIn": 86204,
-    "perTicketAvg": 10775.5,
-    "sameSection": false,
-    "distance": 109,
-    "label": "Sec 334 row 2 + Sec 333 row 1"
+    "distance": 110,
+    "label": "Sec 333 row 4 + Sec 334 row 2"
    }
   ],
   "anySplit": {
    "parts": [
     {
-     "id": "6a49f2c3710d3c38c4cd8de3",
-     "take": 3,
-     "allIn": 7402,
-     "label": "3 in Sec CAT3 row TBD"
+     "id": "fifa-317-26-1",
+     "take": 1,
+     "allIn": 6900,
+     "label": "1 in Sec 317 row 26"
     },
     {
-     "id": "6a580e70a115d793314dc695",
+     "id": "fifa-320-19-12",
+     "take": 1,
+     "allIn": 7059.65,
+     "label": "1 in Sec 320 row 19"
+    },
+    {
+     "id": "6a56a462dce0e4f3149d9907",
      "take": 2,
-     "allIn": 7930,
-     "label": "2 in Sec 328 row 18"
+     "allIn": 7446,
+     "label": "2 in Sec CAT3 row TBD"
+    },
+    {
+     "id": "fifa-350-25-18-x3",
+     "take": 3,
+     "allIn": 7820,
+     "label": "3 in Sec 350 row 25"
     },
     {
      "id": "6a42e0615524beff4e397b9e",
-     "take": 3,
+     "take": 1,
      "allIn": 7985,
-     "label": "3 in Sec 346 row 26"
+     "label": "1 in Sec 346 row 26"
     }
    ],
-   "totalAllIn": 62021
+   "totalAllIn": 60296.65
   }
  },
  "listings": [
   {
-   "id": "6a49f2c3710d3c38c4cd8de3",
+   "id": "fifa-317-26-1",
+   "source": "fifaresale",
+   "section": "317",
+   "sectionGroup": "Category 2",
+   "row": "26",
+   "seat": "1",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 6900,
+   "prefee": 6900,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-320-19-12",
+   "source": "fifaresale",
+   "section": "320",
+   "sectionGroup": "Category 3",
+   "row": "19",
+   "seat": "12",
+   "category": "Category 3",
+   "lots": [
+    1
+   ],
+   "allIn": 7059.65,
+   "prefee": 7059.65,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a56a462dce0e4f3149d9907",
    "source": "gametime",
    "section": "CAT3",
    "sectionGroup": "Category",
    "row": "TBD",
    "lots": [
     1,
-    2,
-    3
+    2
    ],
-   "allIn": 7402,
-   "prefee": 6669,
+   "allIn": 7446,
+   "prefee": 6708,
    "x": 2439.39044,
    "y": 1665.96305,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/CAT3@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a49f2c3710d3c38c4cd8de3"
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a56a462dce0e4f3149d9907"
   },
   {
-   "id": "6a580e70a115d793314dc695",
+   "id": "fifa-350-25-18-x3",
+   "source": "fifaresale",
+   "section": "350",
+   "sectionGroup": "Category 3",
+   "row": "25",
+   "seat": "18-20",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 7820,
+   "prefee": 7820,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a52469abb41f074ecd27504",
    "source": "gametime",
-   "section": "328",
+   "section": "321",
    "sectionGroup": "Upper",
-   "row": "18",
+   "row": "22",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 7981,
+   "prefee": 6939,
+   "x": 2160.56479,
+   "y": 325.43515,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/321@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a52469abb41f074ecd27504"
+  },
+  {
+   "id": "6a52469afc634cfdf9f8feab",
+   "source": "gametime",
+   "section": "348",
+   "sectionGroup": "Upper",
+   "row": "23",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 7981,
+   "prefee": 6939,
+   "x": 257.83301,
+   "y": 1332.97714,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/348@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a52469afc634cfdf9f8feab"
+  },
+  {
+   "id": "6a52469a62f77ad59bc1bbe5",
+   "source": "gametime",
+   "section": "305",
+   "sectionGroup": "Upper",
+   "row": "24",
    "lots": [
     2
    ],
-   "allIn": 7930,
-   "prefee": 6895,
-   "x": 2300.10863,
-   "y": 1194.88525,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/328@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a580e70a115d793314dc695"
+   "allIn": 7981,
+   "prefee": 6939,
+   "x": 305.37859,
+   "y": 448.21031,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/305@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a52469a62f77ad59bc1bbe5"
+  },
+  {
+   "id": "6a52469a1dfd3c3f3053db3c",
+   "source": "gametime",
+   "section": "322",
+   "sectionGroup": "Upper",
+   "row": "20",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 7981,
+   "prefee": 6939,
+   "x": 2216.66907,
+   "y": 449.85556,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/322@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a52469a1dfd3c3f3053db3c"
   },
   {
    "id": "6a42e0615524beff4e397b9e",
@@ -429,20 +547,39 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a5806e963d38d17e7f6e2bb",
-   "source": "gametime",
-   "section": "330",
-   "sectionGroup": "Upper",
-   "row": "17",
+   "id": "fifa-247A-5-14",
+   "source": "fifaresale",
+   "section": "247A",
+   "sectionGroup": "Category 2",
+   "row": "5",
+   "seat": "14",
+   "category": "Category 2",
    "lots": [
+    1
+   ],
+   "allIn": 7998.25,
+   "prefee": 7998.25,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a588cc563d38d17e768c882",
+   "source": "gametime",
+   "section": "349",
+   "sectionGroup": "Upper",
+   "row": "24",
+   "lots": [
+    1,
     2
    ],
-   "allIn": 8021,
-   "prefee": 6974,
-   "x": 2205.79462,
-   "y": 1439.91289,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/330@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5806e963d38d17e7f6e2bb"
+   "allIn": 8030,
+   "prefee": 6982,
+   "x": 213.78582,
+   "y": 1206.63423,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/349@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a588cc563d38d17e768c882"
   },
   {
    "id": "6a584fa363d38d17e7d13b55",
@@ -461,12 +598,31 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a584fa363d38d17e7d13b55"
   },
   {
-   "id": "fifa-320-5-9",
+   "id": "fifa-327-24-1-x2",
    "source": "fifaresale",
-   "section": "320",
+   "section": "327",
    "sectionGroup": "Category 3",
-   "row": "5",
-   "seat": "9",
+   "row": "24",
+   "seat": "1-2",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 8044.25,
+   "prefee": 8044.25,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-328-19-25",
+   "source": "fifaresale",
+   "section": "328",
+   "sectionGroup": "Category 3",
+   "row": "19",
+   "seat": "25",
    "category": "Category 3",
    "lots": [
     1
@@ -479,22 +635,22 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-322-10-8",
-   "source": "fifaresale",
-   "section": "322",
-   "sectionGroup": "Category 3",
-   "row": "10",
-   "seat": "8",
-   "category": "Category 3",
+   "id": "69a2cba3c6f3a780da2c9b0c",
+   "source": "gametime",
+   "section": "CAT4",
+   "sectionGroup": "Category",
+   "row": "TBD",
    "lots": [
-    1
+    1,
+    2,
+    3
    ],
-   "allIn": 8050,
-   "prefee": 8050,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
+   "allIn": 8071,
+   "prefee": 7017,
+   "x": 2439.46821,
+   "y": 1766.94233,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/CAT4@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/69a2cba3c6f3a780da2c9b0c"
   },
   {
    "id": "6a5801df7aca407bab8dbe1e",
@@ -513,21 +669,20 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5801df7aca407bab8dbe1e"
   },
   {
-   "id": "6a52469abb41f074ecd27504",
+   "id": "6a526afb3ddb58bcbcf9d9f7",
    "source": "gametime",
-   "section": "321",
+   "section": "302",
    "sectionGroup": "Upper",
-   "row": "22",
+   "row": "23",
    "lots": [
-    2,
-    4
+    2
    ],
-   "allIn": 8096,
-   "prefee": 7039,
-   "x": 2160.56479,
-   "y": 325.43515,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/321@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a52469abb41f074ecd27504"
+   "allIn": 8113,
+   "prefee": 7054,
+   "x": 197.12063,
+   "y": 836.97565,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/302@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a526afb3ddb58bcbcf9d9f7"
   },
   {
    "id": "6a51397e1c6a5ae747fc3aba",
@@ -544,22 +699,6 @@
    "y": 215.12576,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/307@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51397e1c6a5ae747fc3aba"
-  },
-  {
-   "id": "6a526afb3ddb58bcbcf9d9f7",
-   "source": "gametime",
-   "section": "302",
-   "sectionGroup": "Upper",
-   "row": "23",
-   "lots": [
-    2
-   ],
-   "allIn": 8113,
-   "prefee": 7054,
-   "x": 197.12063,
-   "y": 836.97565,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/302@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a526afb3ddb58bcbcf9d9f7"
   },
   {
    "id": "6a4e9914a61ccc713b533f96",
@@ -580,6 +719,43 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4e9914a61ccc713b533f96"
   },
   {
+   "id": "6a58199663d38d17e7ae0c43",
+   "source": "gametime",
+   "section": "330",
+   "sectionGroup": "Upper",
+   "row": "17",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 8184,
+   "prefee": 7116,
+   "x": 2205.79462,
+   "y": 1439.91289,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/330@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58199663d38d17e7ae0c43"
+  },
+  {
+   "id": "fifa-303-20-2-x3",
+   "source": "fifaresale",
+   "section": "303",
+   "sectionGroup": "Category 3",
+   "row": "20",
+   "seat": "2-4",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 8203.33,
+   "prefee": 8203.33,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "6a585ce963d38d17e7485d17",
    "source": "gametime",
    "section": "349",
@@ -588,8 +764,8 @@
    "lots": [
     2
    ],
-   "allIn": 8201,
-   "prefee": 7130,
+   "allIn": 8226,
+   "prefee": 7152,
    "x": 248.40577,
    "y": 1197.95402,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/349@4x.jpg",
@@ -603,9 +779,7 @@
    "row": "TBD",
    "lots": [
     1,
-    2,
-    3,
-    4
+    2
    ],
    "allIn": 8278,
    "prefee": 7197,
@@ -615,15 +789,16 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a42e81ae8b9e03fdccf2655"
   },
   {
-   "id": "fifa-342-22-18",
+   "id": "fifa-348-15-1-x2",
    "source": "fifaresale",
-   "section": "342",
-   "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "18",
-   "category": "Category 2",
+   "section": "348",
+   "sectionGroup": "Category 3",
+   "row": "15",
+   "seat": "1-2",
+   "category": "Category 3",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 8280,
    "prefee": 8280,
@@ -633,48 +808,127 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a56d84f86fef321a42b2196",
+   "id": "6a581bf263d38d17e73b5365",
    "source": "gametime",
-   "section": "348",
+   "section": "350",
    "sectionGroup": "Upper",
-   "row": "26",
+   "row": "16",
    "lots": [
     2,
     4
    ],
-   "allIn": 8311,
-   "prefee": 7226,
-   "x": 244.26165,
-   "y": 1348.16153,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/348@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a56d84f86fef321a42b2196"
+   "allIn": 8430,
+   "prefee": 7329,
+   "x": 236.69474,
+   "y": 1065.70784,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/350@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a581bf263d38d17e73b5365"
   },
   {
-   "id": "6a57f6bf8721bdc48d0d381c",
-   "source": "gametime",
-   "section": "305",
-   "sectionGroup": "Upper",
-   "row": "20",
+   "id": "fifa-248-6-11",
+   "source": "fifaresale",
+   "section": "248",
+   "sectionGroup": "Category 2",
+   "row": "6",
+   "seat": "11",
+   "category": "Category 2",
    "lots": [
-    2
+    1
    ],
-   "allIn": 8469,
-   "prefee": 7364,
-   "x": 327.773,
-   "y": 457.21346,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/305@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57f6bf8721bdc48d0d381c"
+   "allIn": 8452.5,
+   "prefee": 8452.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-318-12-5",
+   "id": "fifa-318-12-16-x4",
    "source": "fifaresale",
    "section": "318",
    "sectionGroup": "Category 2",
    "row": "12",
-   "seat": "5",
+   "seat": "16-19",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "allIn": 8487,
+   "prefee": 8487,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-248-14-11-x2",
+   "source": "fifaresale",
+   "section": "248",
+   "sectionGroup": "Category 2",
+   "row": "14",
+   "seat": "11-12",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 8487,
+   "prefee": 8487,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-205A-5-10",
+   "source": "fifaresale",
+   "section": "205A",
+   "sectionGroup": "Category 2",
+   "row": "5",
+   "seat": "10",
    "category": "Category 2",
    "lots": [
     1
+   ],
+   "allIn": 8487,
+   "prefee": 8487,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-344-2-1",
+   "source": "fifaresale",
+   "section": "344",
+   "sectionGroup": "Category 2",
+   "row": "2",
+   "seat": "1",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 8487,
+   "prefee": 8487,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-247A-9-18-x2",
+   "source": "fifaresale",
+   "section": "247A",
+   "sectionGroup": "Category 2",
+   "row": "9",
+   "seat": "18-19",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
    ],
    "allIn": 8487,
    "prefee": 8487,
@@ -690,6 +944,24 @@
    "sectionGroup": "Category 2",
    "row": "23",
    "seat": "5",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 8487,
+   "prefee": 8487,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-334-9-18",
+   "source": "fifaresale",
+   "section": "334",
+   "sectionGroup": "Category 2",
+   "row": "9",
+   "seat": "18",
    "category": "Category 2",
    "lots": [
     1
@@ -738,6 +1010,25 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-333-4-3-x2",
+   "source": "fifaresale",
+   "section": "333",
+   "sectionGroup": "Category 2",
+   "row": "4",
+   "seat": "3-4",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 8487,
+   "prefee": 8487,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "6a57dcca63d38d17e716e1d2",
    "source": "gametime",
    "section": "320",
@@ -746,8 +1037,8 @@
    "lots": [
     2
    ],
-   "allIn": 8502,
-   "prefee": 7392,
+   "allIn": 8515,
+   "prefee": 7404,
    "x": 2040.19178,
    "y": 260.46868,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/320@4x.jpg",
@@ -837,21 +1128,21 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58089d63d38d17e7578991"
   },
   {
-   "id": "6a568bb975f80c52b5c6d68b",
+   "id": "6a568bb9f03f038c81603d8e",
    "source": "gametime",
    "section": "328",
    "sectionGroup": "Upper",
-   "row": "26",
+   "row": "25",
    "lots": [
     1,
     2
    ],
    "allIn": 8593,
    "prefee": 7471,
-   "x": 2344.90215,
-   "y": 1213.16662,
+   "x": 2339.17899,
+   "y": 1211.36651,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/328@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a568bb975f80c52b5c6d68b"
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a568bb9f03f038c81603d8e"
   },
   {
    "id": "6a57e75b8721bdc48d0d331a",
@@ -885,6 +1176,25 @@
    "y": 951.38157,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/301@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a53a5f063d38d17e79faaa5"
+  },
+  {
+   "id": "fifa-247A-9-10-x2",
+   "source": "fifaresale",
+   "section": "247A",
+   "sectionGroup": "Category 2",
+   "row": "9",
+   "seat": "10-11",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 8625,
+   "prefee": 8625,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-307-26-2-x2",
@@ -924,53 +1234,42 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a58139f01f6998cfa602841",
+   "id": "fifa-328-18-7-x2",
+   "source": "fifaresale",
+   "section": "328",
+   "sectionGroup": "Category 3",
+   "row": "18",
+   "seat": "7-8",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 8625,
+   "prefee": 8625,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a5823858721bdc48d0d458f",
    "source": "gametime",
    "section": "305",
-   "sectionGroup": "Middle",
-   "row": "TBD",
-   "lots": [
-    2
-   ],
-   "allIn": 8651,
-   "prefee": 7521,
-   "x": 290.05282,
-   "y": 438.98835,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/305@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58139f01f6998cfa602841"
-  },
-  {
-   "id": "6a5813bf58d12e91871f2013",
-   "source": "gametime",
-   "section": "350",
    "sectionGroup": "Upper",
-   "row": "17",
+   "row": "18",
    "lots": [
-    2
-   ],
-   "allIn": 8660,
-   "prefee": 7530,
-   "x": 230.41751,
-   "y": 1066.77484,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/350@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5813bf58d12e91871f2013"
-  },
-  {
-   "id": "6a52469a1dfd3c3f3053db3c",
-   "source": "gametime",
-   "section": "322",
-   "sectionGroup": "Upper",
-   "row": "20",
-   "lots": [
+    1,
     2,
+    3,
     4
    ],
-   "allIn": 8675,
-   "prefee": 7542,
-   "x": 2216.66907,
-   "y": 449.85556,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/322@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a52469a1dfd3c3f3053db3c"
+   "allIn": 8709,
+   "prefee": 7572,
+   "x": 338.57724,
+   "y": 462.16654,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/305@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5823858721bdc48d0d458f"
   },
   {
    "id": "69fe2e1e9e5c23638730e573",
@@ -1006,38 +1305,21 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a53a4cb63d38d17e750feb4"
   },
   {
-   "id": "6a47b9abf51bae05208ea9ce",
+   "id": "6a5800668721bdc48d0d3b35",
    "source": "gametime",
-   "section": "317",
-   "sectionGroup": "Middle",
-   "row": "24",
+   "section": "306",
+   "sectionGroup": "Upper",
+   "row": "19",
    "lots": [
-    2
-   ],
-   "allIn": 8783,
-   "prefee": 7636,
-   "x": 1709.35832,
-   "y": 112.669,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/317@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a47b9abf51bae05208ea9ce"
-  },
-  {
-   "id": "69a2cba3c6f3a780da2c9b0c",
-   "source": "gametime",
-   "section": "CAT4",
-   "sectionGroup": "Category",
-   "row": "TBD",
-   "lots": [
-    1,
     2,
-    3
+    4
    ],
-   "allIn": 8783,
-   "prefee": 7636,
-   "x": 2439.46821,
-   "y": 1766.94233,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/CAT4@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/69a2cba3c6f3a780da2c9b0c"
+   "allIn": 8781,
+   "prefee": 7634,
+   "x": 396.44578,
+   "y": 346.90657,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/306@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5800668721bdc48d0d3b35"
   },
   {
    "id": "6a568bb943ccdbc8bad02c90",
@@ -1076,23 +1358,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a568bb97abb9f93aec60789"
   },
   {
-   "id": "6a506e1b63d38d17e7eab393",
-   "source": "gametime",
-   "section": "335",
-   "sectionGroup": "Upper",
-   "row": "18",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 8792,
-   "prefee": 7644,
-   "x": 1719.25271,
-   "y": 1774.77755,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/335@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a506e1b63d38d17e7eab393"
-  },
-  {
    "id": "6a51074f63d38d17e7b77da9",
    "source": "gametime",
    "section": "320",
@@ -1128,22 +1393,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a3d8fb3239cabfa2cae6c77",
-   "source": "gametime",
-   "section": "306",
-   "sectionGroup": "Upper",
-   "row": "21",
-   "lots": [
-    2
-   ],
-   "allIn": 8811,
-   "prefee": 7660,
-   "x": 386.40463,
-   "y": 340.77022,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/306@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a3d8fb3239cabfa2cae6c77"
-  },
-  {
    "id": "6a57f87d63d38d17e71d4d28",
    "source": "gametime",
    "section": "303",
@@ -1162,6 +1411,39 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57f87d63d38d17e71d4d28"
   },
   {
+   "id": "6a51d6bf5b43b78f8162905c",
+   "source": "gametime",
+   "section": "335",
+   "sectionGroup": "Upper",
+   "row": "21",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 8858,
+   "prefee": 7701,
+   "x": 1723.57985,
+   "y": 1792.25565,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/335@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51d6bf5b43b78f8162905c"
+  },
+  {
+   "id": "6a47b9abf51bae05208ea9ce",
+   "source": "gametime",
+   "section": "317",
+   "sectionGroup": "Middle",
+   "row": "24",
+   "lots": [
+    2
+   ],
+   "allIn": 8878,
+   "prefee": 7719,
+   "x": 1709.35832,
+   "y": 112.669,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/317@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a47b9abf51bae05208ea9ce"
+  },
+  {
    "id": "6a5821ef63d38d17e7dc932d",
    "source": "gametime",
    "section": "318",
@@ -1176,6 +1458,22 @@
    "y": 197.07977,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/318@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5821ef63d38d17e7dc932d"
+  },
+  {
+   "id": "6a581dfe63d38d17e7c55a66",
+   "source": "gametime",
+   "section": "332",
+   "sectionGroup": "Upper",
+   "row": "16",
+   "lots": [
+    2
+   ],
+   "allIn": 8944,
+   "prefee": 7777,
+   "x": 2056.18274,
+   "y": 1653.45542,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/332@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a581dfe63d38d17e7c55a66"
   },
   {
    "id": "fifa-305-23-16",
@@ -1232,19 +1530,18 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-320-19-11-x2",
+   "id": "fifa-316-21-7",
    "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "19",
-   "seat": "11-12",
-   "category": "Category 3",
+   "section": "316",
+   "sectionGroup": "Category 2",
+   "row": "21",
+   "seat": "7",
+   "category": "Category 2",
    "lots": [
-    1,
-    2
+    1
    ],
-   "allIn": 9037.72,
-   "prefee": 9037.72,
+   "allIn": 8998.75,
+   "prefee": 8998.75,
    "x": null,
    "y": null,
    "view": null,
@@ -1286,22 +1583,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a42880f92ae6b689e63e432"
   },
   {
-   "id": "6a58214363d38d17e7ad1970",
-   "source": "gametime",
-   "section": "302",
-   "sectionGroup": "Upper",
-   "row": "6",
-   "lots": [
-    2
-   ],
-   "allIn": 9144,
-   "prefee": 7950,
-   "x": 299.1003,
-   "y": 844.18136,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/302@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58214363d38d17e7ad1970"
-  },
-  {
    "id": "6a3c0e47b0489ea78d44f2b4",
    "source": "gametime",
    "section": "333",
@@ -1316,6 +1597,77 @@
    "y": 1740.865,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/333@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a3c0e47b0489ea78d44f2b4"
+  },
+  {
+   "id": "fifa-333-3-7-x2",
+   "source": "fifaresale",
+   "section": "333",
+   "sectionGroup": "Category 2",
+   "row": "3",
+   "seat": "7-8",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 9154,
+   "prefee": 9154,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a58214363d38d17e7ad1970",
+   "source": "gametime",
+   "section": "302",
+   "sectionGroup": "Upper",
+   "row": "6",
+   "lots": [
+    2
+   ],
+   "allIn": 9169,
+   "prefee": 7972,
+   "x": 299.1003,
+   "y": 844.18136,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/302@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58214363d38d17e7ad1970"
+  },
+  {
+   "id": "fifa-335-17-1",
+   "source": "fifaresale",
+   "section": "335",
+   "sectionGroup": "Category 2",
+   "row": "17",
+   "seat": "1",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 9177,
+   "prefee": 9177,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-328-19-3",
+   "source": "fifaresale",
+   "section": "328",
+   "sectionGroup": "Category 3",
+   "row": "19",
+   "seat": "3",
+   "category": "Category 3",
+   "lots": [
+    1
+   ],
+   "allIn": 9200,
+   "prefee": 9200,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-305-25-17",
@@ -1342,6 +1694,43 @@
    "sectionGroup": "Category 3",
    "row": "6",
    "seat": "2-3",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 9200,
+   "prefee": 9200,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-305-18-24",
+   "source": "fifaresale",
+   "section": "305",
+   "sectionGroup": "Category 3",
+   "row": "18",
+   "seat": "24",
+   "category": "Category 3",
+   "lots": [
+    1
+   ],
+   "allIn": 9200,
+   "prefee": 9200,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-304-22-11-x2",
+   "source": "fifaresale",
+   "section": "304",
+   "sectionGroup": "Category 3",
+   "row": "22",
+   "seat": "11-12",
    "category": "Category 3",
    "lots": [
     1,
@@ -1392,15 +1781,16 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-328-19-3",
+   "id": "fifa-325-23-1-x2",
    "source": "fifaresale",
-   "section": "328",
+   "section": "325",
    "sectionGroup": "Category 3",
-   "row": "19",
-   "seat": "3",
+   "row": "23",
+   "seat": "1-2",
    "category": "Category 3",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 9200,
    "prefee": 9200,
@@ -1417,6 +1807,42 @@
    "row": "23",
    "seat": "28",
    "category": "Category 3",
+   "lots": [
+    1
+   ],
+   "allIn": 9200,
+   "prefee": 9200,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-342-24-14",
+   "source": "fifaresale",
+   "section": "342",
+   "sectionGroup": "Category 2",
+   "row": "24",
+   "seat": "14",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 9200,
+   "prefee": 9200,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-336-25-13",
+   "source": "fifaresale",
+   "section": "336",
+   "sectionGroup": "Category 2",
+   "row": "25",
+   "seat": "13",
+   "category": "Category 2",
    "lots": [
     1
    ],
@@ -1455,8 +1881,8 @@
    "lots": [
     2
    ],
-   "allIn": 9276,
-   "prefee": 8066,
+   "allIn": 9304,
+   "prefee": 8089,
    "x": 2144.21855,
    "y": 491.11237,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/322@4x.jpg",
@@ -1481,20 +1907,20 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a581dfe63d38d17e7c55a66",
+   "id": "6a57dcc763d38d17e715d11b",
    "source": "gametime",
-   "section": "332",
+   "section": "319",
    "sectionGroup": "Upper",
-   "row": "16",
+   "row": "4",
    "lots": [
     2
    ],
-   "allIn": 9372,
-   "prefee": 8149,
-   "x": 2056.18274,
-   "y": 1653.45542,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/332@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a581dfe63d38d17e7c55a66"
+   "allIn": 9359,
+   "prefee": 8138,
+   "x": 1917.99589,
+   "y": 294.07303,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/319@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57dcc763d38d17e715d11b"
   },
   {
    "id": "6a585f4063d38d17e7db21d2",
@@ -1529,22 +1955,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5832c8a39b8d69e5312e60"
   },
   {
-   "id": "6a58333a7984bf356ee2ec0a",
-   "source": "gametime",
-   "section": "245A",
-   "sectionGroup": "Middle",
-   "row": "11",
-   "lots": [
-    2
-   ],
-   "allIn": 9423,
-   "prefee": 8193,
-   "x": 637.47165,
-   "y": 1455.32896,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/245A@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58333a7984bf356ee2ec0a"
-  },
-  {
    "id": "6a583e69a39b8d69e531312e",
    "source": "gametime",
    "section": "340",
@@ -1569,27 +1979,27 @@
    "lots": [
     2
    ],
-   "allIn": 9470,
-   "prefee": 8234,
+   "allIn": 9473,
+   "prefee": 8236,
    "x": 724.93241,
    "y": 268.38095,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/309@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a51015263d38d17e71cab49"
   },
   {
-   "id": "fifa-333-3-7-x2",
+   "id": "fifa-226-18-17-x2",
    "source": "fifaresale",
-   "section": "333",
+   "section": "226",
    "sectionGroup": "Category 2",
-   "row": "3",
-   "seat": "7-8",
+   "row": "18",
+   "seat": "17-18",
    "category": "Category 2",
    "lots": [
     1,
     2
    ],
-   "allIn": 9472.55,
-   "prefee": 9472.55,
+   "allIn": 9476,
+   "prefee": 9476,
    "x": null,
    "y": null,
    "view": null,
@@ -1632,22 +2042,6 @@
    "y": 1812.27469,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/336@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57f60801f6998cfa601f33"
-  },
-  {
-   "id": "6a57dccd63d38d17e717a9f9",
-   "source": "gametime",
-   "section": "319",
-   "sectionGroup": "Upper",
-   "row": "2",
-   "lots": [
-    2
-   ],
-   "allIn": 9498,
-   "prefee": 8258,
-   "x": 1915.58812,
-   "y": 305.74015,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/319@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57dccd63d38d17e717a9f9"
   },
   {
    "id": "fifa-344-4-1-x2",
@@ -1775,23 +2169,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a580b45e6773bd1f7664ca0"
   },
   {
-   "id": "6a58321a63d38d17e72a5c94",
-   "source": "gametime",
-   "section": "228A",
-   "sectionGroup": "Middle",
-   "row": "5",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 9546,
-   "prefee": 8300,
-   "x": 2017.31169,
-   "y": 1091.07124,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/228A@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58321a63d38d17e72a5c94"
-  },
-  {
    "id": "fifa-309-22-19-x3",
    "source": "fifaresale",
    "section": "309",
@@ -1806,41 +2183,6 @@
    ],
    "allIn": 9569.92,
    "prefee": 9569.92,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a57f55a3ecc7da0fe1963c6",
-   "source": "gametime",
-   "section": "332",
-   "sectionGroup": "Upper",
-   "row": "5",
-   "lots": [
-    2
-   ],
-   "allIn": 9600,
-   "prefee": 8347,
-   "x": 2018.86618,
-   "y": 1598.76293,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/332@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57f55a3ecc7da0fe1963c6"
-  },
-  {
-   "id": "fifa-328-18-7-x2",
-   "source": "fifaresale",
-   "section": "328",
-   "sectionGroup": "Category 3",
-   "row": "18",
-   "seat": "7-8",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 9602.5,
-   "prefee": 9602.5,
    "x": null,
    "y": null,
    "view": null,
@@ -1952,6 +2294,39 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58070050c61fae7f2b226c"
   },
   {
+   "id": "6a526e7d76cb3aef56221ff5",
+   "source": "gametime",
+   "section": "328",
+   "sectionGroup": "Upper",
+   "row": "6",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 9695,
+   "prefee": 8429,
+   "x": 2230.81627,
+   "y": 1180.16706,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/328@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a526e7d76cb3aef56221ff5"
+  },
+  {
+   "id": "6a583a118721bdc48d0d4b6d",
+   "source": "gametime",
+   "section": "228A",
+   "sectionGroup": "Middle",
+   "row": "5",
+   "lots": [
+    2
+   ],
+   "allIn": 9716,
+   "prefee": 8448,
+   "x": 2017.31169,
+   "y": 1091.07124,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/228A@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a583a118721bdc48d0d4b6d"
+  },
+  {
    "id": "fifa-331-22-16",
    "source": "fifaresale",
    "section": "331",
@@ -1970,6 +2345,24 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-306-25-25",
+   "source": "fifaresale",
+   "section": "306",
+   "sectionGroup": "Category 4",
+   "row": "25",
+   "seat": "25",
+   "category": "Category 4",
+   "lots": [
+    1
+   ],
+   "allIn": 9744.18,
+   "prefee": 9744.18,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-317-26-3",
    "source": "fifaresale",
    "section": "317",
@@ -1979,6 +2372,26 @@
    "category": "Category 2",
    "lots": [
     1
+   ],
+   "allIn": 9775,
+   "prefee": 9775,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-342-23-13-x3",
+   "source": "fifaresale",
+   "section": "342",
+   "sectionGroup": "Category 2",
+   "row": "23",
+   "seat": "13-15",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3
    ],
    "allIn": 9775,
    "prefee": 9775,
@@ -2007,24 +2420,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-350-25-16",
-   "source": "fifaresale",
-   "section": "350",
-   "sectionGroup": "Category 3",
-   "row": "25",
-   "seat": "16",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 9775,
-   "prefee": 9775,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-325-5-16",
    "source": "fifaresale",
    "section": "325",
@@ -2043,16 +2438,15 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-348-15-1-x2",
+   "id": "fifa-343-10-3",
    "source": "fifaresale",
-   "section": "348",
-   "sectionGroup": "Category 3",
-   "row": "15",
-   "seat": "1-2",
-   "category": "Category 3",
+   "section": "343",
+   "sectionGroup": "Category 2",
+   "row": "10",
+   "seat": "3",
+   "category": "Category 2",
    "lots": [
-    1,
-    2
+    1
    ],
    "allIn": 9775,
    "prefee": 9775,
@@ -2062,15 +2456,16 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-334-9-18",
+   "id": "fifa-341-22-23-x2",
    "source": "fifaresale",
-   "section": "334",
+   "section": "341",
    "sectionGroup": "Category 2",
-   "row": "9",
-   "seat": "18",
+   "row": "22",
+   "seat": "23-24",
    "category": "Category 2",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 9775,
    "prefee": 9775,
@@ -2114,6 +2509,39 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5834ce63d38d17e7d40686"
   },
   {
+   "id": "6a57f55a3ecc7da0fe1963c6",
+   "source": "gametime",
+   "section": "332",
+   "sectionGroup": "Upper",
+   "row": "5",
+   "lots": [
+    2
+   ],
+   "allIn": 9796,
+   "prefee": 8517,
+   "x": 2018.86618,
+   "y": 1598.76293,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/332@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57f55a3ecc7da0fe1963c6"
+  },
+  {
+   "id": "6a5853397dc277926556ce57",
+   "source": "gametime",
+   "section": "245A",
+   "sectionGroup": "Middle",
+   "row": "6",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 9861,
+   "prefee": 8574,
+   "x": 658.89837,
+   "y": 1432.21616,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/245A@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5853397dc277926556ce57"
+  },
+  {
    "id": "6a57fc9063d38d17e728df15",
    "source": "gametime",
    "section": "205A",
@@ -2122,8 +2550,8 @@
    "lots": [
     2
    ],
-   "allIn": 9837,
-   "prefee": 8553,
+   "allIn": 9867,
+   "prefee": 8579,
    "x": 581.05353,
    "y": 619.26489,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/205A@4x.jpg",
@@ -2152,22 +2580,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a5831ae63d38d17e70d6c54",
-   "source": "gametime",
-   "section": "310",
-   "sectionGroup": "Upper",
-   "row": "6",
-   "lots": [
-    2
-   ],
-   "allIn": 9871,
-   "prefee": 8582,
-   "x": 840.20673,
-   "y": 222.41755,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/310@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5831ae63d38d17e70d6c54"
-  },
-  {
    "id": "6a5831b563d38d17e70f2475",
    "source": "gametime",
    "section": "343",
@@ -2182,6 +2594,22 @@
    "y": 1647.4143,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/343@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5831b563d38d17e70f2475"
+  },
+  {
+   "id": "6a5831ae63d38d17e70d6c54",
+   "source": "gametime",
+   "section": "310",
+   "sectionGroup": "Upper",
+   "row": "6",
+   "lots": [
+    2
+   ],
+   "allIn": 9871,
+   "prefee": 8582,
+   "x": 840.20673,
+   "y": 222.41755,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/310@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5831ae63d38d17e70d6c54"
   },
   {
    "id": "6a37d34adcb2c31ee5114240",
@@ -2211,8 +2639,8 @@
     3,
     4
    ],
-   "allIn": 9875,
-   "prefee": 8586,
+   "allIn": 9888,
+   "prefee": 8597,
    "x": 2122.03125,
    "y": 944.69665,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/226@4x.jpg",
@@ -2235,6 +2663,23 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a526e7c0f4f6834a65823df",
+   "source": "gametime",
+   "section": "306",
+   "sectionGroup": "Upper",
+   "row": "13",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 9913,
+   "prefee": 8619,
+   "x": 425.6781,
+   "y": 367.53821,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/306@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a526e7c0f4f6834a65823df"
   },
   {
    "id": "6a5833af61456fd5ba9814c8",
@@ -2263,33 +2708,12 @@
     2,
     4
    ],
-   "allIn": 9918,
-   "prefee": 8624,
+   "allIn": 9934,
+   "prefee": 8638,
    "x": 1928.19809,
    "y": 1627.7727,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/333@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57dcc363d38d17e714be04"
-  },
-  {
-   "id": "fifa-341-22-21-x4",
-   "source": "fifaresale",
-   "section": "341",
-   "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "21-24",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2,
-    3,
-    4
-   ],
-   "allIn": 9918.75,
-   "prefee": 9918.75,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-342-23-9-x2",
@@ -2403,6 +2827,25 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-205A-4-15-x2",
+   "source": "fifaresale",
+   "section": "205A",
+   "sectionGroup": "Category 2",
+   "row": "4",
+   "seat": "15-16",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 9999.25,
+   "prefee": 9999.25,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-343-9-12",
    "source": "fifaresale",
    "section": "343",
@@ -2419,23 +2862,6 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a5853397dc277926556ce57",
-   "source": "gametime",
-   "section": "245A",
-   "sectionGroup": "Middle",
-   "row": "6",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 10011,
-   "prefee": 8704,
-   "x": 658.89837,
-   "y": 1432.21616,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/245A@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5853397dc277926556ce57"
   },
   {
    "id": "6a538a3c03a8cf8ef16716ad",
@@ -2470,6 +2896,24 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a3d8fb3239cabfa2cae6c57"
   },
   {
+   "id": "fifa-336-16-18",
+   "source": "fifaresale",
+   "section": "336",
+   "sectionGroup": "Category 2",
+   "row": "16",
+   "seat": "18",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 10039.5,
+   "prefee": 10039.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-344-16-15-x2",
    "source": "fifaresale",
    "section": "344",
@@ -2501,6 +2945,26 @@
    ],
    "allIn": 10062.5,
    "prefee": 10062.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-343-8-16-x3",
+   "source": "fifaresale",
+   "section": "343",
+   "sectionGroup": "Category 2",
+   "row": "8",
+   "seat": "16-18",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 10075.92,
+   "prefee": 10075.92,
    "x": null,
    "y": null,
    "view": null,
@@ -2562,19 +3026,75 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-343-8-16-x2",
+   "id": "6a5833e363d38d17e79a34c9",
+   "source": "gametime",
+   "section": "229",
+   "sectionGroup": "Middle",
+   "row": "3",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 10116,
+   "prefee": 8795,
+   "x": 1983.71029,
+   "y": 1186.33258,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/229@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5833e363d38d17e79a34c9"
+  },
+  {
+   "id": "fifa-344-2-6-x2",
    "source": "fifaresale",
-   "section": "343",
+   "section": "344",
    "sectionGroup": "Category 2",
-   "row": "8",
-   "seat": "16-17",
+   "row": "2",
+   "seat": "6-7",
    "category": "Category 2",
    "lots": [
     1,
     2
    ],
-   "allIn": 10114.25,
-   "prefee": 10114.25,
+   "allIn": 10120,
+   "prefee": 10120,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-335-16-9-x3",
+   "source": "fifaresale",
+   "section": "335",
+   "sectionGroup": "Category 2",
+   "row": "16",
+   "seat": "9-11",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 10120,
+   "prefee": 10120,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-325-23-9-x2",
+   "source": "fifaresale",
+   "section": "325",
+   "sectionGroup": "Category 3",
+   "row": "23",
+   "seat": "9-10",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 10120,
+   "prefee": 10120,
    "x": null,
    "y": null,
    "view": null,
@@ -2619,12 +3139,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-325-23-9-x2",
+   "id": "fifa-347-24-1-x2",
    "source": "fifaresale",
-   "section": "325",
+   "section": "347",
    "sectionGroup": "Category 3",
-   "row": "23",
-   "seat": "9-10",
+   "row": "24",
+   "seat": "1-2",
    "category": "Category 3",
    "lots": [
     1,
@@ -2638,16 +3158,15 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-344-2-6-x2",
+   "id": "fifa-343-7-15",
    "source": "fifaresale",
-   "section": "344",
+   "section": "343",
    "sectionGroup": "Category 2",
-   "row": "2",
-   "seat": "6-7",
+   "row": "7",
+   "seat": "15",
    "category": "Category 2",
    "lots": [
-    1,
-    2
+    1
    ],
    "allIn": 10120,
    "prefee": 10120,
@@ -2704,29 +3223,12 @@
     4,
     6
    ],
-   "allIn": 10129,
-   "prefee": 8807,
+   "allIn": 10133,
+   "prefee": 8810,
    "x": 838.11702,
    "y": 1717.69994,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/342@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5828b363d38d17e7a08947"
-  },
-  {
-   "id": "6a5833e363d38d17e79a34c9",
-   "source": "gametime",
-   "section": "229",
-   "sectionGroup": "Middle",
-   "row": "3",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 10132,
-   "prefee": 8809,
-   "x": 1983.71029,
-   "y": 1186.33258,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/229@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5833e363d38d17e79a34c9"
   },
   {
    "id": "fifa-310-26-25",
@@ -2747,12 +3249,30 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-303-18-24-x2",
+   "id": "fifa-336-20-17",
    "source": "fifaresale",
-   "section": "303",
+   "section": "336",
+   "sectionGroup": "Category 2",
+   "row": "20",
+   "seat": "17",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 10150.19,
+   "prefee": 10150.19,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-307-20-30-x2",
+   "source": "fifaresale",
+   "section": "307",
    "sectionGroup": "Category 3",
-   "row": "18",
-   "seat": "24-25",
+   "row": "20",
+   "seat": "30-31",
    "category": "Category 3",
    "lots": [
     1,
@@ -2766,15 +3286,16 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-336-20-17",
+   "id": "fifa-303-18-24-x2",
    "source": "fifaresale",
-   "section": "336",
-   "sectionGroup": "Category 2",
-   "row": "20",
-   "seat": "17",
-   "category": "Category 2",
+   "section": "303",
+   "sectionGroup": "Category 3",
+   "row": "18",
+   "seat": "24-25",
+   "category": "Category 3",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 10150.19,
    "prefee": 10150.19,
@@ -2828,8 +3349,8 @@
     2,
     4
    ],
-   "allIn": 10207,
-   "prefee": 8874,
+   "allIn": 10210,
+   "prefee": 8877,
    "x": 1819.33822,
    "y": 1641.86644,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/334@4x.jpg",
@@ -3079,26 +3600,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-335-16-9-x3",
-   "source": "fifaresale",
-   "section": "335",
-   "sectionGroup": "Category 2",
-   "row": "16",
-   "seat": "9-11",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 10350,
-   "prefee": 10350,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-329-26-1-x2",
    "source": "fifaresale",
    "section": "329",
@@ -3246,24 +3747,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-229-6-1",
-   "source": "fifaresale",
-   "section": "229",
-   "sectionGroup": "Category 2",
-   "row": "6",
-   "seat": "1",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 10350,
-   "prefee": 10350,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-324-25-25",
    "source": "fifaresale",
    "section": "324",
@@ -3282,16 +3765,15 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-228A-8-17-x2",
+   "id": "fifa-247A-12-18",
    "source": "fifaresale",
-   "section": "228A",
+   "section": "247A",
    "sectionGroup": "Category 2",
-   "row": "8",
-   "seat": "17-18",
+   "row": "12",
+   "seat": "18",
    "category": "Category 2",
    "lots": [
-    1,
-    2
+    1
    ],
    "allIn": 10350,
    "prefee": 10350,
@@ -3301,15 +3783,36 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-343-7-15",
+   "id": "fifa-342-22-11",
    "source": "fifaresale",
-   "section": "343",
+   "section": "342",
    "sectionGroup": "Category 2",
-   "row": "7",
-   "seat": "15",
+   "row": "22",
+   "seat": "11",
    "category": "Category 2",
    "lots": [
     1
+   ],
+   "allIn": 10350,
+   "prefee": 10350,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-333-10-8-x4",
+   "source": "fifaresale",
+   "section": "333",
+   "sectionGroup": "Category 2",
+   "row": "10",
+   "seat": "8-11",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3,
+    4
    ],
    "allIn": 10350,
    "prefee": 10350,
@@ -3344,6 +3847,24 @@
    "sectionGroup": "Category 4",
    "row": "19",
    "seat": "6",
+   "category": "Category 4",
+   "lots": [
+    1
+   ],
+   "allIn": 10350,
+   "prefee": 10350,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-331-19-26",
+   "source": "fifaresale",
+   "section": "331",
+   "sectionGroup": "Category 4",
+   "row": "19",
+   "seat": "26",
    "category": "Category 4",
    "lots": [
     1
@@ -3459,25 +3980,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-347-24-1-x2",
-   "source": "fifaresale",
-   "section": "347",
-   "sectionGroup": "Category 3",
-   "row": "24",
-   "seat": "1-2",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 10522.5,
-   "prefee": 10522.5,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "6a4ac39e0aad09c46601e94e",
    "source": "gametime",
    "section": "341",
@@ -3552,26 +4054,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-342-23-13-x3",
-   "source": "fifaresale",
-   "section": "342",
-   "sectionGroup": "Category 2",
-   "row": "23",
-   "seat": "13-15",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 10637.5,
-   "prefee": 10637.5,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-333-8-6-x2",
    "source": "fifaresale",
    "section": "333",
@@ -3610,6 +4092,26 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-320-18-29-x3",
+   "source": "fifaresale",
+   "section": "320",
+   "sectionGroup": "Category 3",
+   "row": "18",
+   "seat": "29-31",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 10637.5,
+   "prefee": 10637.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-344-10-1-x2",
    "source": "fifaresale",
    "section": "344",
@@ -3629,78 +4131,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-303-20-2-x3",
-   "source": "fifaresale",
-   "section": "303",
-   "sectionGroup": "Category 3",
-   "row": "20",
-   "seat": "2-4",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 10656.67,
-   "prefee": 10656.67,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-320-16-28",
-   "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "16",
-   "seat": "28",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 10685.8,
-   "prefee": 10685.8,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-248-6-11",
-   "source": "fifaresale",
-   "section": "248",
-   "sectionGroup": "Category 2",
-   "row": "6",
-   "seat": "11",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 10695,
-   "prefee": 10695,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a5851f963d38d17e76a062f",
-   "source": "gametime",
-   "section": "312",
-   "sectionGroup": "Upper",
-   "row": "10",
-   "lots": [
-    2
-   ],
-   "allIn": 10709,
-   "prefee": 9311,
-   "x": 1083.60805,
-   "y": 167.432,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/312@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5851f963d38d17e76a062f"
-  },
-  {
    "id": "6a57f32763d38d17e7ca25ab",
    "source": "gametime",
    "section": "318",
@@ -3718,6 +4148,22 @@
    "y": 283.21447,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/318@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57f32763d38d17e7ca25ab"
+  },
+  {
+   "id": "6a5851f963d38d17e76a062f",
+   "source": "gametime",
+   "section": "312",
+   "sectionGroup": "Upper",
+   "row": "10",
+   "lots": [
+    2
+   ],
+   "allIn": 10709,
+   "prefee": 9311,
+   "x": 1083.60805,
+   "y": 167.432,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/312@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5851f963d38d17e76a062f"
   },
   {
    "id": "fifa-335-22-1-x6",
@@ -3781,6 +4227,25 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-247A-7-3-x2",
+   "source": "fifaresale",
+   "section": "247A",
+   "sectionGroup": "Category 2",
+   "row": "7",
+   "seat": "3-4",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 10781.25,
+   "prefee": 10781.25,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-205A-10-3",
    "source": "fifaresale",
    "section": "205A",
@@ -3793,6 +4258,25 @@
    ],
    "allIn": 10787,
    "prefee": 10787,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-311-24-21-x2",
+   "source": "fifaresale",
+   "section": "311",
+   "sectionGroup": "Category 2",
+   "row": "24",
+   "seat": "21-22",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 10810,
+   "prefee": 10810,
    "x": null,
    "y": null,
    "view": null,
@@ -3887,49 +4371,13 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-342-22-11",
+   "id": "fifa-205A-5-1",
    "source": "fifaresale",
-   "section": "342",
+   "section": "205A",
    "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "11",
+   "row": "5",
+   "seat": "1",
    "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 10925,
-   "prefee": 10925,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-342-22-27",
-   "source": "fifaresale",
-   "section": "342",
-   "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "27",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 10925,
-   "prefee": 10925,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-320-14-17",
-   "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "14",
-   "seat": "17",
-   "category": "Category 3",
    "lots": [
     1
    ],
@@ -3969,6 +4417,80 @@
    "category": "Category 2",
    "lots": [
     1
+   ],
+   "allIn": 10925,
+   "prefee": 10925,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-333-15-1-x2",
+   "source": "fifaresale",
+   "section": "333",
+   "sectionGroup": "Category 2",
+   "row": "15",
+   "seat": "1-2",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 10925,
+   "prefee": 10925,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-342-22-27",
+   "source": "fifaresale",
+   "section": "342",
+   "sectionGroup": "Category 2",
+   "row": "22",
+   "seat": "27",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 10925,
+   "prefee": 10925,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-319-22-13",
+   "source": "fifaresale",
+   "section": "319",
+   "sectionGroup": "Category 2",
+   "row": "22",
+   "seat": "13",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 10925,
+   "prefee": 10925,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-322-17-1-x2",
+   "source": "fifaresale",
+   "section": "322",
+   "sectionGroup": "Category 3",
+   "row": "17",
+   "seat": "1-2",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2
    ],
    "allIn": 10925,
    "prefee": 10925,
@@ -4047,6 +4569,42 @@
     1,
     2,
     3
+   ],
+   "allIn": 10925,
+   "prefee": 10925,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-248-9-6",
+   "source": "fifaresale",
+   "section": "248",
+   "sectionGroup": "Category 2",
+   "row": "9",
+   "seat": "6",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 10925,
+   "prefee": 10925,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-248-9-8",
+   "source": "fifaresale",
+   "section": "248",
+   "sectionGroup": "Category 2",
+   "row": "9",
+   "seat": "8",
+   "category": "Category 2",
+   "lots": [
+    1
    ],
    "allIn": 10925,
    "prefee": 10925,
@@ -4137,6 +4695,24 @@
    "sectionGroup": "Category 2",
    "row": "3",
    "seat": "10",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 10925,
+   "prefee": 10925,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-247A-8-14",
+   "source": "fifaresale",
+   "section": "247A",
+   "sectionGroup": "Category 2",
+   "row": "8",
+   "seat": "14",
    "category": "Category 2",
    "lots": [
     1
@@ -4331,6 +4907,23 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5186edbb41f074ecd20567"
   },
   {
+   "id": "6a54fbf11bde6c0b5b43dbde",
+   "source": "gametime",
+   "section": "324",
+   "sectionGroup": "Upper",
+   "row": "25",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 11130,
+   "prefee": 9678,
+   "x": 2335.10672,
+   "y": 684.80532,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/324@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54fbf11bde6c0b5b43dbde"
+  },
+  {
    "id": "fifa-323-25-9",
    "source": "fifaresale",
    "section": "323",
@@ -4343,6 +4936,28 @@
    ],
    "allIn": 11153.85,
    "prefee": 11153.85,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-334-6-9-x5",
+   "source": "fifaresale",
+   "section": "334",
+   "sectionGroup": "Category 2",
+   "row": "6",
+   "seat": "9-13",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "allIn": 11155,
+   "prefee": 11155,
    "x": null,
    "y": null,
    "view": null,
@@ -4417,23 +5032,6 @@
    "y": 172.02793,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/316@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a57496063d38d17e723f93c"
-  },
-  {
-   "id": "6a54fbf11bde6c0b5b43dbde",
-   "source": "gametime",
-   "section": "324",
-   "sectionGroup": "Upper",
-   "row": "25",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 11226,
-   "prefee": 9761,
-   "x": 2335.10672,
-   "y": 684.80532,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/324@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54fbf11bde6c0b5b43dbde"
   },
   {
    "id": "6a57f99763d38d17e7603084",
@@ -4542,6 +5140,24 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-227B-13-19",
+   "source": "fifaresale",
+   "section": "227B",
+   "sectionGroup": "Category 2",
+   "row": "13",
+   "seat": "19",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 11270,
+   "prefee": 11270,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-333-5-9-x2",
    "source": "fifaresale",
    "section": "333",
@@ -4581,40 +5197,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a526e7d76cb3aef56221ff5",
-   "source": "gametime",
-   "section": "328",
-   "sectionGroup": "Upper",
-   "row": "6",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 11332,
-   "prefee": 9853,
-   "x": 2230.81627,
-   "y": 1180.16706,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/328@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a526e7d76cb3aef56221ff5"
-  },
-  {
-   "id": "6a526e7c0f4f6834a65823df",
-   "source": "gametime",
-   "section": "306",
-   "sectionGroup": "Upper",
-   "row": "13",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 11332,
-   "prefee": 9853,
-   "x": 425.6781,
-   "y": 367.53821,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/306@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a526e7c0f4f6834a65823df"
-  },
-  {
    "id": "6a51063c63d38d17e768f567",
    "source": "gametime",
    "section": "333",
@@ -4651,6 +5233,24 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-247A-7-17",
+   "source": "fifaresale",
+   "section": "247A",
+   "sectionGroup": "Category 2",
+   "row": "7",
+   "seat": "17",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 11385,
+   "prefee": 11385,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-226-9-17-x4",
    "source": "fifaresale",
    "section": "226",
@@ -4672,15 +5272,16 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-247A-7-17",
+   "id": "fifa-230A-11-19-x2",
    "source": "fifaresale",
-   "section": "247A",
+   "section": "230A",
    "sectionGroup": "Category 2",
-   "row": "7",
-   "seat": "17",
+   "row": "11",
+   "seat": "19-20",
    "category": "Category 2",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 11385,
    "prefee": 11385,
@@ -4688,26 +5289,6 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a580cab63d38d17e75b0ec1",
-   "source": "gametime",
-   "section": "316",
-   "sectionGroup": "Middle",
-   "row": "2",
-   "lots": [
-    1,
-    2,
-    3,
-    4,
-    5
-   ],
-   "allIn": 11398,
-   "prefee": 9910,
-   "x": 1572.03089,
-   "y": 235.17595,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/316@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a580cab63d38d17e75b0ec1"
   },
   {
    "id": "6a515f7d63d38d17e71a1e12",
@@ -4769,12 +5350,28 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-314-25-24",
+   "id": "6a42d051239cabfa2cf8d4b9",
+   "source": "gametime",
+   "section": "SUPPORTERS",
+   "sectionGroup": "Supporters",
+   "row": "TBD",
+   "lots": [
+    2
+   ],
+   "allIn": 11460,
+   "prefee": 9964,
+   "x": 2439.32146,
+   "y": 1868.05613,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/SUPPORTERS@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a42d051239cabfa2cf8d4b9"
+  },
+  {
+   "id": "fifa-334-6-15",
    "source": "fifaresale",
-   "section": "314",
+   "section": "334",
    "sectionGroup": "Category 2",
-   "row": "25",
-   "seat": "24",
+   "row": "6",
+   "seat": "15",
    "category": "Category 2",
    "lots": [
     1
@@ -4787,12 +5384,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-334-6-15",
+   "id": "fifa-314-25-24",
    "source": "fifaresale",
-   "section": "334",
+   "section": "314",
    "sectionGroup": "Category 2",
-   "row": "6",
-   "seat": "15",
+   "row": "25",
+   "seat": "24",
    "category": "Category 2",
    "lots": [
     1
@@ -4841,24 +5438,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a478a7097734a81b9289e35"
   },
   {
-   "id": "fifa-307-17-10",
-   "source": "fifaresale",
-   "section": "307",
-   "sectionGroup": "Category 3",
-   "row": "17",
-   "seat": "10",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 11494.25,
-   "prefee": 11494.25,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-343-10-14",
    "source": "fifaresale",
    "section": "343",
@@ -4877,20 +5456,22 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a42d051239cabfa2cf8d4b9",
-   "source": "gametime",
-   "section": "SUPPORTERS",
-   "sectionGroup": "Supporters",
-   "row": "TBD",
+   "id": "fifa-307-17-10",
+   "source": "fifaresale",
+   "section": "307",
+   "sectionGroup": "Category 3",
+   "row": "17",
+   "seat": "10",
+   "category": "Category 3",
    "lots": [
-    2
+    1
    ],
-   "allIn": 11497,
-   "prefee": 9997,
-   "x": 2439.32146,
-   "y": 1868.05613,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/SUPPORTERS@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a42d051239cabfa2cf8d4b9"
+   "allIn": 11494.25,
+   "prefee": 11494.25,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-310-25-17",
@@ -4966,12 +5547,48 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-248-6-20",
+   "source": "fifaresale",
+   "section": "248",
+   "sectionGroup": "Category 2",
+   "row": "6",
+   "seat": "20",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 11500,
+   "prefee": 11500,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-307-26-30",
    "source": "fifaresale",
    "section": "307",
    "sectionGroup": "Category 3",
    "row": "26",
    "seat": "30",
+   "category": "Category 3",
+   "lots": [
+    1
+   ],
+   "allIn": 11500,
+   "prefee": 11500,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-304-22-28",
+   "source": "fifaresale",
+   "section": "304",
+   "sectionGroup": "Category 3",
+   "row": "22",
+   "seat": "28",
    "category": "Category 3",
    "lots": [
     1
@@ -5002,15 +5619,16 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-347-18-3",
+   "id": "fifa-344-16-7-x2",
    "source": "fifaresale",
-   "section": "347",
-   "sectionGroup": "Category 3",
-   "row": "18",
-   "seat": "3",
-   "category": "Category 3",
+   "section": "344",
+   "sectionGroup": "Category 2",
+   "row": "16",
+   "seat": "7-8",
+   "category": "Category 2",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 11500,
    "prefee": 11500,
@@ -5020,12 +5638,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-347-18-14",
+   "id": "fifa-347-18-3",
    "source": "fifaresale",
    "section": "347",
    "sectionGroup": "Category 3",
    "row": "18",
-   "seat": "14",
+   "seat": "3",
    "category": "Category 3",
    "lots": [
     1
@@ -5113,43 +5731,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-304-22-28",
-   "source": "fifaresale",
-   "section": "304",
-   "sectionGroup": "Category 3",
-   "row": "22",
-   "seat": "28",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 11500,
-   "prefee": 11500,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-311-24-21-x2",
-   "source": "fifaresale",
-   "section": "311",
-   "sectionGroup": "Category 2",
-   "row": "24",
-   "seat": "21-22",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 11500,
-   "prefee": 11500,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-318-26-23",
    "source": "fifaresale",
    "section": "318",
@@ -5194,6 +5775,44 @@
    "row": "25",
    "seat": "11-12",
    "category": "Category 4",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 11500,
+   "prefee": 11500,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-322-22-20-x2",
+   "source": "fifaresale",
+   "section": "322",
+   "sectionGroup": "Category 3",
+   "row": "22",
+   "seat": "20-21",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 11500,
+   "prefee": 11500,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-248-8-17-x2",
+   "source": "fifaresale",
+   "section": "248",
+   "sectionGroup": "Category 2",
+   "row": "8",
+   "seat": "17-18",
+   "category": "Category 2",
    "lots": [
     1,
     2
@@ -5261,6 +5880,61 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-103-30-28",
+   "source": "fifaresale",
+   "section": "103",
+   "sectionGroup": "Category 1",
+   "row": "30",
+   "seat": "28",
+   "category": "Category 1",
+   "lots": [
+    1
+   ],
+   "allIn": 11500,
+   "prefee": 11500,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-226-15-26-x2",
+   "source": "fifaresale",
+   "section": "226",
+   "sectionGroup": "Category 2",
+   "row": "15",
+   "seat": "26-27",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 11500,
+   "prefee": 11500,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-228A-8-2",
+   "source": "fifaresale",
+   "section": "228A",
+   "sectionGroup": "Category 2",
+   "row": "8",
+   "seat": "2",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 11500,
+   "prefee": 11500,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-245A-11-9-x2",
    "source": "fifaresale",
    "section": "245A",
@@ -5280,15 +5954,18 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-340-21-28",
+   "id": "fifa-343-17-1-x4",
    "source": "fifaresale",
-   "section": "340",
+   "section": "343",
    "sectionGroup": "Category 2",
-   "row": "21",
-   "seat": "28",
+   "row": "17",
+   "seat": "1-4",
    "category": "Category 2",
    "lots": [
-    1
+    1,
+    2,
+    3,
+    4
    ],
    "allIn": 11500,
    "prefee": 11500,
@@ -5298,12 +5975,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-336-25-23",
+   "id": "fifa-340-21-28",
    "source": "fifaresale",
-   "section": "336",
+   "section": "340",
    "sectionGroup": "Category 2",
-   "row": "25",
-   "seat": "23",
+   "row": "21",
+   "seat": "28",
    "category": "Category 2",
    "lots": [
     1
@@ -5403,23 +6080,24 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a49f29d2a46776ea8dc9127"
   },
   {
-   "id": "fifa-306-26-16-x2",
-   "source": "fifaresale",
-   "section": "306",
-   "sectionGroup": "Category 4",
-   "row": "26",
-   "seat": "16-17",
-   "category": "Category 4",
+   "id": "6a580cab63d38d17e75b0ec1",
+   "source": "gametime",
+   "section": "316",
+   "sectionGroup": "Middle",
+   "row": "2",
    "lots": [
     1,
-    2
+    2,
+    3,
+    4,
+    5
    ],
-   "allIn": 11723.1,
-   "prefee": 11723.1,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
+   "allIn": 11609,
+   "prefee": 10094,
+   "x": 1572.03089,
+   "y": 235.17595,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/316@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a580cab63d38d17e75b0ec1"
   },
   {
    "id": "fifa-328-26-16-x3",
@@ -5434,26 +6112,28 @@
     2,
     3
    ],
-   "allIn": 11786.01,
-   "prefee": 11786.01,
+   "allIn": 11730.43,
+   "prefee": 11730.43,
    "x": null,
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-306-25-25",
+   "id": "fifa-306-26-15-x3",
    "source": "fifaresale",
    "section": "306",
    "sectionGroup": "Category 4",
-   "row": "25",
-   "seat": "25",
+   "row": "26",
+   "seat": "15-17",
    "category": "Category 4",
    "lots": [
-    1
+    1,
+    2,
+    3
    ],
-   "allIn": 11855.42,
-   "prefee": 11855.42,
+   "allIn": 11797.47,
+   "prefee": 11797.47,
    "x": null,
    "y": null,
    "view": null,
@@ -5474,6 +6154,26 @@
    "y": 1749.67587,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/334@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54efa5301041c45a8f8fb2"
+  },
+  {
+   "id": "fifa-336-22-20-x3",
+   "source": "fifaresale",
+   "section": "336",
+   "sectionGroup": "Category 2",
+   "row": "22",
+   "seat": "20-22",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 11883.33,
+   "prefee": 11883.33,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-305-22-1-x4",
@@ -5576,23 +6276,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a55c20442153a71a6a12c21",
-   "source": "gametime",
-   "section": "104",
-   "sectionGroup": "Lower",
-   "row": "45",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 11976,
-   "prefee": 10413,
-   "x": 638.92623,
-   "y": 667.50601,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/104@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a55c20442153a71a6a12c21"
-  },
-  {
    "id": "fifa-326-24-1-x2",
    "source": "fifaresale",
    "section": "326",
@@ -5610,6 +6293,23 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a5272270d53f524d0994b1d",
+   "source": "gametime",
+   "section": "319",
+   "sectionGroup": "Upper",
+   "row": "1",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 12037,
+   "prefee": 10466,
+   "x": 1914.68086,
+   "y": 311.6106,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/319@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5272270d53f524d0994b1d"
   },
   {
    "id": "6a5837bccc1ac423fc76f0e3",
@@ -5654,25 +6354,6 @@
    "sectionGroup": "Category 2",
    "row": "12",
    "seat": "13-14",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 12075,
-   "prefee": 12075,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-333-25-1-x2",
-   "source": "fifaresale",
-   "section": "333",
-   "sectionGroup": "Category 2",
-   "row": "25",
-   "seat": "1-2",
    "category": "Category 2",
    "lots": [
     1,
@@ -5759,6 +6440,23 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a55c20442153a71a6a12c21",
+   "source": "gametime",
+   "section": "104",
+   "sectionGroup": "Lower",
+   "row": "45",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 12105,
+   "prefee": 10525,
+   "x": 638.92623,
+   "y": 667.50601,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/104@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a55c20442153a71a6a12c21"
   },
   {
    "id": "6a518fd0da37b9f012253890",
@@ -5902,26 +6600,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5559b57f3d9f4e9384ad2c"
   },
   {
-   "id": "fifa-336-22-20-x3",
-   "source": "fifaresale",
-   "section": "336",
-   "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "20-22",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 12267.43,
-   "prefee": 12267.43,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-320-15-2-x2",
    "source": "fifaresale",
    "section": "320",
@@ -5935,6 +6613,24 @@
    ],
    "allIn": 12362.5,
    "prefee": 12362.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-347-18-14",
+   "source": "fifaresale",
+   "section": "347",
+   "sectionGroup": "Category 3",
+   "row": "18",
+   "seat": "14",
+   "category": "Category 3",
+   "lots": [
+    1
+   ],
+   "allIn": 12402.75,
+   "prefee": 12402.75,
    "x": null,
    "y": null,
    "view": null,
@@ -6049,24 +6745,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-226-4-16",
-   "source": "fifaresale",
-   "section": "226",
-   "sectionGroup": "Category 2",
-   "row": "4",
-   "seat": "16",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 12615.5,
-   "prefee": 12615.5,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-104-46-5-x2",
    "source": "fifaresale",
    "section": "104",
@@ -6113,6 +6791,25 @@
    "category": "Category 1",
    "lots": [
     1
+   ],
+   "allIn": 12638.5,
+   "prefee": 12638.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-245C-14-1-x2",
+   "source": "fifaresale",
+   "section": "245C",
+   "sectionGroup": "Category 1",
+   "row": "14",
+   "seat": "1-2",
+   "category": "Category 1",
+   "lots": [
+    1,
+    2
    ],
    "allIn": 12638.5,
    "prefee": 12638.5,
@@ -6198,104 +6895,11 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-342-22-20-x2",
-   "source": "fifaresale",
-   "section": "342",
-   "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "20-21",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 12650,
-   "prefee": 12650,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-303-20-7-x2",
    "source": "fifaresale",
    "section": "303",
    "sectionGroup": "Category 3",
    "row": "20",
-   "seat": "7-8",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 12650,
-   "prefee": 12650,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-333-15-1-x2",
-   "source": "fifaresale",
-   "section": "333",
-   "sectionGroup": "Category 2",
-   "row": "15",
-   "seat": "1-2",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 12650,
-   "prefee": 12650,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-307-17-16",
-   "source": "fifaresale",
-   "section": "307",
-   "sectionGroup": "Category 3",
-   "row": "17",
-   "seat": "16",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 12650,
-   "prefee": 12650,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-333-25-8",
-   "source": "fifaresale",
-   "section": "333",
-   "sectionGroup": "Category 2",
-   "row": "25",
-   "seat": "8",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 12650,
-   "prefee": 12650,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-306-12-7-x2",
-   "source": "fifaresale",
-   "section": "306",
-   "sectionGroup": "Category 3",
-   "row": "12",
    "seat": "7-8",
    "category": "Category 3",
    "lots": [
@@ -6328,6 +6932,80 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-307-17-16",
+   "source": "fifaresale",
+   "section": "307",
+   "sectionGroup": "Category 3",
+   "row": "17",
+   "seat": "16",
+   "category": "Category 3",
+   "lots": [
+    1
+   ],
+   "allIn": 12650,
+   "prefee": 12650,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-342-22-20-x2",
+   "source": "fifaresale",
+   "section": "342",
+   "sectionGroup": "Category 2",
+   "row": "22",
+   "seat": "20-21",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 12650,
+   "prefee": 12650,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-319-22-10",
+   "source": "fifaresale",
+   "section": "319",
+   "sectionGroup": "Category 2",
+   "row": "22",
+   "seat": "10",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 12650,
+   "prefee": 12650,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-306-12-7-x2",
+   "source": "fifaresale",
+   "section": "306",
+   "sectionGroup": "Category 3",
+   "row": "12",
+   "seat": "7-8",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 12650,
+   "prefee": 12650,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-309-25-12-x2",
    "source": "fifaresale",
    "section": "309",
@@ -6347,12 +7025,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-318-17-17",
+   "id": "fifa-318-23-8",
    "source": "fifaresale",
    "section": "318",
    "sectionGroup": "Category 2",
-   "row": "17",
-   "seat": "17",
+   "row": "23",
+   "seat": "8",
    "category": "Category 2",
    "lots": [
     1
@@ -6365,16 +7043,33 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-205A-4-15-x2",
+   "id": "fifa-319-19-12",
    "source": "fifaresale",
-   "section": "205A",
+   "section": "319",
    "sectionGroup": "Category 2",
-   "row": "4",
-   "seat": "15-16",
+   "row": "19",
+   "seat": "12",
    "category": "Category 2",
    "lots": [
-    1,
-    2
+    1
+   ],
+   "allIn": 12650,
+   "prefee": 12650,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-318-17-17",
+   "source": "fifaresale",
+   "section": "318",
+   "sectionGroup": "Category 2",
+   "row": "17",
+   "seat": "17",
+   "category": "Category 2",
+   "lots": [
+    1
    ],
    "allIn": 12650,
    "prefee": 12650,
@@ -6470,25 +7165,6 @@
     2,
     3,
     4
-   ],
-   "allIn": 12650,
-   "prefee": 12650,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-226-15-26-x2",
-   "source": "fifaresale",
-   "section": "226",
-   "sectionGroup": "Category 2",
-   "row": "15",
-   "seat": "26-27",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
    ],
    "allIn": 12650,
    "prefee": 12650,
@@ -6699,6 +7375,42 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-333-25-1",
+   "source": "fifaresale",
+   "section": "333",
+   "sectionGroup": "Category 2",
+   "row": "25",
+   "seat": "1",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 12650,
+   "prefee": 12650,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-333-25-8",
+   "source": "fifaresale",
+   "section": "333",
+   "sectionGroup": "Category 2",
+   "row": "25",
+   "seat": "8",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 12650,
+   "prefee": 12650,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-332-15-28",
    "source": "fifaresale",
    "section": "332",
@@ -6816,25 +7528,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-322-17-1-x2",
-   "source": "fifaresale",
-   "section": "322",
-   "sectionGroup": "Category 3",
-   "row": "17",
-   "seat": "1-2",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 12937.5,
-   "prefee": 12937.5,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-320-21-32-x3",
    "source": "fifaresale",
    "section": "320",
@@ -6867,6 +7560,46 @@
    ],
    "allIn": 12995,
    "prefee": 12995,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-346-22-5-x3",
+   "source": "fifaresale",
+   "section": "346",
+   "sectionGroup": "Category 4",
+   "row": "22",
+   "seat": "5-7",
+   "category": "Category 4",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 13006.5,
+   "prefee": 13006.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-128-24-5-x3",
+   "source": "fifaresale",
+   "section": "128",
+   "sectionGroup": "Category 1",
+   "row": "24",
+   "seat": "5-7",
+   "category": "Category 1",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 13018,
+   "prefee": 13018,
    "x": null,
    "y": null,
    "view": null,
@@ -6946,6 +7679,26 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-342-26-3-x3",
+   "source": "fifaresale",
+   "section": "342",
+   "sectionGroup": "Category 2",
+   "row": "26",
+   "seat": "3-5",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 13110,
+   "prefee": 13110,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "6a5820af63d38d17e7864914",
    "source": "gametime",
    "section": "149",
@@ -6982,34 +7735,17 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-320-14-24",
+   "id": "fifa-335-17-6-x3",
    "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "14",
-   "seat": "24",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 13225,
-   "prefee": 13225,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-325-23-1-x2",
-   "source": "fifaresale",
-   "section": "325",
-   "sectionGroup": "Category 3",
-   "row": "23",
-   "seat": "1-2",
-   "category": "Category 3",
+   "section": "335",
+   "sectionGroup": "Category 2",
+   "row": "17",
+   "seat": "6-8",
+   "category": "Category 2",
    "lots": [
     1,
-    2
+    2,
+    3
    ],
    "allIn": 13225,
    "prefee": 13225,
@@ -7073,26 +7809,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-335-17-6-x3",
-   "source": "fifaresale",
-   "section": "335",
-   "sectionGroup": "Category 2",
-   "row": "17",
-   "seat": "6-8",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 13225,
-   "prefee": 13225,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "6a569d8d0a9f8ea4c1e1b6cf",
    "source": "gametime",
    "section": "316",
@@ -7109,20 +7825,43 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a569d8d0a9f8ea4c1e1b6cf"
   },
   {
-   "id": "6a58485763d38d17e7dbdad3",
+   "id": "6a5888d863d38d17e786b2a1",
    "source": "gametime",
-   "section": "124",
+   "section": "148",
    "sectionGroup": "Lower",
-   "row": "15",
+   "row": "18",
    "lots": [
-    2
+    1,
+    2,
+    3,
+    4
    ],
-   "allIn": 13494,
-   "prefee": 11733,
-   "x": 1768.84377,
-   "y": 847.49684,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/124@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58485763d38d17e7dbdad3"
+   "allIn": 13317,
+   "prefee": 11579,
+   "x": 779.38215,
+   "y": 1132.01104,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/148@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5888d863d38d17e786b2a1"
+  },
+  {
+   "id": "fifa-334-7-14-x3",
+   "source": "fifaresale",
+   "section": "334",
+   "sectionGroup": "Category 2",
+   "row": "7",
+   "seat": "14-16",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 13512.5,
+   "prefee": 13512.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-103-41-1",
@@ -7210,67 +7949,6 @@
    ],
    "allIn": 13570,
    "prefee": 13570,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-320-18-29-x3",
-   "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "18",
-   "seat": "29-31",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 13570,
-   "prefee": 13570,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a2f520dd4c9212142ecfa13",
-   "source": "gametime",
-   "section": "220A",
-   "sectionGroup": "Middle",
-   "row": "10",
-   "lots": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-   ],
-   "allIn": 13573,
-   "prefee": 11801,
-   "x": 1891.7659,
-   "y": 441.50883,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/220A@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a2f520dd4c9212142ecfa13"
-  },
-  {
-   "id": "fifa-346-22-5-x3",
-   "source": "fifaresale",
-   "section": "346",
-   "sectionGroup": "Category 4",
-   "row": "22",
-   "seat": "5-7",
-   "category": "Category 4",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 13581.5,
-   "prefee": 13581.5,
    "x": null,
    "y": null,
    "view": null,
@@ -7420,35 +8098,55 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-342-26-3-x3",
-   "source": "fifaresale",
-   "section": "342",
-   "sectionGroup": "Category 2",
-   "row": "26",
-   "seat": "3-5",
-   "category": "Category 2",
+   "id": "6a2f520dd4c9212142ecfa13",
+   "source": "gametime",
+   "section": "220A",
+   "sectionGroup": "Middle",
+   "row": "10",
    "lots": [
     1,
     2,
-    3
+    3,
+    4,
+    5,
+    6
    ],
-   "allIn": 13798.85,
-   "prefee": 13798.85,
+   "allIn": 13719,
+   "prefee": 11929,
+   "x": 1891.7659,
+   "y": 441.50883,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/220A@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a2f520dd4c9212142ecfa13"
+  },
+  {
+   "id": "fifa-329-26-31",
+   "source": "fifaresale",
+   "section": "329",
+   "sectionGroup": "Category 3",
+   "row": "26",
+   "seat": "31",
+   "category": "Category 3",
+   "lots": [
+    1
+   ],
+   "allIn": 13794.25,
+   "prefee": 13794.25,
    "x": null,
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-342-22-15",
+   "id": "fifa-205A-5-4-x2",
    "source": "fifaresale",
-   "section": "342",
+   "section": "205A",
    "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "15",
+   "row": "5",
+   "seat": "4-5",
    "category": "Category 2",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 13800,
    "prefee": 13800,
@@ -7570,6 +8268,24 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-342-22-15",
+   "source": "fifaresale",
+   "section": "342",
+   "sectionGroup": "Category 2",
+   "row": "22",
+   "seat": "15",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 13800,
+   "prefee": 13800,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-307-23-27",
    "source": "fifaresale",
    "section": "307",
@@ -7648,13 +8364,13 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-248-14-11-x2",
+   "id": "fifa-306-17-26-x2",
    "source": "fifaresale",
-   "section": "248",
-   "sectionGroup": "Category 2",
-   "row": "14",
-   "seat": "11-12",
-   "category": "Category 2",
+   "section": "306",
+   "sectionGroup": "Category 4",
+   "row": "17",
+   "seat": "26-27",
+   "category": "Category 4",
    "lots": [
     1,
     2
@@ -7777,49 +8493,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-205A-5-4-x2",
-   "source": "fifaresale",
-   "section": "205A",
-   "sectionGroup": "Category 2",
-   "row": "5",
-   "seat": "4-5",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 13800,
-   "prefee": 13800,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-228A-4-10",
    "source": "fifaresale",
    "section": "228A",
    "sectionGroup": "Category 2",
    "row": "4",
    "seat": "10",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 13800,
-   "prefee": 13800,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-227B-13-19",
-   "source": "fifaresale",
-   "section": "227B",
-   "sectionGroup": "Category 2",
-   "row": "13",
-   "seat": "19",
    "category": "Category 2",
    "lots": [
     1
@@ -7981,24 +8660,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-329-22-27",
-   "source": "fifaresale",
-   "section": "329",
-   "sectionGroup": "Category 3",
-   "row": "22",
-   "seat": "27",
-   "category": "Category 3",
-   "lots": [
-    1
-   ],
-   "allIn": 13800,
-   "prefee": 13800,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-336-23-13-x2",
    "source": "fifaresale",
    "section": "336",
@@ -8034,23 +8695,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a4d286a61b8d14434b06b90"
   },
   {
-   "id": "6a515f7d63d38d17e71a1e0b",
-   "source": "gametime",
-   "section": "148",
-   "sectionGroup": "Lower",
-   "row": "19",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 13888,
-   "prefee": 12075,
-   "x": 773.41148,
-   "y": 1134.34085,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/148@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a515f7d63d38d17e71a1e0b"
-  },
-  {
    "id": "6a581a0a63d38d17e7c8fabb",
    "source": "gametime",
    "section": "101",
@@ -8081,6 +8725,42 @@
    "y": 932.68771,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/101@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5802b250c61fae7f2b212d"
+  },
+  {
+   "id": "fifa-337-15-10",
+   "source": "fifaresale",
+   "section": "337",
+   "sectionGroup": "Category 2",
+   "row": "15",
+   "seat": "10",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 13938,
+   "prefee": 13938,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-337-25-14",
+   "source": "fifaresale",
+   "section": "337",
+   "sectionGroup": "Category 2",
+   "row": "25",
+   "seat": "14",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 13938,
+   "prefee": 13938,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "6a5806efdbe3c66cff9fe2d2",
@@ -8115,6 +8795,22 @@
    "y": 1055.76226,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/227B@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5809f680f74057421a639e"
+  },
+  {
+   "id": "6a58139faf23834d58ac0904",
+   "source": "gametime",
+   "section": "123",
+   "sectionGroup": "Lower",
+   "row": "17",
+   "lots": [
+    2
+   ],
+   "allIn": 14040,
+   "prefee": 12207,
+   "x": 1753.87763,
+   "y": 758.58409,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/123@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58139faf23834d58ac0904"
   },
   {
    "id": "fifa-315-24-28",
@@ -8167,6 +8863,22 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a58485763d38d17e7dbdad3",
+   "source": "gametime",
+   "section": "124",
+   "sectionGroup": "Lower",
+   "row": "15",
+   "lots": [
+    2
+   ],
+   "allIn": 14063,
+   "prefee": 12227,
+   "x": 1768.84377,
+   "y": 847.49684,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/124@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58485763d38d17e7dbdad3"
   },
   {
    "id": "6a5839a458d12e91871f2b13",
@@ -8225,12 +8937,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-229-8-3-x3",
+   "id": "fifa-230A-11-11-x3",
    "source": "fifaresale",
-   "section": "229",
+   "section": "230A",
    "sectionGroup": "Category 2",
-   "row": "8",
-   "seat": "3-5",
+   "row": "11",
+   "seat": "11-13",
    "category": "Category 2",
    "lots": [
     1,
@@ -8265,12 +8977,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-230A-11-11-x3",
+   "id": "fifa-229-8-3-x3",
    "source": "fifaresale",
-   "section": "230A",
+   "section": "229",
    "sectionGroup": "Category 2",
-   "row": "11",
-   "seat": "11-13",
+   "row": "8",
+   "seat": "3-5",
    "category": "Category 2",
    "lots": [
     1,
@@ -8319,22 +9031,6 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a58139faf23834d58ac0904",
-   "source": "gametime",
-   "section": "123",
-   "sectionGroup": "Lower",
-   "row": "17",
-   "lots": [
-    2
-   ],
-   "allIn": 14320,
-   "prefee": 12452,
-   "x": 1753.87763,
-   "y": 758.58409,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/123@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58139faf23834d58ac0904"
   },
   {
    "id": "6a518dcf35f3cd8cd93d411c",
@@ -8427,6 +9123,25 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-342-22-3-x2",
+   "source": "fifaresale",
+   "section": "342",
+   "sectionGroup": "Category 2",
+   "row": "22",
+   "seat": "3-4",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 14375,
+   "prefee": 14375,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-323-25-4",
    "source": "fifaresale",
    "section": "323",
@@ -8436,6 +9151,25 @@
    "category": "Category 3",
    "lots": [
     1
+   ],
+   "allIn": 14375,
+   "prefee": 14375,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-329-22-26-x2",
+   "source": "fifaresale",
+   "section": "329",
+   "sectionGroup": "Category 3",
+   "row": "22",
+   "seat": "26-27",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2
    ],
    "allIn": 14375,
    "prefee": 14375,
@@ -8489,25 +9223,6 @@
    "row": "6",
    "seat": "17-18",
    "category": "Category 1",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 14375,
-   "prefee": 14375,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-327-24-1-x2",
-   "source": "fifaresale",
-   "section": "327",
-   "sectionGroup": "Category 3",
-   "row": "24",
-   "seat": "1-2",
-   "category": "Category 3",
    "lots": [
     1,
     2
@@ -8574,22 +9289,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a563638836085bd8a2a961b"
   },
   {
-   "id": "6a5831b563d38d17e70f1ea3",
-   "source": "gametime",
-   "section": "123",
-   "sectionGroup": "Lower",
-   "row": "29",
-   "lots": [
-    2
-   ],
-   "allIn": 14522,
-   "prefee": 12627,
-   "x": 1818.55396,
-   "y": 730.98397,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/123@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5831b563d38d17e70f1ea3"
-  },
-  {
    "id": "6a5831aa63d38d17e70c9e43",
    "source": "gametime",
    "section": "128",
@@ -8604,6 +9303,22 @@
    "y": 1051.81803,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/128@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5831aa63d38d17e70c9e43"
+  },
+  {
+   "id": "6a5831b563d38d17e70f1ea3",
+   "source": "gametime",
+   "section": "123",
+   "sectionGroup": "Lower",
+   "row": "29",
+   "lots": [
+    2
+   ],
+   "allIn": 14522,
+   "prefee": 12627,
+   "x": 1818.55396,
+   "y": 730.98397,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/123@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5831b563d38d17e70f1ea3"
   },
   {
    "id": "fifa-316-24-17-x2",
@@ -8875,6 +9590,24 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-318-12-5",
+   "source": "fifaresale",
+   "section": "318",
+   "sectionGroup": "Category 2",
+   "row": "12",
+   "seat": "5",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 14886.75,
+   "prefee": 14886.75,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-329-25-1",
    "source": "fifaresale",
    "section": "329",
@@ -8912,25 +9645,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-103-30-28-x2",
-   "source": "fifaresale",
-   "section": "103",
-   "sectionGroup": "Category 1",
-   "row": "30",
-   "seat": "28-29",
-   "category": "Category 1",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 14892.5,
-   "prefee": 14892.5,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "6a54350b900c9e31f1deec9c",
    "source": "gametime",
    "section": "124",
@@ -8946,6 +9660,25 @@
    "y": 812.72524,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/124@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a54350b900c9e31f1deec9c"
+  },
+  {
+   "id": "fifa-148-13-3-x2",
+   "source": "fifaresale",
+   "section": "148",
+   "sectionGroup": "Category 1",
+   "row": "13",
+   "seat": "3-4",
+   "category": "Category 1",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 14938.5,
+   "prefee": 14938.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-303-21-1",
@@ -8966,6 +9699,25 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-226-18-13-x2",
+   "source": "fifaresale",
+   "section": "226",
+   "sectionGroup": "Category 2",
+   "row": "18",
+   "seat": "13-14",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 14950,
+   "prefee": 14950,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-325-5-5",
    "source": "fifaresale",
    "section": "325",
@@ -8975,6 +9727,25 @@
    "category": "Front Category 3",
    "lots": [
     1
+   ],
+   "allIn": 14950,
+   "prefee": 14950,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-311-24-7-x2",
+   "source": "fifaresale",
+   "section": "311",
+   "sectionGroup": "Category 2",
+   "row": "24",
+   "seat": "7-8",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
    ],
    "allIn": 14950,
    "prefee": 14950,
@@ -9003,30 +9774,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-331-23-1",
+   "id": "fifa-247A-8-10-x2",
    "source": "fifaresale",
-   "section": "331",
-   "sectionGroup": "Category 4",
-   "row": "23",
-   "seat": "1",
-   "category": "Category 4",
-   "lots": [
-    1
-   ],
-   "allIn": 14950,
-   "prefee": 14950,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-311-24-7-x2",
-   "source": "fifaresale",
-   "section": "311",
+   "section": "247A",
    "sectionGroup": "Category 2",
-   "row": "24",
-   "seat": "7-8",
+   "row": "8",
+   "seat": "10-11",
    "category": "Category 2",
    "lots": [
     1,
@@ -9058,16 +9811,15 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-230A-11-19-x2",
+   "id": "fifa-331-23-1",
    "source": "fifaresale",
-   "section": "230A",
-   "sectionGroup": "Category 2",
-   "row": "11",
-   "seat": "19-20",
-   "category": "Category 2",
+   "section": "331",
+   "sectionGroup": "Category 4",
+   "row": "23",
+   "seat": "1",
+   "category": "Category 4",
    "lots": [
-    1,
-    2
+    1
    ],
    "allIn": 14950,
    "prefee": 14950,
@@ -9205,16 +9957,15 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-226-18-13-x2",
+   "id": "fifa-124-16-5",
    "source": "fifaresale",
-   "section": "226",
-   "sectionGroup": "Category 2",
-   "row": "18",
-   "seat": "13-14",
-   "category": "Category 2",
+   "section": "124",
+   "sectionGroup": "Category 1",
+   "row": "16",
+   "seat": "5",
+   "category": "Category 1",
    "lots": [
-    1,
-    2
+    1
    ],
    "allIn": 14950,
    "prefee": 14950,
@@ -9224,11 +9975,11 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-247A-8-10-x2",
+   "id": "fifa-247A-3-10-x2",
    "source": "fifaresale",
    "section": "247A",
    "sectionGroup": "Category 2",
-   "row": "8",
+   "row": "3",
    "seat": "10-11",
    "category": "Category 2",
    "lots": [
@@ -9333,23 +10084,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a580d9061456fd5ba980902",
-   "source": "gametime",
-   "section": "104",
-   "sectionGroup": "Lower",
-   "row": "14",
-   "lots": [
-    2,
-    4
-   ],
-   "allIn": 15169,
-   "prefee": 13190,
-   "x": 806.21881,
-   "y": 751.78415,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/104@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a580d9061456fd5ba980902"
-  },
-  {
    "id": "6a580d90738a2a73b414ded9",
    "source": "gametime",
    "section": "103",
@@ -9365,6 +10099,23 @@
    "y": 792.89089,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/103@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a580d90738a2a73b414ded9"
+  },
+  {
+   "id": "6a580d9061456fd5ba980902",
+   "source": "gametime",
+   "section": "104",
+   "sectionGroup": "Lower",
+   "row": "14",
+   "lots": [
+    2,
+    4
+   ],
+   "allIn": 15169,
+   "prefee": 13190,
+   "x": 806.21881,
+   "y": 751.78415,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/104@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a580d9061456fd5ba980902"
   },
   {
    "id": "fifa-318-9-14-x2",
@@ -9612,6 +10363,24 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-124-32-31",
+   "source": "fifaresale",
+   "section": "124",
+   "sectionGroup": "Category 1",
+   "row": "32",
+   "seat": "31",
+   "category": "Category 1",
+   "lots": [
+    1
+   ],
+   "allIn": 15525,
+   "prefee": 15525,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "6a58163263d38d17e7dc7998",
    "source": "gametime",
    "section": "103",
@@ -9699,6 +10468,29 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-336-20-3-x6",
+   "source": "fifaresale",
+   "section": "336",
+   "sectionGroup": "Category 2",
+   "row": "20",
+   "seat": "3-8",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "allIn": 15716.67,
+   "prefee": 15716.67,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-325-23-25-x3",
    "source": "fifaresale",
    "section": "325",
@@ -9774,27 +10566,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-349-24-14-x4",
-   "source": "fifaresale",
-   "section": "349",
-   "sectionGroup": "Category 3",
-   "row": "24",
-   "seat": "14-17",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2,
-    3,
-    4
-   ],
-   "allIn": 15864.25,
-   "prefee": 15864.25,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-348-25-24",
    "source": "fifaresale",
    "section": "348",
@@ -9828,25 +10599,6 @@
    "y": 1133.92828,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/148@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a583fc351a49ecdf1419961"
-  },
-  {
-   "id": "fifa-226-18-17-x2",
-   "source": "fifaresale",
-   "section": "226",
-   "sectionGroup": "Category 2",
-   "row": "18",
-   "seat": "17-18",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 15985,
-   "prefee": 15985,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-148-6-18-x3",
@@ -9923,15 +10675,17 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-320-22-12",
+   "id": "fifa-343-15-9-x3",
    "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "22",
-   "seat": "12",
-   "category": "Category 3",
+   "section": "343",
+   "sectionGroup": "Category 2",
+   "row": "15",
+   "seat": "9-11",
+   "category": "Category 2",
    "lots": [
-    1
+    1,
+    2,
+    3
    ],
    "allIn": 16100,
    "prefee": 16100,
@@ -9960,13 +10714,13 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-103-8-16",
+   "id": "fifa-320-22-12",
    "source": "fifaresale",
-   "section": "103",
-   "sectionGroup": "Category 1",
-   "row": "8",
-   "seat": "16",
-   "category": "Category 1",
+   "section": "320",
+   "sectionGroup": "Category 3",
+   "row": "22",
+   "seat": "12",
+   "category": "Category 3",
    "lots": [
     1
    ],
@@ -9978,12 +10732,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-124-32-31",
+   "id": "fifa-103-8-16",
    "source": "fifaresale",
-   "section": "124",
+   "section": "103",
    "sectionGroup": "Category 1",
-   "row": "32",
-   "seat": "31",
+   "row": "8",
+   "seat": "16",
    "category": "Category 1",
    "lots": [
     1
@@ -10156,6 +10910,25 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-346-17-13-x2",
+   "source": "fifaresale",
+   "section": "346",
+   "sectionGroup": "Category 4",
+   "row": "17",
+   "seat": "13-14",
+   "category": "Category 4",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 16357.02,
+   "prefee": 16357.02,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "6a47b9a7a70459180b023b9c",
    "source": "gametime",
    "section": "128",
@@ -10173,23 +10946,19 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a47b9a7a70459180b023b9c"
   },
   {
-   "id": "fifa-336-20-3-x6",
+   "id": "fifa-226-4-15-x2",
    "source": "fifaresale",
-   "section": "336",
+   "section": "226",
    "sectionGroup": "Category 2",
-   "row": "20",
-   "seat": "3-8",
+   "row": "4",
+   "seat": "15-16",
    "category": "Category 2",
    "lots": [
     1,
-    2,
-    3,
-    4,
-    5,
-    6
+    2
    ],
-   "allIn": 16483.33,
-   "prefee": 16483.33,
+   "allIn": 16457.94,
+   "prefee": 16457.94,
    "x": null,
    "y": null,
    "view": null,
@@ -10226,6 +10995,25 @@
    ],
    "allIn": 16537,
    "prefee": 16537,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-316-25-12-x2",
+   "source": "fifaresale",
+   "section": "316",
+   "sectionGroup": "Category 2",
+   "row": "25",
+   "seat": "12-13",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 16674.99,
+   "prefee": 16674.99,
    "x": null,
    "y": null,
    "view": null,
@@ -10430,24 +11218,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-247A-5-14",
-   "source": "fifaresale",
-   "section": "247A",
-   "sectionGroup": "Category 2",
-   "row": "5",
-   "seat": "14",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 17192.5,
-   "prefee": 17192.5,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-104-45-5-x3",
    "source": "fifaresale",
    "section": "104",
@@ -10514,6 +11284,25 @@
    "category": "Category 1",
    "lots": [
     1
+   ],
+   "allIn": 17238.5,
+   "prefee": 17238.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-128-11-5-x2",
+   "source": "fifaresale",
+   "section": "128",
+   "sectionGroup": "Category 1",
+   "row": "11",
+   "seat": "5-6",
+   "category": "Category 1",
+   "lots": [
+    1,
+    2
    ],
    "allIn": 17238.5,
    "prefee": 17238.5,
@@ -10596,16 +11385,15 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-316-4-1-x2",
+   "id": "fifa-304-22-5",
    "source": "fifaresale",
-   "section": "316",
-   "sectionGroup": "Easy Access Standard - Category 2",
-   "row": "4",
-   "seat": "1-2",
-   "category": "Easy Access Standard - Category 2",
+   "section": "304",
+   "sectionGroup": "Category 3",
+   "row": "22",
+   "seat": "5",
+   "category": "Category 3",
    "lots": [
-    1,
-    2
+    1
    ],
    "allIn": 17250,
    "prefee": 17250,
@@ -10615,13 +11403,13 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-344-16-7-x2",
+   "id": "fifa-316-4-1-x2",
    "source": "fifaresale",
-   "section": "344",
-   "sectionGroup": "Category 2",
-   "row": "16",
-   "seat": "7-8",
-   "category": "Category 2",
+   "section": "316",
+   "sectionGroup": "Easy Access Standard - Category 2",
+   "row": "4",
+   "seat": "1-2",
+   "category": "Easy Access Standard - Category 2",
    "lots": [
     1,
     2
@@ -10652,15 +11440,16 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-334-6-9",
+   "id": "fifa-350-16-6-x2",
    "source": "fifaresale",
-   "section": "334",
-   "sectionGroup": "Category 2",
-   "row": "6",
-   "seat": "9",
-   "category": "Category 2",
+   "section": "350",
+   "sectionGroup": "Category 3",
+   "row": "16",
+   "seat": "6-7",
+   "category": "Category 3",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 17250,
    "prefee": 17250,
@@ -10701,24 +11490,6 @@
    "lots": [
     1,
     2
-   ],
-   "allIn": 17250,
-   "prefee": 17250,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-304-22-5",
-   "source": "fifaresale",
-   "section": "304",
-   "sectionGroup": "Category 3",
-   "row": "22",
-   "seat": "5",
-   "category": "Category 3",
-   "lots": [
-    1
    ],
    "allIn": 17250,
    "prefee": 17250,
@@ -10770,24 +11541,6 @@
    "sectionGroup": "Category 2",
    "row": "8",
    "seat": "22",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 17250,
-   "prefee": 17250,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-226-4-5",
-   "source": "fifaresale",
-   "section": "226",
-   "sectionGroup": "Category 2",
-   "row": "4",
-   "seat": "5",
    "category": "Category 2",
    "lots": [
     1
@@ -10892,6 +11645,24 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-104-18-19",
+   "source": "fifaresale",
+   "section": "104",
+   "sectionGroup": "Category 1",
+   "row": "18",
+   "seat": "19",
+   "category": "Category 1",
+   "lots": [
+    1
+   ],
+   "allIn": 17250,
+   "prefee": 17250,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-103-8-14",
    "source": "fifaresale",
    "section": "103",
@@ -10910,16 +11681,15 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-307-1-1-x2",
+   "id": "fifa-307-1-3",
    "source": "fifaresale",
    "section": "307",
    "sectionGroup": "Category 3",
    "row": "1",
-   "seat": "1-2",
+   "seat": "3",
    "category": "Category 3",
    "lots": [
-    1,
-    2
+    1
    ],
    "allIn": 17250,
    "prefee": 17250,
@@ -10966,42 +11736,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-319-22-10",
-   "source": "fifaresale",
-   "section": "319",
-   "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "10",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 17250,
-   "prefee": 17250,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-319-22-13",
-   "source": "fifaresale",
-   "section": "319",
-   "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "13",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 17250,
-   "prefee": 17250,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-316-7-1",
    "source": "fifaresale",
    "section": "316",
@@ -11030,24 +11764,6 @@
    "lots": [
     1,
     2
-   ],
-   "allIn": 17250,
-   "prefee": 17250,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-319-19-12",
-   "source": "fifaresale",
-   "section": "319",
-   "sectionGroup": "Category 2",
-   "row": "19",
-   "seat": "12",
-   "category": "Category 2",
-   "lots": [
-    1
    ],
    "allIn": 17250,
    "prefee": 17250,
@@ -11191,24 +11907,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-124-16-5",
-   "source": "fifaresale",
-   "section": "124",
-   "sectionGroup": "Category 1",
-   "row": "16",
-   "seat": "5",
-   "category": "Category 1",
-   "lots": [
-    1
-   ],
-   "allIn": 17250,
-   "prefee": 17250,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-128-27-24-x2",
    "source": "fifaresale",
    "section": "128",
@@ -11246,15 +11944,17 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-336-11-4",
+   "id": "fifa-246A-12-9-x3",
    "source": "fifaresale",
-   "section": "336",
+   "section": "246A",
    "sectionGroup": "Category 2",
-   "row": "11",
-   "seat": "4",
+   "row": "12",
+   "seat": "9-11",
    "category": "Category 2",
    "lots": [
-    1
+    1,
+    2,
+    3
    ],
    "allIn": 17250,
    "prefee": 17250,
@@ -11264,17 +11964,15 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-334-7-14-x3",
+   "id": "fifa-336-11-4",
    "source": "fifaresale",
-   "section": "334",
+   "section": "336",
    "sectionGroup": "Category 2",
-   "row": "7",
-   "seat": "14-16",
+   "row": "11",
+   "seat": "4",
    "category": "Category 2",
    "lots": [
-    1,
-    2,
-    3
+    1
    ],
    "allIn": 17250,
    "prefee": 17250,
@@ -11320,6 +12018,25 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-317-9-17-x2",
+   "source": "fifaresale",
+   "section": "317",
+   "sectionGroup": "Category 2",
+   "row": "9",
+   "seat": "17-18",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 17250,
+   "prefee": 17250,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "6a37d349a7237c26b06a8792",
    "source": "gametime",
    "section": "149",
@@ -11341,6 +12058,24 @@
    "y": 1058.35232,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/149@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a37d349a7237c26b06a8792"
+  },
+  {
+   "id": "fifa-316-3-1",
+   "source": "fifaresale",
+   "section": "316",
+   "sectionGroup": "Easy Access Standard - Category 2",
+   "row": "3",
+   "seat": "1",
+   "category": "Easy Access Standard - Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 17480,
+   "prefee": 17480,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-310-25-11",
@@ -11374,6 +12109,26 @@
    ],
    "allIn": 17537.5,
    "prefee": 17537.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-313-25-20-x3",
+   "source": "fifaresale",
+   "section": "313",
+   "sectionGroup": "Category 2",
+   "row": "25",
+   "seat": "20-22",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 17572,
+   "prefee": 17572,
    "x": null,
    "y": null,
    "view": null,
@@ -11669,25 +12424,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-346-17-13-x2",
-   "source": "fifaresale",
-   "section": "346",
-   "sectionGroup": "Category 4",
-   "row": "17",
-   "seat": "13-14",
-   "category": "Category 4",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 18112.5,
-   "prefee": 18112.5,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-319-22-17",
    "source": "fifaresale",
    "section": "319",
@@ -11719,24 +12455,6 @@
    ],
    "allIn": 18147,
    "prefee": 18147,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-316-3-1",
-   "source": "fifaresale",
-   "section": "316",
-   "sectionGroup": "Easy Access Standard - Category 2",
-   "row": "3",
-   "seat": "1",
-   "category": "Easy Access Standard - Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 18170,
-   "prefee": 18170,
    "x": null,
    "y": null,
    "view": null,
@@ -11888,6 +12606,25 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-247A-5-20-x2",
+   "source": "fifaresale",
+   "section": "247A",
+   "sectionGroup": "Category 2",
+   "row": "5",
+   "seat": "20-21",
+   "category": "Category 2",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 18400,
+   "prefee": 18400,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-315-22-5",
    "source": "fifaresale",
    "section": "315",
@@ -11944,13 +12681,13 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-247A-5-20-x2",
+   "id": "fifa-307-25-29-x2",
    "source": "fifaresale",
-   "section": "247A",
-   "sectionGroup": "Category 2",
-   "row": "5",
-   "seat": "20-21",
-   "category": "Category 2",
+   "section": "307",
+   "sectionGroup": "Category 3",
+   "row": "25",
+   "seat": "29-30",
+   "category": "Category 3",
    "lots": [
     1,
     2
@@ -11963,12 +12700,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-307-25-29-x2",
+   "id": "fifa-320-12-19-x2",
    "source": "fifaresale",
-   "section": "307",
+   "section": "320",
    "sectionGroup": "Category 3",
-   "row": "25",
-   "seat": "29-30",
+   "row": "12",
+   "seat": "19-20",
    "category": "Category 3",
    "lots": [
     1,
@@ -12035,6 +12772,22 @@
    "y": null,
    "view": null,
    "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "6a588e5fa6fccc64df6891bb",
+   "source": "gametime",
+   "section": "206A",
+   "sectionGroup": "Middle",
+   "row": "12",
+   "lots": [
+    2
+   ],
+   "allIn": 18409,
+   "prefee": 16007,
+   "x": 581.33944,
+   "y": 507.59434,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/206A@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a588e5fa6fccc64df6891bb"
   },
   {
    "id": "6a58641258d12e91871f33d6",
@@ -12123,26 +12876,6 @@
    "y": 1860.50035,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/FIFAPAVILION@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58004da39b8d69e5311fa9"
-  },
-  {
-   "id": "fifa-246A-12-9-x3",
-   "source": "fifaresale",
-   "section": "246A",
-   "sectionGroup": "Category 2",
-   "row": "12",
-   "seat": "9-11",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 18783.33,
-   "prefee": 18783.33,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-301-22-22",
@@ -12442,6 +13175,24 @@
    "url": "https://tickets.fifa.com/"
   },
   {
+   "id": "fifa-334-3-14",
+   "source": "fifaresale",
+   "section": "334",
+   "sectionGroup": "Category 2",
+   "row": "3",
+   "seat": "14",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 19550,
+   "prefee": 19550,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-316-18-12-x2",
    "source": "fifaresale",
    "section": "316",
@@ -12639,15 +13390,16 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-314-5W-17",
+   "id": "fifa-314-5W-16-x2",
    "source": "fifaresale",
    "section": "314",
    "sectionGroup": "Wheelchair & Easy Access Amenity - Category 3",
    "row": "5W",
-   "seat": "17",
+   "seat": "16-17",
    "category": "Wheelchair & Easy Access Amenity - Category 3",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 19922.6,
    "prefee": 19922.6,
@@ -12701,25 +13453,6 @@
    "row": "13W",
    "seat": "11-12",
    "category": "Wheelchair & Easy Access Amenity - Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 19987,
-   "prefee": 19987,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-247A-9-10-x2",
-   "source": "fifaresale",
-   "section": "247A",
-   "sectionGroup": "Category 2",
-   "row": "9",
-   "seat": "10-11",
-   "category": "Category 2",
    "lots": [
     1,
     2
@@ -12967,6 +13700,26 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a516226d1cff6d3399dd0fe"
   },
   {
+   "id": "fifa-118-12-13-x3",
+   "source": "fifaresale",
+   "section": "118",
+   "sectionGroup": "Front Category 1",
+   "row": "12",
+   "seat": "13-15",
+   "category": "Front Category 1",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 20410.58,
+   "prefee": 20410.58,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-103-4-18-x4",
    "source": "fifaresale",
    "section": "103",
@@ -13172,43 +13925,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-118-12-13-x3",
-   "source": "fifaresale",
-   "section": "118",
-   "sectionGroup": "Front Category 1",
-   "row": "12",
-   "seat": "13-15",
-   "category": "Front Category 1",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 20717.25,
-   "prefee": 20717.25,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "6a39b4c4d6272103cd6d8633",
-   "source": "gametime",
-   "section": "144",
-   "sectionGroup": "Lower",
-   "row": "9",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 20757,
-   "prefee": 18049,
-   "x": 889.86293,
-   "y": 1222.35932,
-   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/144@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a39b4c4d6272103cd6d8633"
-  },
-  {
    "id": "6a57ac6d148b60d43c351376",
    "source": "gametime",
    "section": "103",
@@ -13349,6 +14065,24 @@
    ],
    "allIn": 21562.5,
    "prefee": 21562.5,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-306-19-6",
+   "source": "fifaresale",
+   "section": "306",
+   "sectionGroup": "Category 4",
+   "row": "19",
+   "seat": "6",
+   "category": "Category 4",
+   "lots": [
+    1
+   ],
+   "allIn": 21735,
+   "prefee": 21735,
    "x": null,
    "y": null,
    "view": null,
@@ -13712,16 +14446,15 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-350-16-6-x2",
+   "id": "fifa-309-26-30",
    "source": "fifaresale",
-   "section": "350",
-   "sectionGroup": "Category 3",
-   "row": "16",
-   "seat": "6-7",
-   "category": "Category 3",
+   "section": "309",
+   "sectionGroup": "Category 2",
+   "row": "26",
+   "seat": "30",
+   "category": "Category 2",
    "lots": [
-    1,
-    2
+    1
    ],
    "allIn": 23000,
    "prefee": 23000,
@@ -13991,12 +14724,12 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-344-8-4-x2",
+   "id": "fifa-226-11-3-x2",
    "source": "fifaresale",
-   "section": "344",
+   "section": "226",
    "sectionGroup": "Category 2",
-   "row": "8",
-   "seat": "4-5",
+   "row": "11",
+   "seat": "3-4",
    "category": "Category 2",
    "lots": [
     1,
@@ -14010,19 +14743,19 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-247A-3-10-x2",
+   "id": "fifa-344-8-4-x2",
    "source": "fifaresale",
-   "section": "247A",
+   "section": "344",
    "sectionGroup": "Category 2",
-   "row": "3",
-   "seat": "10-11",
+   "row": "8",
+   "seat": "4-5",
    "category": "Category 2",
    "lots": [
     1,
     2
    ],
-   "allIn": 23437,
-   "prefee": 23437,
+   "allIn": 23000,
+   "prefee": 23000,
    "x": null,
    "y": null,
    "view": null,
@@ -14078,25 +14811,6 @@
    ],
    "allIn": 23954.44,
    "prefee": 23954.44,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-124-41-15-x2",
-   "source": "fifaresale",
-   "section": "124",
-   "sectionGroup": "Category 1",
-   "row": "41",
-   "seat": "15-16",
-   "category": "Category 1",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 24150,
-   "prefee": 24150,
    "x": null,
    "y": null,
    "view": null,
@@ -14231,15 +14945,18 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-343-15-11",
+   "id": "fifa-348-24-2-x4",
    "source": "fifaresale",
-   "section": "343",
-   "sectionGroup": "Category 2",
-   "row": "15",
-   "seat": "11",
-   "category": "Category 2",
+   "section": "348",
+   "sectionGroup": "Category 3",
+   "row": "24",
+   "seat": "2-5",
+   "category": "Category 3",
    "lots": [
-    1
+    1,
+    2,
+    3,
+    4
    ],
    "allIn": 25300,
    "prefee": 25300,
@@ -14301,6 +15018,24 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/69e976555d3b4e7cfc4ef4a1"
   },
   {
+   "id": "fifa-128-14-17",
+   "source": "fifaresale",
+   "section": "128",
+   "sectionGroup": "Category 1",
+   "row": "14",
+   "seat": "17",
+   "category": "Category 1",
+   "lots": [
+    1
+   ],
+   "allIn": 25822.08,
+   "prefee": 25822.08,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-311-23-9-x2",
    "source": "fifaresale",
    "section": "311",
@@ -14337,6 +15072,26 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5000fcb98dfd25849b8ce6"
   },
   {
+   "id": "fifa-128-12-19-x3",
+   "source": "fifaresale",
+   "section": "128",
+   "sectionGroup": "Category 1",
+   "row": "12",
+   "seat": "19-21",
+   "category": "Category 1",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 26119.95,
+   "prefee": 26119.95,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
    "id": "fifa-108-12-6-x3",
    "source": "fifaresale",
    "section": "108",
@@ -14370,6 +15125,26 @@
    ],
    "allIn": 26421.25,
    "prefee": 26421.25,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-329-26-25-x3",
+   "source": "fifaresale",
+   "section": "329",
+   "sectionGroup": "Category 3",
+   "row": "26",
+   "seat": "25-27",
+   "category": "Category 3",
+   "lots": [
+    1,
+    2,
+    3
+   ],
+   "allIn": 26449.62,
+   "prefee": 26449.62,
    "x": null,
    "y": null,
    "view": null,
@@ -14414,24 +15189,20 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-329-26-25-x3",
-   "source": "fifaresale",
-   "section": "329",
-   "sectionGroup": "Category 3",
-   "row": "26",
-   "seat": "25-27",
-   "category": "Category 3",
+   "id": "6a588e5f8c567414c03333c9",
+   "source": "gametime",
+   "section": "144",
+   "sectionGroup": "Lower",
+   "row": "6",
    "lots": [
-    1,
-    2,
-    3
+    2
    ],
-   "allIn": 26909.62,
-   "prefee": 26909.62,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
+   "allIn": 26904,
+   "prefee": 23394,
+   "x": 901.33426,
+   "y": 1207.691,
+   "view": "https://images.gametime.co/v2/metlife_stadium/fifa/144@4x.jpg",
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a588e5f8c567414c03333c9"
   },
   {
    "id": "fifa-331-20-25-x2",
@@ -14543,18 +15314,23 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58305bad53b08dca86524a"
   },
   {
-   "id": "fifa-247A-8-14",
+   "id": "fifa-320-16-19-x6",
    "source": "fifaresale",
-   "section": "247A",
-   "sectionGroup": "Category 2",
-   "row": "8",
-   "seat": "14",
-   "category": "Category 2",
+   "section": "320",
+   "sectionGroup": "Category 3",
+   "row": "16",
+   "seat": "19-24",
+   "category": "Category 3",
    "lots": [
-    1
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
    ],
-   "allIn": 28175,
-   "prefee": 28175,
+   "allIn": 28116.54,
+   "prefee": 28116.54,
    "x": null,
    "y": null,
    "view": null,
@@ -14701,24 +15477,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-334-3-14",
-   "source": "fifaresale",
-   "section": "334",
-   "sectionGroup": "Category 2",
-   "row": "3",
-   "seat": "14",
-   "category": "Category 2",
-   "lots": [
-    1
-   ],
-   "allIn": 28750,
-   "prefee": 28750,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-148-27-11-x2",
    "source": "fifaresale",
    "section": "148",
@@ -14814,46 +15572,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-226-11-3-x2",
-   "source": "fifaresale",
-   "section": "226",
-   "sectionGroup": "Category 2",
-   "row": "11",
-   "seat": "3-4",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 28750,
-   "prefee": 28750,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-348-24-2-x4",
-   "source": "fifaresale",
-   "section": "348",
-   "sectionGroup": "Category 3",
-   "row": "24",
-   "seat": "2-5",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2,
-    3,
-    4
-   ],
-   "allIn": 28750,
-   "prefee": 28750,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "6a57a25cf22a6d8b80151189",
    "source": "gametime",
    "section": "235",
@@ -14904,29 +15622,6 @@
    "y": 1583.52509,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/236@4x.jpg",
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a58012f63d38d17e76ed275"
-  },
-  {
-   "id": "fifa-320-16-19-x6",
-   "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "16",
-   "seat": "19-24",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-   ],
-   "allIn": 29185.85,
-   "prefee": 29185.85,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
   },
   {
    "id": "fifa-104-17-1-x2",
@@ -15107,26 +15802,6 @@
    ],
    "allIn": 29900,
    "prefee": 29900,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-128-12-19-x3",
-   "source": "fifaresale",
-   "section": "128",
-   "sectionGroup": "Category 1",
-   "row": "12",
-   "seat": "19-21",
-   "category": "Category 1",
-   "lots": [
-    1,
-    2,
-    3
-   ],
-   "allIn": 29952.9,
-   "prefee": 29952.9,
    "x": null,
    "y": null,
    "view": null,
@@ -15424,25 +16099,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-316-25-12-x2",
-   "source": "fifaresale",
-   "section": "316",
-   "sectionGroup": "Category 2",
-   "row": "25",
-   "seat": "12-13",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 33333.32,
-   "prefee": 33333.32,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-117-11-1",
    "source": "fifaresale",
    "section": "117",
@@ -15514,25 +16170,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-342-22-3-x2",
-   "source": "fifaresale",
-   "section": "342",
-   "sectionGroup": "Category 2",
-   "row": "22",
-   "seat": "3-4",
-   "category": "Category 2",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 34500,
-   "prefee": 34500,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-309-24-27-x2",
    "source": "fifaresale",
    "section": "309",
@@ -15552,13 +16189,13 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-104-18-19",
+   "id": "fifa-247A-12-15",
    "source": "fifaresale",
-   "section": "104",
-   "sectionGroup": "Category 1",
-   "row": "18",
-   "seat": "19",
-   "category": "Category 1",
+   "section": "247A",
+   "sectionGroup": "Category 2",
+   "row": "12",
+   "seat": "15",
+   "category": "Category 2",
    "lots": [
     1
    ],
@@ -15589,15 +16226,16 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-247A-12-15",
+   "id": "fifa-117-8-1-x2",
    "source": "fifaresale",
-   "section": "247A",
-   "sectionGroup": "Category 2",
-   "row": "12",
-   "seat": "15",
-   "category": "Category 2",
+   "section": "117",
+   "sectionGroup": "Front Category 1",
+   "row": "8",
+   "seat": "1-2",
+   "category": "Front Category 1",
    "lots": [
-    1
+    1,
+    2
    ],
    "allIn": 34500,
    "prefee": 34500,
@@ -15638,24 +16276,6 @@
    ],
    "allIn": 35650,
    "prefee": 35650,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-128-14-17",
-   "source": "fifaresale",
-   "section": "128",
-   "sectionGroup": "Category 1",
-   "row": "14",
-   "seat": "17",
-   "category": "Category 1",
-   "lots": [
-    1
-   ],
-   "allIn": 36540.67,
-   "prefee": 36540.67,
    "x": null,
    "y": null,
    "view": null,
@@ -15715,7 +16335,7 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "6a559d963068d61557b205bf",
+   "id": "6a5889135557c2ed6117fbc6",
    "source": "gametime",
    "section": "212",
    "sectionGroup": "Middle",
@@ -15734,7 +16354,7 @@
    "x": 1151.92009,
    "y": 337.9483,
    "view": "https://images.gametime.co/v2/metlife_stadium/fifa/212@4x.jpg",
-   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a559d963068d61557b205bf"
+   "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a5889135557c2ed6117fbc6"
   },
   {
    "id": "fifa-104-3-6-x2",
@@ -15872,6 +16492,25 @@
    ],
    "allIn": 43700,
    "prefee": 43700,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-117-13-4-x2",
+   "source": "fifaresale",
+   "section": "117",
+   "sectionGroup": "Front Category 1",
+   "row": "13",
+   "seat": "4-5",
+   "category": "Front Category 1",
+   "lots": [
+    1,
+    2
+   ],
+   "allIn": 44272.13,
+   "prefee": 44272.13,
    "x": null,
    "y": null,
    "view": null,
@@ -16221,25 +16860,6 @@
    "url": "https://gametime.co/fifa/fifa-world-cup-spain-vs-argentina-match-104-final-tickets/7-19-2026-east-rutherford-nj-met-life-stadium/events/66ac2fe6b082f2f98b480923/listings/6a581c4d63d38d17e753b4d5"
   },
   {
-   "id": "fifa-320-12-19-x2",
-   "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "12",
-   "seat": "19-20",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 52771.2,
-   "prefee": 52771.2,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-103-5-13-x2",
    "source": "fifaresale",
    "section": "103",
@@ -16315,12 +16935,30 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-309-26-30",
+   "id": "fifa-309-23-25",
    "source": "fifaresale",
    "section": "309",
    "sectionGroup": "Category 2",
-   "row": "26",
-   "seat": "30",
+   "row": "23",
+   "seat": "25",
+   "category": "Category 2",
+   "lots": [
+    1
+   ],
+   "allIn": 57498.85,
+   "prefee": 57498.85,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-226-18-21",
+   "source": "fifaresale",
+   "section": "226",
+   "sectionGroup": "Category 2",
+   "row": "18",
+   "seat": "21",
    "category": "Category 2",
    "lots": [
     1
@@ -16343,24 +16981,6 @@
    "lots": [
     1,
     2
-   ],
-   "allIn": 57500,
-   "prefee": 57500,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-226-18-21",
-   "source": "fifaresale",
-   "section": "226",
-   "sectionGroup": "Category 2",
-   "row": "18",
-   "seat": "21",
-   "category": "Category 2",
-   "lots": [
-    1
    ],
    "allIn": 57500,
    "prefee": 57500,
@@ -16453,6 +17073,24 @@
    "row": "3",
    "seat": "1",
    "category": "Front Category 1",
+   "lots": [
+    1
+   ],
+   "allIn": 57500,
+   "prefee": 57500,
+   "x": null,
+   "y": null,
+   "view": null,
+   "url": "https://tickets.fifa.com/"
+  },
+  {
+   "id": "fifa-228A-9-8",
+   "source": "fifaresale",
+   "section": "228A",
+   "sectionGroup": "Category 2",
+   "row": "9",
+   "seat": "8",
+   "category": "Category 2",
    "lots": [
     1
    ],
@@ -16593,25 +17231,6 @@
    "url": "https://tickets.fifa.com/"
   },
   {
-   "id": "fifa-117-13-4-x2",
-   "source": "fifaresale",
-   "section": "117",
-   "sectionGroup": "Front Category 1",
-   "row": "13",
-   "seat": "4-5",
-   "category": "Front Category 1",
-   "lots": [
-    1,
-    2
-   ],
-   "allIn": 74747.13,
-   "prefee": 74747.13,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
    "id": "fifa-319-13-16-x5",
    "source": "fifaresale",
    "section": "319",
@@ -16702,27 +17321,6 @@
    ],
    "allIn": 92000,
    "prefee": 92000,
-   "x": null,
-   "y": null,
-   "view": null,
-   "url": "https://tickets.fifa.com/"
-  },
-  {
-   "id": "fifa-320-20-12-x4",
-   "source": "fifaresale",
-   "section": "320",
-   "sectionGroup": "Category 3",
-   "row": "20",
-   "seat": "12-15",
-   "category": "Category 3",
-   "lots": [
-    1,
-    2,
-    3,
-    4
-   ],
-   "allIn": 114998.85,
-   "prefee": 114998.85,
    "x": null,
    "y": null,
    "view": null,
