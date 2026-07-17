@@ -42,18 +42,43 @@ function checkEvent(key, stamp) {
   console.log(stamp, key, 'ok', JSON.stringify(report.prices), 'drop:', drop);
 }
 
+// A pull --rebase killed by the exec timeout leaves the repo detached mid-rebase;
+// every later commit then lands off-branch and push fails forever. Detect that,
+// keep any stranded commits reachable on a rescue branch, and get back on main.
+function ensureOnMain(stamp) {
+  const branch = run('git', ['rev-parse', '--abbrev-ref', 'HEAD']).trim();
+  if (branch === 'main') return;
+  console.error(stamp, `HEAD is '${branch}', recovering to main`);
+  try { run('git', ['rebase', '--abort']); } catch {}
+  const head = run('git', ['rev-parse', 'HEAD']).trim();
+  try { run('git', ['branch', '-f', `rescue-${stamp.slice(0, 10)}`, head]); } catch {}
+  run('git', ['checkout', '-f', 'main']);
+}
+
 async function tick() {
   const stamp = new Date().toISOString();
   try {
-    try { run('git', ['pull', '--rebase', '-q']); } catch {}
+    ensureOnMain(stamp);
+    try { run('git', ['pull', '--rebase', '-q'], { timeout: 300000 }); } catch (e) { console.error(stamp, 'pull failed:', e.message.slice(0, 120)); }
     for (const key of Object.keys(EVENTS)) {
+      if (EVENTS[key].archived) continue;
       try { checkEvent(key, stamp); } catch (e) { console.error(stamp, key, 'failed:', e.message.slice(0, 200)); }
     }
+    let committed = false;
     try {
       run('git', ['add', 'data']);
       run('git', ['commit', '-q', '-m', 'price check (watcher)']);
-      try { run('git', ['push', '-q']); } catch { run('git', ['pull', '--rebase', '-q']); run('git', ['push', '-q']); }
+      committed = true;
     } catch {} // nothing to commit
+    if (committed) {
+      try { run('git', ['push', '-q', 'origin', 'HEAD:main']); }
+      catch {
+        try {
+          run('git', ['pull', '--rebase', '-q'], { timeout: 300000 });
+          run('git', ['push', '-q', 'origin', 'HEAD:main']);
+        } catch (e) { console.error(stamp, 'push failed:', e.message.slice(0, 200)); }
+      }
+    }
   } catch (e) {
     console.error(stamp, 'tick failed:', e.message.slice(0, 200));
   }

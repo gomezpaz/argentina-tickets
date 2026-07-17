@@ -3,6 +3,7 @@
 module.exports = {
   semifinal: {
     key: 'semifinal',
+    archived: true, // played Jul 15 — kept so --event=semifinal defaults still resolve
     title: 'England vs Argentina — World Cup Semifinal (Match 102)',
     short: 'SEMI',
     datetime: '2026-07-15T15:00:00-04:00',
